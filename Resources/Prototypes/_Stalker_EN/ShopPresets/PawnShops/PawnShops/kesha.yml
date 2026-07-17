@@ -198,7 +198,7 @@
         # 7mm & 20gauge
         STBaseWeaponShotgunTOZ106: 1000 #T1 this gun is giga chad killer
         STWeaponShotgunSPAS: 3500 # T3
-        STWeaponShotgunBenelliM4Super90: 6500 #i dont think its actually that good
+        STWeaponShotgunBenelliM4Super90: 3000 #i dont think its actually that good
         # Smg
         STWeaponSMGMP5: 2250
         STWeaponSMGPP91: 2750
@@ -261,9 +261,9 @@
         45ACPRIPBox: 625
         45ACPAPBox: 1400
         # .357
-        MagazineBox357Magnum: 350 # T2
-        MagazineBox357MagnumAP: 1600 # T3
-        MagazineBox357MagnumHP: 600 # Mutant
+        MagazineBox357Magnum: 500 # T2
+        MagazineBox357MagnumAP: 2000 # T3
+        MagazineBox357MagnumHP: 1500 # mutant
 
     - name: shop-category-armor
       priority: 4

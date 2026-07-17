@@ -190,17 +190,17 @@
       739HPBox: 850 # Mutant
       739FMJBox: 1000 # T3
       # 7.54
-      754FMJBox: 1150 # T3
-      754HPBox: 850 # Mutant
+      754FMJBox: 2500 # T3
+      754HPBox: 1500 # Mutant
       # .45
       45ACPLFMJBox: 100 # T1
-      45ACPMFMJBox: 300 # T2
-      45ACPRIPBox: 625 # Mutant
-      45ACPAPBox: 800 # T3
+      45ACPMFMJBox: 500 # T2
+      45ACPRIPBox: 1000 # Mutant
+      45ACPAPBox: 1500 # T3
       # .357
-      MagazineBox357Magnum: 400 # T2
-      MagazineBox357MagnumAP: 800 # T3
-      MagazineBox357MagnumHP: 625 # Mutant
+      MagazineBox357Magnum: 1000 # T2
+      MagazineBox357MagnumAP: 2500 # T3
+      MagazineBox357MagnumHP: 1500 # Mutant
 
   - name: shop-category-medicine
     priority: 4
@@ -243,7 +243,6 @@
       ClothingHeadInfantryHelmetRenegate: 600 # T2 - PVP
       ClothingHeadHelmetVityaz1L: 3000 # T3 - PVE
       ClothingHeadAssaultHelmet: 3500 # T3 - PVP
-      ClothingMaskRenegate: 3000 # T3
       # OuterClothing #
       ClothingJaketRealHuman: 60 # T1 - PVE
       STClothingOuterArmorLightPlateVestBaseRenegate: 1000 # T2 - PvP
@@ -479,7 +478,7 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 6
-      STWeaponRifleRPK74Vedma: 6
+      STWeaponRifleRPK74Vedma: 12
       STWeaponRifleOC14Liturgia: 9
       # 5.56
       STWeaponRifleM16: 10
@@ -498,21 +497,21 @@
     priority: 3
     items:
       # 7.25
-      725PSTBox: 2 # T3
+      725PSTBox: 1 # T3
       # 9.19
-      919PBMBox: 2 # T3
+      919PBMBox: 1 # T3
       # 9.18
-      918PBMBox: 2 # T3
+      918PBMBox: 1 # T3
       # 5.45
-      545PCBox: 2 # T3
+      545PCBox: 1 # T3
       # 5.56
-      556M855Box: 2 # T3
+      556M855Box: 1 # T3
       # 7.39
-      739FMJBox: 2 # T3
+      739FMJBox: 1 # T3
       # 7.54
       754FMJBox: 2 # T3
       # .45
-      45ACPAPBox: 2 # T3
+      45ACPAPBox: 1 # T3
   - name: shop-category-medicine
     priority: 4
     items:
@@ -524,6 +523,7 @@
       # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 22
       # head
-      ClothingHeadHelmetVityazSkull3: 36 # this is a vityaz, youre paying a drip tax
+      ClothingHeadHelmetVityazSkull3: 12 # this is a vityaz, youre paying a drip tax
+      ClothingMaskRenegate: 5 # T3
       # misc
       ClothingNeckToothNecklace: 1

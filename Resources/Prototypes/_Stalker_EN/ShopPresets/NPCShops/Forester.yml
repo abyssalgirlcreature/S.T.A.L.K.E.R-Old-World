@@ -438,14 +438,14 @@
     ZoneArtifactVyvert: 0
     ZoneArtifactFlower: 10
     #T4
-    ZoneArtifactGravi: 30
-    ZoneArtifactNightStar: 30
+    ZoneArtifactGravi: 60
+    ZoneArtifactNightStar: 60
     #T5
-    ZoneArtifactDistorter: 100
-    ZoneArtifactFocus: 100
-    ZoneArtifactGoldfish: 175
-    ZoneArtifactSpring: 100
-    ZoneArtifactStuntman: 100
+    ZoneArtifactDistorter: 200
+    ZoneArtifactFocus: 200
+    ZoneArtifactGoldfish: 250
+    ZoneArtifactSpring: 200
+    ZoneArtifactStuntman: 200
     ZoneArtifactDarkCube: 0 # its too scary
     # ---THERMAL---
     #T3
@@ -453,21 +453,21 @@
     ZoneArtifactRock: 15
     ZoneArtifactBunch: 10
     #T4
-    ZoneArtifactCristall: 30
-    ZoneArtifactRoot: 30
-    ZoneArtifactSun: 30
+    ZoneArtifactCristall: 60
+    ZoneArtifactRoot: 60
+    ZoneArtifactSun: 60
     #T5
-    ZoneArtifactLithosphere: 110
+    ZoneArtifactLithosphere: 220
     # ---ELECTRICAL---
     #T3
     ArtMoon: 20
     ZoneArtifactFlash: 20
     ZoneArtifactAccumulator: 15
     #T4
-    ZoneArtifactDiamond: 35
+    ZoneArtifactDiamond: 70
     #T5
-    ZoneArtifactIce: 80
-    ZoneArtifactTesla: 80
+    ZoneArtifactIce: 160
+    ZoneArtifactTesla: 160
     # ---SPATIAL---
     #T1
     ZoneArtifactFloodlight: 1
@@ -475,17 +475,17 @@
     ZoneArtifactArf: 15
     ZoneArtifactThorn: 20
     #T4
-    ZoneArtifactAtom: 35
-    ZoneArtifactCompass: 45 # more valuable to forester specifically
+    ZoneArtifactAtom: 70
+    ZoneArtifactCompass: 100 # more valueable to forester specifically
     #T5
-    ZoneArtifactSoul: 80
-    ZoneArtifactCrucifix: 80
+    ZoneArtifactSoul: 160
+    ZoneArtifactCrucifix: 160
     # ---ACIDIC---
     #T3
     ZoneArtifactMeat: 20
     #T4
-    ZoneArtifactBaloon: 35
-    ZoneArtifactKolobok: 35
+    ZoneArtifactBaloon: 70
+    ZoneArtifactKolobok: 70
     # Mutant parts
     # Boar
     MutantPartBoarHoof: 0 # T1
@@ -495,29 +495,29 @@
     MutantPartBearClaw: 0
     MutantPartBearPaw: 0
     MutantPartBearEye: 5
-    ClothingHeadBear: 30
+    ClothingHeadBear: 60
     #T1 -------- Health * 1
     MutantPartBlindDogTail: 0
     MutantPartFleshEye: 0
     FoodMeatSpiderLeg: 0
     MutantPartCatGland: 0
     #T2 -------- Health * 1.8
-    MutantPartLeshiyRoot: 8
+    MutantPartLeshiyRoot: 16
     MutantPartPseudodogTail: 0
     MutantPartSnorkFoot: 0
-    MutantPartPsiDogTail: 10
+    MutantPartPsiDogTail: 20
     MutantPartFrogLeg: 0
     #T3+ -------- Health * 3
-    MutantPartBloodsuckerTentacles: 25
-    MutantPartOraculeEye: 30
-    MutantPartPseudogiantHeart: 320
+    MutantPartBloodsuckerTentacles: 50
+    MutantPartOraculeEye: 60
+    MutantPartPseudogiantHeart: 1000
     MutantPartZombieHand: 0
-    MutantPartBloodsuckerHead: 80
-    ClothingMaskChimera: 50
-    MutantPartChimeraTooth: 100
-    MutantPartIzlomArm: 35
-    MutantPartBurerBrain: 5
-    MutantPartControllerBrain: 10
+    MutantPartBloodsuckerHead: 160
+    ClothingMaskChimera: 100
+    MutantPartChimeraTooth: 200
+    MutantPartIzlomArm: 70
+    MutantPartBurerBrain: 20
+    MutantPartControllerBrain: 35
 
   categories:
   - name: shop-category-weapons
@@ -529,6 +529,7 @@
       STWeaponShotgunSaiga12: 225
       # Pistols
       WeaponPistolStalkerLP08: 90
+      STWeaponRevolverRH12: 600
       # SMGs
       # Rifles
       STWeaponRifleM14: 125
@@ -537,6 +538,7 @@
       STWeaponSniperVepr: 200
       STWeaponSniperSVDS: 425
       STWeaponSniperVSS: 500
+      STBaseWeaponRifleOSV96: 600
   - name: shop-category-magazines
     priority: 2
     items:
@@ -552,6 +554,10 @@
       754Mag10: 15
       # 9x19
       LP08Drum: 10
+      # 13x108
+      13x108Mag10: 10
+      13x108FMJBox: 30
+      13x108HPBox: 20
       # 9x39
       Base939Mag10: 10
       939Mag20: 25
@@ -565,8 +571,8 @@
       545HPBoxCink: 35 # mutant
       545PCBoxCink: 45 # T3
       # 7.62x54
-      754HPBox: 4 # mutant
-      754FMJBox: 10 # T3
+      754HPBox: 8 # mutant
+      754FMJBox: 30 # T3
       # 9x19
       919PBMBoxCink: 45 # T3
       # 9x39
