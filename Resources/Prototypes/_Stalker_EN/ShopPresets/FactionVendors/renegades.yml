@@ -478,13 +478,14 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 6
-      STWeaponRifleRPK74Vedma: 12
+      STWeaponRifleRPK74Vedma: 7
       STWeaponRifleOC14Liturgia: 9
       # 5.56
       STWeaponRifleM16: 10
       # SMGS
       STWeaponSMGPPSh41: 5
       STWeaponSMGMP5: 4
+      STWeaponSMGStalkerCP2VereskLiturgy: 6
       # 7,62x39
       STWeaponRifleAKMC: 9 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3

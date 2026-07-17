@@ -538,7 +538,7 @@
       STWeaponSniperVepr: 200
       STWeaponSniperSVDS: 425
       STWeaponSniperVSS: 500
-      STBaseWeaponRifleOSV96: 600
+      STBaseWeaponRifleOSV96: 550
   - name: shop-category-magazines
     priority: 2
     items:
@@ -561,6 +561,9 @@
       # 9x39
       Base939Mag10: 10
       939Mag20: 25
+      #1255
+      MagazineAS12: 10
+      Ammobox1255BP: 30
   - name: shop-category-ammunition
     priority: 3
     items:

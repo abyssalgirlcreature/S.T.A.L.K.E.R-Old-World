@@ -20,9 +20,9 @@
       projectileSpeed: 75
       minAngle:  0
       maxAngle: 70
-      angleIncrease: 70
+      angleIncrease: 20
       angleDecay: 10
-      fireRate: 1
+      fireRate: 1.5
       selectedMode: SemiAuto
       availableModes:
       - SemiAuto

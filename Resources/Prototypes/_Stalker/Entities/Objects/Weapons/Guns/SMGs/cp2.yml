@@ -77,6 +77,39 @@
             tags:
               - STCartridge919
 
+
+- type: entity
+  name: СР-2 «Вереск» серафимов
+  parent: STWeaponSMGStalkerCP2Veresk
+  id: STWeaponSMGStalkerCP2VereskLiturgy
+  components:
+    - type: Item
+      sprite: _Stalker.rsi
+      size: Large
+      shape:
+        - 0,0,5,1
+    - type: Sprite
+      sprite: _Stalker_EN\Objects\Weapons\Guns\_Skins\Veresk_liturgy
+    - type: Clothing
+      sprite: _Stalker_EN\Objects\Weapons\Guns\_Skins\Veresk_liturgy
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: VityazMag
+          insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
+          ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
+          priority: 4
+          whitelist:
+            tags:
+              - MagazineVityaz
+        gun_chamber:
+          name: Chamber
+          startingItem: STCartridge919PSOGJ
+          priority: 1
+          whitelist:
+            tags:
+              - STCartridge919
 # 9x21
 
 - type: entity
@@ -157,4 +190,4 @@
             tags:
               - STCartridge921PGJ #stalker EN change
 
-              
+
