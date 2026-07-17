@@ -66,6 +66,19 @@
         Radiation: 18.01
 
 - type: entity
+  parent: STClothingHeadHelmetCombatT3Base #Нужны спрайты под шлем с фонариком и без
+  id: ClothingHeadHelmetBulatMonolithClean
+  name: Cleaned monolithian sphere
+  description: A cleaned version of the monolithian sphere
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+
+- type: entity
   parent: STClothingHeadHelmetEnvironmentT4Base #Нужны спрайты под шлем с фонариком и без
   id: ClothingHeadHelmetBulatMilitary
   name: шлем «Сфера-12» военных

@@ -98,6 +98,24 @@
 
 - type: entity
   parent: STClothingMaskGasStandardT1Base
+  id: ClothingMaskGasMonoClean
+  name: Cleaned Monolithian Gasmask
+  description: Скрывает глаза и злые помыслы. Защищает от радиации.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/mask/gasmask_monolith.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/mask/gasmask_monolith.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - FacialHair
+    - HeadTop
+    hideOnToggle: true
+
+- type: entity
+  parent: STClothingMaskGasStandardT1Base
   id: ClothingMaskGasMercStalker
   name: стандартный противогаз наёмников
   description: Скрывает глаза и злые помыслы. Защищает от радиации.

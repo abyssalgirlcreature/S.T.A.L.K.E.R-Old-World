@@ -46784,7 +46784,7 @@ entities:
     - type: Transform
       pos: 5.5,171.5
       parent: 1
-- proto: SpawnerZoneAnomalySolChance100
+- proto: SpawnerZoneAnomalySolChance100 #
   entities:
   - uid: 3004
     components:
@@ -47451,6 +47451,13 @@ entities:
     - type: Transform
       pos: 61.5,155.5
       parent: 1
+- proto: STMonolithCrate
+  entities:
+  - uid: 3248
+    component:
+    - type: Transform
+      pos: 48.5,139.5
+      parrent: 1
 - proto: STComputer
   entities:
   - uid: 112

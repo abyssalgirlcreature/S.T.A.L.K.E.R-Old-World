@@ -24,34 +24,35 @@
     - type: StorageFill
       contents:
         # outer
-        - id: STClothingOuterArmorLightPlateVestBaseMonolith
+        - id: STClothingOuterArmorLightPlateVestBaseMonolithClean
           prob: 0.5
-        - id: STClothingOuterArmorLightPlateVestBaseMonolith
+        - id: STClothingOuterArmorLightPlateVestBaseMonolithClean
           prob: 0.5
-        - id: STClothingOuterArmorLightPlateVestBaseMonolith
+        - id: STClothingOuterArmorLightPlateVestBaseMonolithClean
           prob: 0.5
-        - id: STClothingOuterArmorLightPlateVestBaseMonolith
-          prob: 0.5
-        - id: STClothingOuterArmorLightPlateVestBaseMonolith
-          prob: 0.5
-        - id: ClothingOuterArmorSevaMonolith
+        - id: ClothingOuterCoatKevlarMonolithClean
+          prob: 0.3
+        - id: ClothingOuterCoatKevlarMonolithClean
+          prob: 0.3
+        - id: ClothingOuterCoatKevlarMonolithClean
+          prob: 0.3
+        - id: ClothingOuterArmorSevaMonolithClean
           prob: 0.2
-        - id: ClothingOuterArmorMonolith
+        - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-        - id: ClothingOuterArmorMonolith
+        - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-        - id: ClothingOuterArmorMonolith
+        - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-        - id: ClothingOuterArmorMonolith
+        - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-        - id: ClothingOuterArmorMonolith
+        - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-        - id: ClothingOuterArmorMonolith
+        - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-        - id: ClothingOuterArmorMonolith
+        - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-        - id: ClothingOuterCoatKevlarMonolith
-          prob: 0.2
+
         - id: STClothingOuterCoatTihiy
           prob: 0.2
         # backpack
@@ -62,56 +63,54 @@
         - id: ClothingBackpackTacticBlackStalker
           prob: 0.5
         # belt
-        - id: ClothingBeltWebbingHolsterMonolith
+        - id: ClothingBeltWebbingHolsterMonolithClean
           prob: 0.5
-        - id: ClothingBeltWebbingHolsterMonolith
+        - id: ClothingBeltWebbingHolsterMonolithClean
           prob: 0.5
-        - id: ClothingBeltWebbingHolsterMonolith
+        - id: ClothingBeltWebbingHolsterMonolithClean
           prob: 0.5
         # mask
-        - id: ClothingMaskGasMono
+        - id: ClothingMaskGasMonoClean
           prob: 0.5
-        - id: ClothingMaskGasMono
+        - id: ClothingMaskGasMonoClean
           prob: 0.5
-        - id: ClothingMaskGasMono
+        - id: ClothingMaskGasMonoClean
           prob: 0.5
         - id: ClothingMaskGasMarlyaRuined
           prob: 0.5
         - id: ClothingMaskGasMarlyaRuined
           prob: 0.5
         # hat
-        - id: ClothingHeadHelmetBerill5MMonolith
+        - id: ClothingHeadHelmetBerill5MMonolithClean
           prob: 0.45
-        - id: ClothingHeadHelmetBerill5MMonolith
+        - id: ClothingHeadHelmetBerill5MMonolithClean
           prob: 0.45
-        - id: ClothingHeadHelmetBerill5MMonolith
+        - id: ClothingHeadHelmetBerill5MMonolithClean
           prob: 0.45
-        - id: ClothingHeadHelmetBerill5MMonolith
+        - id: ClothingHeadHelmetBerill5MMonolithClean
           prob: 0.45
-        - id: ClothingHeadHelmetBerill5MMonolith
+        - id: ClothingHeadHelmetBerill5MMonolithClean
           prob: 0.45
-        - id: ClothingHeadHelmetBerill5MMonolith
+        - id: ClothingHeadHelmetBerill5MMonolithClean
           prob: 0.45
-        - id: ClothingHeadHelmetBulatMonolith
+        - id: ClothingHeadHelmetBulatMonolithClean
           prob: 0.15
-        - id: ClothingHeadHelmetBulatMonolith
+        - id: ClothingHeadHelmetBulatMonolithClean
           prob: 0.15
-        - id: ClothingHeadHelmetBulatMonolith
+        - id: ClothingHeadHelmetBulatMonolithClean
           prob: 0.15
         # weapon
-        - id: STWeaponSMGMP5
+        - id: STWeaponSMGStalkerCP2Veresk
           prob: 0.35
-        - id: STWeaponSMGMP5
+        - id: STWeaponSMGStalkerCP2Veresk
           prob: 0.35
-        - id: STWeaponSMGMP5
-          prob: 0.35
-        - id: STWeaponRifleSIG550
+        - id: STWeaponSMGStalkerCP2Veresk
           prob: 0.35
         - id: STWeaponRifleSIG550
           prob: 0.35
         - id: STWeaponRifleSIG550
           prob: 0.35
-        - id: STWeaponRifleM4
+        - id: STWeaponRifleSIG550
           prob: 0.35
         - id: STWeaponRifleM4
           prob: 0.35
@@ -119,13 +118,17 @@
           prob: 0.35
         - id: STWeaponRifleM4
           prob: 0.35
-        - id: STWeaponRifleG36
-          prob: 0.25
-        - id: STWeaponRifleG36
+        - id: STWeaponRifleM4
+          prob: 0.35
+        - id: STWeaponRifleLR300v1
           prob: 0.25
         - id: STWeaponRifleLR300v1
+          prob: 0.25
+        - id: STWeaponRifleG36MonoClean
+          prob: 0.2
+        - id: STWeaponSniperSVDMonoClean
           prob: 0.1
-        - id: STWeaponRifleLR300v1
+        - id: STWeaponRifleStalkerAbakanWinterMono
           prob: 0.1
         # modules STModuleSMGGripT1
         - id: STModuleScopeRiflesT1Nato
