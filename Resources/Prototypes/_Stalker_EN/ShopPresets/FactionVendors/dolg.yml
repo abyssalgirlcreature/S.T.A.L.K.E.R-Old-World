@@ -109,8 +109,8 @@
         739HPBox: 750 # Mutant
 
         # 7.54
-        754FMJBox: 1950 # T3
-        754HPBox: 1250 # Mutant
+        754FMJBox: 2250 # T3
+        754HPBox: 1750 # Mutant
         # Other
 
     - name: shop-category-medicine

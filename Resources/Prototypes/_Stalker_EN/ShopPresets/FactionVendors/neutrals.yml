@@ -164,7 +164,7 @@
       739HPBox: 450 # Mutant
       739FMJBox: 1250 # T3
       # 7.54
-      754HPBox: 600 # Mutant
+      754HPBox: 1000 # mutant
       754FMJBox: 1650 # T3
       # 9.18
       918PGJBox: 85 # T1
@@ -183,9 +183,9 @@
       725PSTBox: 1150 # T3
       #45
       45ACPLFMJBox: 75 # T1
-      45ACPRIPBox: 475 # Mutant
-      45ACPMFMJBox: 250 # T2
-      45ACPAPBox: 1150 # T3
+      45ACPRIPBox: 1000 # mutant
+      45ACPMFMJBox: 500 # T2
+      45ACPAPBox: 1550 # T3
 
   - name: shop-category-medicine
     priority: 4

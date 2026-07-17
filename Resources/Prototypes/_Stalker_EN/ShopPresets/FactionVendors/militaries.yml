@@ -17,17 +17,17 @@
   - name: shop-category-magazines
     priority: 2
     items:
-      545Mag45: 2
-      739Mag45: 2
-      754Mag10: 2
-      754Mag20: 4
+      545Mag45: 1
+      739Mag45: 1
+      754Mag10: 1
+      754Mag20: 2
 
   - name: shop-category-ammunition
     priority: 3
     items:
-      545PCBoxCink: 4
-      739FMJBoxCink: 4
-      754FMJBoxCink: 4
+      545PCBoxCink: 3
+      739FMJBoxCink: 3
+      754FMJBoxCink: 3
 
   - name: shop-category-grenades
     priority: 4
@@ -59,8 +59,8 @@
   - name: shop-category-modules
     priority: 8
     items:
-      STModuleScopeRiflesT1Ru: 1
-      STModuleSniperSightT1: 1
+      STModuleScopeRiflesT2Ru: 1
+      STModuleSniperSightT2: 1
 
 - type: shopPreset
   id: VoenstalShopPresetEN # Voenstals
@@ -605,8 +605,8 @@
       739FMJBox: 1270 # T3
       739HPBox: 550 # Mutant
       # 7.54
-      754FMJBox: 1090 # T3
-      754HPBox: 660 # Mutant
+      754FMJBox: 2000 # T3
+      754HPBox: 1000 # Mutant
 
   - name: shop-category-medicine
     priority: 4
