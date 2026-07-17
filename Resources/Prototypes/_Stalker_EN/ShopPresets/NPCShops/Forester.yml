@@ -538,7 +538,7 @@
       STWeaponSniperVepr: 200
       STWeaponSniperSVDS: 425
       STWeaponSniperVSS: 500
-      STBaseWeaponRifleOSV96: 550
+      STWeaponSniperOSV96: 550
   - name: shop-category-magazines
     priority: 2
     items:

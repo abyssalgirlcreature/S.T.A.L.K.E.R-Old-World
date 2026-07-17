@@ -10,6 +10,7 @@
     SetMonolithBuyableCrateInfiltrator2: 10
     ClothingNeckScarfWhite: 10
     MonolithCrateMedkit: 10
+    STThrowingknifeYellow: 100
     STWeaponRifleAKM: 10
     STWeaponRifleAKS74WinterMono: 10
     STWeaponRifleAKS74UWhiteMono: 10
@@ -173,3 +174,4 @@
       HandLabeler: 1
       ClothingBeltPocketPouch: 3
       STIrradiationkit: 5
+      ClothingBeltBandolierStalker: 5
