@@ -52,7 +52,6 @@
           prob: 0.4
         - id: ClothingOuterArmorMonolithClean
           prob: 0.4
-
         - id: STClothingOuterCoatTihiy
           prob: 0.2
         # backpack
@@ -128,7 +127,7 @@
           prob: 0.2
         - id: STWeaponSniperSVDMonoClean
           prob: 0.1
-        - id: STWeaponRifleStalkerAbakanWinterMono
+        - id: STWeaponRifleStalkerAbakanWinter
           prob: 0.1
         # modules STModuleSMGGripT1
         - id: STModuleScopeRiflesT1Nato
