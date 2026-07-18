@@ -562,7 +562,7 @@
       Base939Mag10: 10
       939Mag20: 25
       #1255
-      MagazineAS12: 10
+      AS12Mag: 10
       Ammobox1255BP: 30
   - name: shop-category-ammunition
     priority: 3

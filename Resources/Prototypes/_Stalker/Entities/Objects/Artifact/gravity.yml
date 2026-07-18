@@ -477,3 +477,274 @@
     - Khabar
     - STArtifact
     - STArtifactTier5
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactPebble
+  suffix: ST, Pebble
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: Pebble
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactWhirlwind
+  suffix: ST, Whirlwind
+  components:
+  - type: Sprite
+    state: whirlwind
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactRosin
+  suffix: ST, Rosin
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: Rosin
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyPulse
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 2
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 1
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.3
+  - type: STWeight
+    self: -30
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier2
+
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactStoneCube
+  suffix: ST, Stone Cube
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: StoneCube
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyBurden
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 3
+  - type: PointLight
+    radius: 1.5
+    energy: 5.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 2
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      flatReductions:
+        Blunt: 1
+        Slash: 1
+      coefficients:
+        Compression: 1.8
+        Blunt: 0.7
+        Slash: 0.7
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier3
+
+# Пораждаемая ZoneAnomalyBeer (_Stalker_EN/.../chemical.yml)
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactBeer
+  suffix: ST, Beer
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Other/Anomalys/beer.rsi
+    state: idle
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalyBeer
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+# No anomaly spawner wired up yet for this one, defaulted to tier 1 / ZoneAnomalySpringboard - rebalance as needed
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactHardcandy
+  suffix: ST, Hardcandy
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: hardcandy
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
+
+# No anomaly spawner wired up yet for this one, defaulted to tier 1 / ZoneAnomalySpringboard - rebalance as needed
+- type: entity
+  parent: BaseArtifact
+  id: ZoneArtifactPumpkin
+  suffix: ST, Pumpkin
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/artifacts.rsi
+    state: pumpkin
+    scale: 0.5, 0.5
+  - type: ZoneArtifact
+    anomaly: ZoneAnomalySpringboard
+  - type: ZoneArtifactDetectorTarget
+    detectedLevel: 1
+  - type: PointLight
+    radius: 1.5
+    energy: 4.5
+    color: "#f89b08"
+    castShadows: false
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 0.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Armor
+    hiddenExamine: true
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Compression: 1.2
+        Blunt: 0.95
+        Slash: 0.95
+  - type: Tag
+    tags:
+    - Khabar
+    - STArtifact
+    - STArtifactTier1
