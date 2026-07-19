@@ -54,7 +54,7 @@
       amount: 1
       prob: 0.1
     - id: MutantPartRustEgg
-      ammount: 1
+      amount: 1
       prob: 1
   - type: STWeight
     self: 65
