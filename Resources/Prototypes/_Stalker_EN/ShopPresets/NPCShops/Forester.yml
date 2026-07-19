@@ -510,7 +510,7 @@
     #T3+ -------- Health * 3
     MutantPartBloodsuckerTentacles: 50
     MutantPartOraculeEye: 60
-    MutantPartPseudogiantHeart: 1000
+    MutantPartPseudogiantHeart: 700
     MutantPartZombieHand: 0
     MutantPartBloodsuckerHead: 160
     ClothingMaskChimera: 100

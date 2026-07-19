@@ -36,8 +36,14 @@
           prob: 0.3
         - id: ClothingOuterCoatKevlarMonolithClean
           prob: 0.3
-        - id: ClothingOuterArmorSevaMonolithClean
+        - id: ClothingOuterArmorSevaMonolithPriest
           prob: 0.2
+        - id: ClothingOuterArmorSevaMonolithClean
+          prob: 0.3
+        - id: ClothingOuterArmorSevaMonolithClean
+          prob: 0.3
+        - id: ClothingOuterArmorSevaMonolithClean
+          prob: 0.3
         - id: ClothingOuterArmorMonolithClean
           prob: 0.4
         - id: ClothingOuterArmorMonolithClean
@@ -124,24 +130,42 @@
         - id: STWeaponRifleLR300v1
           prob: 0.25
         - id: STWeaponRifleG36MonoClean
-          prob: 0.2
+          prob: 0.5
+        - id: STWeaponRifleAK103MonoClean
+          prob: 0.3
         - id: STWeaponSniperSVDMonoClean
-          prob: 0.1
+          prob: 0.3
         - id: STWeaponRifleStalkerAbakanWinter
-          prob: 0.1
+          prob: 0.3
         # modules STModuleSMGGripT1
-        - id: STModuleScopeRiflesT1Nato
+        - id: STModuleScopeRiflesT2Nato
           prob: 0.45
-        - id: STModuleScopeRiflesT1Nato
+        - id: STModuleScopeRiflesT2Nato
           prob: 0.45
-        - id: STModuleScopeRiflesT1Nato
+        - id: STModuleScopeRiflesT2Nato
           prob: 0.45
-        - id: STModuleSMGGripT1
+        - id: STModuleSniperSightT2
+          prob: 1
+        - id: STModuleSMGGripT2
           prob: 0.45
-        - id: STModuleSMGGripT1
+        - id: STModuleSMGGripT2
           prob: 0.45
-        - id: STModuleSMGGripT1
+        - id: STModuleSMGGripT2
           prob: 0.45
+        - id: STModuleSilencerRiflesT2Nato
+          prob: 0.45
+        - id: STModuleSilencerRiflesT2Nato
+          prob: 0.45
+        - id: STModuleSilencerRiflesT2Nato
+          prob: 0.45
+        - id: STModuleSilencerRiflesT2Ru
+          prob: 0.45
+        - id: STModuleSilencerRiflesT2Ru
+          prob: 0.45
+        - id: STModuleSilencerRiflesT2Ru
+          prob: 0.45
+        - id: STModuleSilencerSniperT2
+          prob: 1
         # mags
         - id: BaseMP5Mag
           prob: 0.25

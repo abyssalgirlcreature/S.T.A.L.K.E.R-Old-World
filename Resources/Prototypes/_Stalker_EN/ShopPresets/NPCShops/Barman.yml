@@ -96,6 +96,7 @@
     MutantPartIzlomArm: 1650
     MutantPartBurerBrain: 2000
     MutantPartControllerBrain: 3500
+    MutantPartRustEgg: 50000
 
     # Meat
     STFoodMeatSalo: 60

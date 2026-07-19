@@ -39,7 +39,7 @@
     state: icon
     scale: 0.7, 0.7
   - type: ElectronicsTool
-    searchTime: 35 # whats the upper limit of how long a cs agent is willing to stand around and look at a doafter
+    searchTime: 20 # whats the upper limit of how long a cs agent is willing to stand around and look at a doafter
     probability: 0.8
   - type: RepositoryItem
     categoryName: repository-tools-category

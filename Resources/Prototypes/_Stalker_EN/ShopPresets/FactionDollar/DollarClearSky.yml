@@ -32,6 +32,7 @@
     priority: 7
     items:
       ZoneAnomalyDetectorAD3: 30
+      ElectronicDetectorT2: 50
   - name: shop-category-medicine
     priority: 10
     items:

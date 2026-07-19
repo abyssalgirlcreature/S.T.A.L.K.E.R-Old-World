@@ -89,6 +89,7 @@
     MutantPartIzlomArm: 2475
     MutantPartBurerBrain: 3000
     MutantPartControllerBrain: 5250
+    MutantPartRustEgg: 75000
 
     #Fish -------- Unc * 1.5
     #Only anomalous fish

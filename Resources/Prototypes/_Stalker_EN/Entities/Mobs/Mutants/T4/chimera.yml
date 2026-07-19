@@ -72,6 +72,14 @@
     heavyDamageMultiplier: 1.5
   - type: StaminaDamageOnHit
     damage: 15
+  - type: HTN
+    rootTask:
+     task: SimpleRangedHostileCompound
+    blackboard:
+      VisionRadius: !type:Single
+       80
+      AggroVisionRadius: !type:Single
+       80
   - type: Jumpscare
     #damageRadius: 1.5 # Stalker-TODO: This field does not exist!
     #attackRadius: 20 # Stalker-TODO: This field does not exist!

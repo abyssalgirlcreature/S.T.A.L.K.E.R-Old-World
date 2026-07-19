@@ -224,3 +224,38 @@
       soundOnReflect: /Audio/_Stalker/Effects/sear.ogg
     - type: RepositoryItem # stalker-en change
       categoryName: repository-weapons-category
+
+- type: entity
+  name: Sword of judgement
+  parent: BaseKnife
+  id: STWeaponSwordofjudgement
+  suffix: ST
+  description: A weapon weilded by a preist of sin, you feel like this cut into your hand as you wield it.
+  components:
+  - type: STWeight
+    self: 10
+  - type: Sprite
+    sprite: _Stalker/Objects/Weapons/Melee/g_sword.rsi
+    state: icon
+  - type: Item
+    sprite: _Stalker/Objects/Weapons/Melee/g_sword.rsi
+  - type: MeleeWeapon
+    attackRate: 1.2
+    range: 1.6
+    damage:
+      types:
+        Slash: 30
+        Psionic: 30
+        mutant: 200
+  - type: PersonalDamage
+    damage:
+      types:
+        Slash: 1.5
+    interval: 1
+    ignoreResistances: true # EN
+  - type: Reflect
+    reflectProb: 0.1
+    spread: 40
+    reflects:
+      - NonEnergy
+  - type: Wieldable

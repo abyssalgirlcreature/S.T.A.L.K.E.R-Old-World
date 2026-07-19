@@ -50,27 +50,19 @@
           path: /Audio/_Stalker_EN/Mutants/pyramidhead_death.ogg
   - type: Butcherable
     spawned:
-    - id: MutantPartRustEgg
+    - id: STWeaponSwordofjudgement
       amount: 1
-      prob: 1
-    - id: MutantPartScarletEgg
+      prob: 0.1
+    - id: MutantPartRustEgg
       amount: 1
       prob: 1
   - type: STWeight
     self: 65
-  - type: HTN
-    rootTask:
-      task: SimpleRangedHostileCompound
-    blackboard:
-      VisionRadius: !type:Single
-        20
-      AggroVisionRadius: !type:Single
-        20
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
     baseSprintSpeed: 4
   - type: MeleeWeapon
-    attackRate: 0.7
+    attackRate: 0.4
     angle: 30
     range: 1.9
     soundHit:

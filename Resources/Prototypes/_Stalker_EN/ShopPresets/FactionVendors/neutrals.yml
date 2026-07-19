@@ -97,7 +97,7 @@
     MutantPartIzlomArm: 815
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2625
-
+    MutantPartRustEgg: 40000
     # Meat
     FoodMeatDogCooked: 70
     STFoodMeatSpiderCooked: 35

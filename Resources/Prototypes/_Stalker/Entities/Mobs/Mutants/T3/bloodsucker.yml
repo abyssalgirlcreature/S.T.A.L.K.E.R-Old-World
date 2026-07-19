@@ -41,8 +41,8 @@
         ModifyBloodLevel: -30
       healOnSuck:
         groups:
-          Brute: -258
-          Burn: -258
+          Brute: -125
+          Burn: -125
         ModifyBloodLevel: 133
     - type: DamageStateVisuals
       states:
@@ -93,7 +93,7 @@
     - type: MobThresholds
       thresholds:
         0: Alive
-        700: Dead
+        500: Dead
     - type: MeleeWeapon
       attackRate: 0.4
       angle: 30

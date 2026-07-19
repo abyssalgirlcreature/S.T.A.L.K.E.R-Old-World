@@ -1,7 +1,7 @@
 - type: entity
   parent: NPCDoll
   id: NPCForesterCordonEN
-  name: Forester [→   ←]
+  name: GateKeeper [→   ←]
   description: An old man who's seen more than most Stalkers possibly could.
   suffix: ST, EN-TRADER, Cordon
   components:

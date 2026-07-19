@@ -1,8 +1,8 @@
 
 - type: entity
   id: 13x108Mag10
-  name: магазин 12,7x108 (10)
-  description: Магазин 12,7x108 для винтовок. Вместимость пуль 10. Продают пустым.
+  name: magazine 13x108 (10)
+  description: Magazine 12.7x108 for rifles. Bullet capacity 10. Sold empty.
   parent: Base545Mag10
   suffix: Stalker
   components:
