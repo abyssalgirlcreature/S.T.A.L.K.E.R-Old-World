@@ -233,3 +233,19 @@
       gun_module_muzzle: !type:ContainerSlot
       gun_module_scope: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+
+# EN
+
+- type: entity
+  parent: STBaseWeaponRifleSVDS
+  id: STWeaponSniperSVDliturgy
+  name: SVD Liturgy
+  suffix: ST, Кастомка
+  description: A true blessing of the pit, able to rend a mans soul and said to of been weld by sinew him self. you feel your soul beckoning you to hit a 360 no scope on some poor rookie.
+  components:
+  - type: Clothing
+    sprite: _Stalker_EN\Objects\Weapons\Guns\Snipers\Svdliturgy
+  - type: Item
+    sprite: _Stalker_EN\Objects\Weapons\Guns\Snipers\Svdliturgy
+  - type: Sprite
+    sprite: _Stalker_EN\Objects\Weapons\Guns\Snipers\Svdliturgy

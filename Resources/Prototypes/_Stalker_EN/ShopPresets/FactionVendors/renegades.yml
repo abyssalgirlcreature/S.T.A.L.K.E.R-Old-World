@@ -479,22 +479,25 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 6
-      STWeaponRifleRPK74Vedma: 7
+      STWeaponRifleRPK74Vedma: 10
       STWeaponRifleOC14Liturgia: 9
       # 5.56
       STWeaponRifleM16: 10
       # SMGS
       STWeaponSMGPPSh41: 5
       STWeaponSMGMP5: 4
-      STWeaponSMGStalkerCP2VereskLiturgy: 6
+      STWeaponSMGStalkerCP2VereskLiturgy: 8
       # 7,62x39
       STWeaponRifleAKMC: 9 # Worse AKM version for cheaper
       STWeaponSniperSKS: 3
+      # 7.62x54
+      STWeaponSniperSVDliturgy: 45 # frag out my renechud
   - name: shop-category-magazines
     priority: 2
     items:
       739Mag30: 1
       Base545MagRPK: 2
+      754Mag10: 4
   - name: shop-category-ammunition
     priority: 3
     items:

@@ -521,61 +521,61 @@
 
   categories:
   - name: shop-category-weapons
-    priority: 1
+    priority: 2
     items:
       # Melee
       # Shotguns
-      STWeaponShotgunProtecta: 40
-      STWeaponShotgunSaiga12: 225
+      STWeaponShotgunProtecta: 200
+      STWeaponShotgunSaiga12: 350
       # Pistols
       WeaponPistolStalkerLP08: 90
-      STWeaponRevolverRH12: 600
+      STWeaponRevolverRH12: 1000
       # SMGs
       # Rifles
-      STWeaponRifleM14: 125
-      STWeaponRifleStalkerAek971: 225
+      STWeaponRifleM14: 250
+      STWeaponRifleStalkerAek971: 400
       # Snipers
-      STWeaponSniperVepr: 200
-      STWeaponSniperSVDS: 425
-      STWeaponSniperVSS: 500
-      STWeaponSniperOSV96: 550
+      STWeaponSniperVepr: 300
+      STWeaponSniperSVDS: 600
+      STWeaponSniperVSS: 700
+      STWeaponSniperOSV96: 800
   - name: shop-category-magazines
     priority: 2
     items:
       # saiga-12
       Saiga1270Mag10: 10
-      Saiga1270Drum: 25
+      Saiga1270Drum: 40
       # 5.45x39
-      545Mag20: 15
-      545Mag30: 25
-      545Mag45: 40
+      545Mag20: 2
+      545Mag30: 5
+      545Mag45: 10
       # 7.62x54
-      Base754Mag5: 5
-      754Mag10: 15
+      Base754Mag5: 15
+      754Mag10: 35
       # 9x19
-      LP08Drum: 10
+      LP08Drum: 20
       # 13x108
-      13x108Mag10: 10
-      13x108FMJBox: 30
-      13x108HPBox: 20
+      13x108Mag10: 20
+      13x108FMJBox: 50
+      13x108HPBox: 40
       # 9x39
       Base939Mag10: 10
       939Mag20: 25
       #1255
-      AS12Mag: 10
-      Ammobox1255BP: 30
+      AS12Mag: 25
+      Ammobox1255BP: 60
   - name: shop-category-ammunition
     priority: 3
     items:
       # buckshot
       6mmBuckshotBoxCink: 25 # Express
-      8mmBuckshotBoxCink: 40 # Magnum
+      8mmBuckshotBoxCink: 60 # Magnum
       # 5.45x39
       545HPBoxCink: 35 # mutant
       545PCBoxCink: 45 # T3
       # 7.62x54
-      754HPBox: 8 # mutant
-      754FMJBox: 30 # T3
+      754HPBox: 20 # mutant
+      754FMJBox: 50 # T3
       # 9x19
       919PBMBoxCink: 45 # T3
       # 9x39
@@ -584,13 +584,12 @@
   - name: shop-category-medicine
     priority: 4
     items:
-      MedkitMilitary: 2
-      MedkitScience: 4
-      MedkitElite: 10
-      MedkitLAR: 15
-      ThermoOintment: 3
-      STOintmentGood: 3
-      STTourniquet: 2
+      MedkitMilitary: 5
+      MedkitElite: 25
+      MedkitLAR: 30
+      ThermoOintment: 9
+      STOintmentGood: 9
+      STTourniquet: 5
   - name: shop-category-provisions
     priority: 5
     items:
@@ -601,30 +600,30 @@
     priority: 6
     items:
       # Helmets
-      ClothingHeadHelmetBerill5MMilitary: 30
-      ClothingHeadHelmetUlach: 155
+      ClothingHeadHelmetBerill5MMilitary: 50
+      ClothingHeadHelmetUlach: 170
       # OuterClothing
-      STClothingOuterArmorIOTVBlack: 140
-      STClothingOuterIOTVGEN4: 215
-      ClothingOuterArmorHazmatRf: 200
-      ClothingOuterArmorStalkerCombat: 350
-      STClothingOuterArmorVeryHeavy: 450
+      STClothingOuterArmorIOTVBlack: 300
+      STClothingOuterIOTVGEN4: 300
+      ClothingOuterArmorHazmatRf: 400
+      ClothingOuterArmorStalkerCombat: 450
+      STClothingOuterArmorVeryHeavy: 600
   - name: shop-category-storage-and-containers
     priority: 7
     items:
       # BackPacks
-      ClothingBackpackDuffelMilitaryOlive: 60
-      ClothingBackpackDuffelSuperStalker: 90
-      ClothingBackpackDuffelSuperStalkerGray: 90
-      ClothingBeltWebbingDoubleStalkerZaryaSmall: 10
+      ClothingBackpackDuffelMilitaryOlive: 90
+      ClothingBackpackDuffelSuperStalker: 120
+      ClothingBackpackDuffelSuperStalkerGray: 120
+      ClothingBeltWebbingDoubleStalkerZaryaSmall: 20
   - name: shop-category-raincoats-and-gasmasks
     priority: 8
     items:
       # Gas masks
-      ClothingMaskGP21: 45 # T4
-      ClothingMaskM51: 45 # T4
-      ClothingMaskRCBZ2: 70 # T5
-      ClothingMaskunix5000: 70 # T5
+      ClothingMaskGP21: 60 # T4
+      ClothingMaskM51: 60 # T4
+      ClothingMaskRCBZ2: 100 # T5
+      ClothingMaskunix5000: 100 # T5
   - name: shop-category-research-equipment
     priority: 9
     items:
@@ -634,8 +633,8 @@
       TrashDetectorTier4: 80
       ZoneAnomalyDetectorAD3: 20
       ZoneArtifactDetectorSpruce: 20
-      ZoneArtifactDetectorBear: 300
-      ZoneArtifactDetectorWolfhound: 1000
+      ZoneArtifactDetectorBear: 500
+      ZoneArtifactDetectorWolfhound: 1250
       STRuggedPdaEN: 250
   - name: shop-category-modules
     priority: 10
