@@ -492,6 +492,8 @@
       STWeaponSniperSKS: 3
       # 7.62x54
       STWeaponSniperSVDliturgy: 45 # frag out my renechud
+      # explosive
+      DynamiteThree: 10 #coughing rookie vs HYDROGEN RENEGADE BOMB
   - name: shop-category-magazines
     priority: 2
     items:
