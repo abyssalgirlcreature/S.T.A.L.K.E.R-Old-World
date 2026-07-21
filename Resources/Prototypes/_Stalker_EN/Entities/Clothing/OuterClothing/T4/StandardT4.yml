@@ -20,7 +20,7 @@
 - type: entity
   parent: STClothingOuterArmorT4PVPBase
   id: STClothingOuterArmorT4PVPLoner
-  name: TBD # IOTV/Varyag?
+  name: TBD # IOTV/Varyag variant
   description: TBD
   components:
     - type: Sprite
@@ -31,7 +31,7 @@
 - type: entity
   parent: STClothingOuterArmorT4PVPBase
   id: STClothingOuterArmorT4PVPDuty
-  name: TBD # Citadel?
+  name: TBD # Citadel variant
   description: TBD
   components:
     - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: STClothingOuterArmorT4PVPBase
   id: STClothingOuterArmorT4PVPFreedom
-  name: TBD # IOTV/Varyag?
+  name: TBD # IOTV/Varyag variant
   description: TBD
   components:
     - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: STClothingOuterArmorT4PVPBase
   id: STClothingOuterArmorT4PVPMercenary
-  name: TBD # IOTV/Varyag?
+  name: TBD # IOTV/Varyag variant
   description: TBD
   components:
     - type: Sprite
@@ -64,10 +64,32 @@
 - type: entity
   parent: STClothingOuterArmorT4PVPBase
   id: STClothingOuterArmorT4PVPMilitary
-  name: TBD # IOTV/Varyag?
+  name: TBD # IOTV/Varyag variant
   description: TBD
   components:
     - type: Sprite
       sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_military.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_military.rsi
+
+- type: entity
+  parent: STClothingOuterArmorT4PVPBase
+  id: STClothingOuterArmorT4PVPBandit
+  name: TBD # Citadel variant
+  description: TBD
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_bandit.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_bandit.rsi
+
+- type: entity
+  parent: STClothingOuterArmorT4PVPBase
+  id: STClothingOuterArmorT4PVPClearSky
+  name: TBD # Citadel variant
+  description: TBD
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_unstar.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_unstar.rsi
