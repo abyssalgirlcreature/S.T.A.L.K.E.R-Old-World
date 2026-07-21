@@ -1,0 +1,73 @@
+- type: entity
+  parent: ClothingOuterArmorPSZ9D
+  id: STClothingOuterArmorT4PVPBase
+  abstract: true
+  components:
+    - type: Armor
+      armorClass: 4
+      modifiers:
+        flatReductions:
+          Blunt: 4
+          Slash: 2
+          Piercing: 8
+        coefficients:
+          Blunt: 0.80
+          Slash: 0.80
+          Piercing: 0.60
+    - type: GrantsArtifactSlots
+      slots: 2
+
+- type: entity
+  parent: STClothingOuterArmorT4PVPBase
+  id: STClothingOuterArmorT4PVPLoner
+  name: TBD # IOTV/Varyag?
+  description: TBD
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV GEN4.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV GEN4.rsi
+
+- type: entity
+  parent: STClothingOuterArmorT4PVPBase
+  id: STClothingOuterArmorT4PVPDuty
+  name: TBD # Citadel?
+  description: TBD
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_duty_armor.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_duty_armor.rsi
+
+- type: entity
+  parent: STClothingOuterArmorT4PVPBase
+  id: STClothingOuterArmorT4PVPFreedom
+  name: TBD # IOTV/Varyag?
+  description: TBD
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Green.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Green.rsi
+
+- type: entity
+  parent: STClothingOuterArmorT4PVPBase
+  id: STClothingOuterArmorT4PVPMercenary
+  name: TBD # IOTV/Varyag?
+  description: TBD
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Merc.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Merc.rsi
+
+- type: entity
+  parent: STClothingOuterArmorT4PVPBase
+  id: STClothingOuterArmorT4PVPMilitary
+  name: TBD # IOTV/Varyag?
+  description: TBD
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_military.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_military.rsi
