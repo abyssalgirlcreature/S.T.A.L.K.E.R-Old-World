@@ -281,7 +281,7 @@
         STPillboxProbud: 320
         MedkitMilitary: 255
         MedkitScience: 300
-        STPillboxShiza: 7000
+        STPillboxShiza: 1700
 
     - name: shop-category-provisions
       priority: 5

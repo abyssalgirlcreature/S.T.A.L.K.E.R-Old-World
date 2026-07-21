@@ -25,7 +25,7 @@
       MedkitLAR: 720
       psyblock: 350
       STOintmentGood: 400
-      STPillboxShiza: 5500
+      STPillboxShiza: 1250
   - name: Storage
     priority: 2
     items:

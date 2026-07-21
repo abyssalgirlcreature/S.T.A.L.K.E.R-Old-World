@@ -299,7 +299,7 @@
         MedkitElite: 650
         MedkitLAR: 720
         STOintmentGood: 400
-        STPillboxShiza: 10000
+        STPillboxShiza: 2500 # WHY DO THESE COST SO MUCH HOLY SHIT
 
     - name: shop-category-provisions
       priority: 5

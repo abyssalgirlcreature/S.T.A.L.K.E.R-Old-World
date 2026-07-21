@@ -204,7 +204,7 @@
       MedkitScience: 450
       MedkitElite: 1500
       MedkitLAR: 3200
-      STPillboxShiza: 10000
+      STPillboxShiza: 2500
 
   - name: shop-category-provisions
     priority: 5

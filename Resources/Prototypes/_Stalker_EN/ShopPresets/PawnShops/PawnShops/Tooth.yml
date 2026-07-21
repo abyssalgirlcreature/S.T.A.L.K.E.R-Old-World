@@ -210,7 +210,7 @@
       MedkitMilitary: 450
       MedkitScience: 400
       MedkitElite: 750
-      STPillboxShiza: 15000 # no one buys this
+      STPillboxShiza: 3500 # no one buys this
 
   - name: shop-category-provisions
     priority: 5

@@ -192,7 +192,7 @@
         MedkitLAR: 650
         STPillboxProbud: 350
         STPillboxAntirad: 200
-        STPillboxShiza: 6500
+        STPillboxShiza: 1250
         # Crates
         SaviorCrate: 2150
         BulkArmyMedCrate: 2500
