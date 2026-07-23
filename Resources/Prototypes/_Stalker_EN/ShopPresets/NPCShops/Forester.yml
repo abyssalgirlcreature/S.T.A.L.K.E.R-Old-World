@@ -580,38 +580,21 @@
       919PBMBoxCink: 45 # T3
       # 9x39
       STBox9x39SP5: 15 # T2
-      STBox9x39PAB9: 25 # T3
-  - name: shop-category-medicine
-    priority: 4
-    items:
-      MedkitMilitary: 5
-      MedkitElite: 25
-      MedkitLAR: 30
-      ThermoOintment: 9
-      STOintmentGood: 9
-      STTourniquet: 5
-  - name: shop-category-provisions
-    priority: 5
-    items:
-      BoxMRE: 5
-      DrinkWhiskeyBottleFull: 2
-      DrinkCossackVodkaBottleFull: 1
+      STBox9x39PAB9: 25 # T
   - name: shop-category-armor
     priority: 6
     items:
       # Helmets
-      ClothingHeadHelmetBerill5MMilitary: 50
-      ClothingHeadHelmetUlach: 170
+      #ClothingHeadHelmetBerill5MMilitary: 50 - Removed pending balance changes
+      #ClothingHeadHelmetUlach: 170 - Removed pending balance changes
       # OuterClothing
-      STClothingOuterArmorIOTVBlack: 300
-      STClothingOuterIOTVGEN4: 300
-      ClothingOuterArmorHazmatRf: 400
-      ClothingOuterArmorStalkerCombat: 450
-      STClothingOuterArmorVeryHeavy: 600
+      STOWClothingOuterArmorT4PVPLoner: 400 # +50$ markup
+      STOWClothingOuterArmorT4PVELoner: 450 # +50$ markup
+      
   - name: shop-category-storage-and-containers
     priority: 7
     items:
-      # BackPacks
+      # Backpacks
       ClothingBackpackDuffelMilitaryOlive: 90
       ClothingBackpackDuffelSuperStalker: 120
       ClothingBackpackDuffelSuperStalkerGray: 120
@@ -622,8 +605,6 @@
       # Gas masks
       ClothingMaskGP21: 60 # T4
       ClothingMaskM51: 60 # T4
-      ClothingMaskRCBZ2: 100 # T5
-      ClothingMaskunix5000: 100 # T5
   - name: shop-category-research-equipment
     priority: 9
     items:

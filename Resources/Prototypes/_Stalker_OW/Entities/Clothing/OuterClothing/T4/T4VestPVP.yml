@@ -1,0 +1,117 @@
+﻿# Standard stats for T4 PVP armor. Stats from STClothingOuterArmorIOTVBase, adjust them as needed based on user feedback.
+# Faction variants of the armor can have adjusted stats, just make sure to explain the rationale in comments.
+- type: entity
+  parent: STClothingOuterArmorStorageBasic # RU parent
+  id: STOWClothingOuterArmorT4PVPBase
+  abstract: true
+  components:
+  - type: STWeight
+    self: 8
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+      - 0,2,0,3
+      - 1,0,1,0
+      - 2,2,2,3
+      - 3,0,3,0
+      - 4,2,4,3
+      - 5,0,5,0
+      - 6,2,6,3
+      - 7,0,7,0
+      - 8,2,8,3
+      - 9,0,9,0
+      - 10,2,10,3
+      - 11,0,11,0
+      - 12,2,12,3
+  - type: Armor
+    armorClass: 4
+    modifiers:
+      flatReductions:
+        Blunt: 4
+        Slash: 2
+        Piercing: 8
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.60
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+  - type: GrantsArtifactSlots
+    slots: 0 # This is HARD PVP armor- for fighting only. If no artifacts is too oppressive, we can change it to one (lets you run thermal) or two (Film+Battery)
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVPBase
+  id: STOWClothingOuterArmorT4PVPLoner
+  name: "IOTV Gen-4 plate carrier"
+  description: Carries 0 artifacts. # WIP description
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV GEN4.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV GEN4.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVPBase
+  id: STOWClothingOuterArmorT4PVPDuty
+  name: "PAS-4 'Fortress' plate carrier"
+  description: The Personal Armor System-4 is a modern class IV plate carrier, commonly imported into the Zone. This one is painted in the red and black of Duty. Carries 0 artifacts. # WIP description
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_duty_armor.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_duty_armor.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVPBase
+  id: STOWClothingOuterArmorT4PVPFreedom
+  name: "IOTV Gen-4 plate carrier"
+  description: Carries 0 artifacts. # WIP description
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Green.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Green.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVPBase
+  id: STOWClothingOuterArmorT4PVPMercenary
+  name: "IOTV Gen-4 plate carrier"
+  description: Carries 0 artifacts. # WIP description
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Black.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/IOTV/Black.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVPBase
+  id: STOWClothingOuterArmorT4PVPMilitary
+  name: "PAS-4 'Fortress' plate carrier"
+  description: The Personal Armor System-4 is a modern class IV plate carrier, commonly imported into the Zone. This one is painted in standard OKSOP olive. Carries 0 artifacts. # WIP description
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_military.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_military.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVPBase
+  id: STOWClothingOuterArmorT4PVPBandit
+  name: "PAS-4 'Fortress' plate carrier"
+  description: The Personal Armor System-4 is a modern class IV plate carrier, commonly imported into the Zone. This one features a... interesting paintjob. Carries 0 artifacts. # WIP description
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_bandit.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/plate_heavy_bandit.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVPBase
+  id: STOWClothingOuterArmorT4PVPClearSky
+  name: "IOTV Gen-4 plate carrier"
+  description: Carries 0 artifacts. # WIP description
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_unstar.rsi # Stand-in sprite
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/outerClothing/heavy_unstar.rsi

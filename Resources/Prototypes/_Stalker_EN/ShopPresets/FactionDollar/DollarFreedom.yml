@@ -16,45 +16,18 @@
     items:
       Base754Mag5: 5
       754Mag10: 15
-  - name: shop-category-ammunition
-    priority: 3
-    items:
-      KhattabkaGrenade: 2
-      DG05SmokeGrenade: 3
-      TearGasGrenadeStalker: 5
-      RGD5Grenade: 7
   - name: shop-category-armor
     priority: 4
     items:
-      ClothingHeadHelmetUlach: 170
-      STClothingOuterArmorIOTVFreedom: 200
-      STClothingOuterArmorVolchankaFreedom: 400
-      STClothingOuterArmorVeryHeavyFreedom: 450
+      #ClothingHeadHelmetUlach: 170 - Removed pending balance changes
+      STOWClothingOuterArmorT4PVPFreedom: 350
+      STOWClothingOuterArmorT4PVEFreedom: 400
   - name: shop-category-storage-and-containers
     priority: 5
     items:
-      ClothingBeltWebbingDoubleFreedomVeterSmall: 25
+      #ClothingBeltWebbingDoubleFreedomVeterSmall: 25 StalkerOW - replace this with a crafting recipe to convert a standard double waistbag.
       ClothingBackpackDuffelBlackTacticStalker: 90
       ClothingBackpackDuffelOliveTacticStalker: 90
-  - name: shop-category-research-equipment
-    priority: 7
-    items:
-      ZoneAnomalyDetectorAD3: 30
-  - name: shop-category-medicine
-    priority: 10
-    items:
-      BoxMRE: 5
-      MedkitMilitary: 3
-      MedkitScience: 5
-      MedkitElite: 15
-      MedkitLAR: 20
-      ThermoOintment: 5
-      STOintmentGood: 5
-      STTourniquet: 3
-#  - name: shop-category-modules
-#    priority: 11
-#    items:
-      #Special
 
 
 # Machine

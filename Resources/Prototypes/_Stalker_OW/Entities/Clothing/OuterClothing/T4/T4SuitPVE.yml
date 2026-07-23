@@ -1,0 +1,139 @@
+﻿# Standard stats for T4 PVE armor. Stats are a combination of the SEVA and Native suits, adjust them as needed based on user feedback.
+# Faction variants of the armor can have adjusted stats, just make sure to explain the rationale in comments.
+- type: entity
+  parent: STClothingOuterArmorStorageBasic # RU parent
+  id: STOWClothingOuterArmorT4PVEBase
+  abstract: true
+  components:
+  - type: STWeight
+    self: 12
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+      - 0,2,0,3
+      - 1,0,1,0
+      - 2,2,2,3
+      - 3,0,3,0
+      - 4,2,4,3
+      - 5,0,5,0
+      - 6,2,6,3
+      - 7,0,7,0
+      - 8,2,8,3
+      - 9,0,9,0
+      - 10,2,10,3
+  - type: Armor
+    armorClass: 4
+    modifiers:
+      flatReductions:
+        Blunt: 6
+        Slash: 8
+        Piercing: 5
+        Heat: 4
+        Radiation: 3
+        Caustic: 4
+        Shock: 4
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.60
+        Piercing: 0.75
+        Heat: 0.50
+        Radiation: 0.6
+        Caustic: 0.50
+        Shock: 0.60
+        Compression: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.60
+  - type: PressureProtection # Copying this over from the Native suit, just in case. What even uses it, though?
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: GrantsArtifactSlots
+    slots: 5
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVEBase
+  id: STOWClothingOuterArmorT4PVELoner
+  name: "KSN-13 'Behemoth' armor suit"
+  description: Carries 5 artifacts. # WIP description
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemot_armor.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemot_armor.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVEBase
+  id: STOWClothingOuterArmorT4PVEDuty
+  name: "PSZ-9D armor suit"
+  description: Modified with a auto-injector system, which counteracts radiation and mends bruises and cuts. Powered armor technology allows for better load-bearing performance and increased stamina. Carries 0 artifacts. # WIP description
+  components:
+  - type: STWeight
+    self: -90 # Equivalent to 3 Amoeba.
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/psz9d.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/psz9d.rsi
+  - type: PersonalDamage
+    staminaDamage: -4 # Slightly better than a T2 Battery.
+    interval: 1
+    damage:
+      types:
+        Radiation: -0.25 # Equivalent to a T2 Stone Blood, though without all the extra damages.
+        Blunt: -2.5 # Equivalent to a T3 Flame.
+        Slash: -2.5 # Equivalent to a T3 Flame.
+  - type: GrantsArtifactSlots
+    slots: 0
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVEBase
+  id: STOWClothingOuterArmorT4PVEFreedom
+  name: "PSZ-9F armor suit"
+  description: Carries 5 artifacts. # WIP description
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/freedom_defender.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/freedom_defender.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVEBase
+  id: STOWClothingOuterArmorT4PVEMercenary
+  name: "KSN-13 'Behemoth' armor suit"
+  description: Carries 5 artifacts. # WIP description
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemotM.rsi # Stand-in sprite
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemotM.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVEBase
+  id: STOWClothingOuterArmorT4PVEMilitary
+  name: "PSZ-9 armor suit"
+  description: Carries 5 artifacts. # WIP description
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemot_freedom.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemot_freedom.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVEBase
+  id: STOWClothingOuterArmorT4PVEClearSky
+  name: "CHN-3B armor suit"
+  description: Carries 5 artifacts. # WIP description
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/cn3b.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/cn3b.rsi
+
+- type: entity
+  parent: STOWClothingOuterArmorT4PVEBase
+  id: STOWClothingOuterArmorT4PVEEcologist
+  name: "SSP-100 armored HAZMAT suit" # Best name I could think of, sorry.
+  description: Carries 5 artifacts. # WIP description
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/armored_hazmat.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/armored_hazmat.rsi
