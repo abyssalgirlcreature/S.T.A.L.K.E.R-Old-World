@@ -508,7 +508,7 @@
     MutantPartPsiDogTail: 20
     MutantPartFrogLeg: 0
     #T3+ -------- Health * 3
-    MutantPartBloodsuckerTentacles: 50
+    MutantPartBloodsuckerTentacles: 40
     MutantPartOraculeEye: 60
     MutantPartPseudogiantHeart: 700
     MutantPartZombieHand: 0
@@ -516,8 +516,8 @@
     ClothingMaskChimera: 100
     MutantPartChimeraTooth: 200
     MutantPartIzlomArm: 70
-    MutantPartBurerBrain: 20
-    MutantPartControllerBrain: 35
+    MutantPartBurerBrain: 30
+    MutantPartControllerBrain: 80
 
   categories:
   - name: shop-category-weapons
@@ -533,7 +533,7 @@
       # SMGs
       # Rifles
       STWeaponRifleM14: 250
-      STWeaponRifleStalkerAek971: 400
+      STWeaponRifleStalkerAek971: 450
       # Snipers
       STWeaponSniperVepr: 300
       STWeaponSniperSVDS: 600
