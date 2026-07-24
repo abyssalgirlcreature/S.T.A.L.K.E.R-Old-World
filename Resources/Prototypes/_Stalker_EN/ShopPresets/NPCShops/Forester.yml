@@ -556,14 +556,11 @@
       LP08Drum: 20
       # 50 bmg
       50bmgMag10: 20
-      50bmgFMJBox: 100
-      50bmgHPBox: 60
       # 9x39
       Base939Mag10: 10
       939Mag20: 25
       #1255
       AS12Mag: 25
-      Ammobox1255BP: 60
   - name: shop-category-ammunition
     priority: 3
     items:
@@ -581,6 +578,11 @@
       # 9x39
       STBox9x39SP5: 15 # T2
       STBox9x39PAB9: 25 # T3
+      #1255
+      Ammobox1255BP: 60
+      # 50 bmg
+      50bmgFMJBox: 100
+      50bmgHPBox: 60
   - name: shop-category-medicine
     priority: 4
     items:
