@@ -156,7 +156,7 @@
       STWeaponSMGMP5: 2000
       # Rifles
       STWeaponRifleL85Forecaster: 2100
-      STWeaponRifleFAL: 1500
+      STWeaponRifleFAL: 3500 #OW change
       STWeaponRifleM4: 3000
       STWeaponRifleM14: 3750
       STWeaponRifleAKS74: 2800

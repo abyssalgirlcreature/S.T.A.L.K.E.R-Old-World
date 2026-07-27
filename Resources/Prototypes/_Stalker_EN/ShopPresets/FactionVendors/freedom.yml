@@ -103,7 +103,7 @@
         # Nato Rifles
         STWeaponRifleM16: 2500 # T2
         STWeaponRifleM16M203: 3500 # T2
-        STWeaponRifleFAL: 1750 # T3
+        STWeaponRifleFAL: 5000 # T3
         STWeaponRifleGalil: 7000 # T3
         # Snipers
         STWeaponSniperMosin: 1200

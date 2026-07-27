@@ -194,7 +194,7 @@
         STWeaponRifleAKS74: 4200
         STWeaponRifleL85: 2250
         STWeaponRifleAKM: 6700
-        STWeaponRifleFAL: 3000
+        STWeaponRifleFAL: 6700
         # Snipers
         STWeaponSniperSKS: 1850 # T2
         STWeaponSniperMosin: 1500

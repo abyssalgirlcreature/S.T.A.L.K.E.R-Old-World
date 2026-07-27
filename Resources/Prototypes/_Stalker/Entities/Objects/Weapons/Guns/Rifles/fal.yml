@@ -18,18 +18,20 @@
       path: /Audio/_Stalker/Effects/Guns/fal.ogg
       params:
         volume: -2
-    minAngle: 50
-    maxAngle: 120
-    angleIncrease: 5.5
-    angleDecay: 27.5
-    selectedMode: SemiAuto
+    minAngle: 52 # OW BANDAID FIX GIVEN AKM STATS SO ITS THE HIGH CAL FOR FACTIONS WHO DON'T HAVE ONE REVERT WHEN THEY AR EMADE
+    maxAngle: 115
+    angleIncrease: 1.5
+    selectedMode: FullAuto
     availableModes:
     - SemiAuto
+    - FullAuto
+    angleDecay: 8
+    fireRate: 5.5
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: Base751Mag10
+        startingItem: Base739Mag10
         insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
         ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
         priority: 4
@@ -58,7 +60,7 @@
   - type: STWeaponDamageFalloff
     falloffMultiplier: 0.9
   - type: STWeaponAccuracy
-    accuracyMultiplier: 1.2
+    accuracyMultiplier: 1.55
 
 - type: entity
   parent: STBaseWeaponRifleFAL

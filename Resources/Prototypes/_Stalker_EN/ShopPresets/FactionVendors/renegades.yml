@@ -94,8 +94,7 @@
     MutantPartPseudogiantHeart: 2800
     MutantPartZombieHand: 520
     MutantPartIzlomArm: 680
-    ClothingMaskChimera: 50000
-    MutantPartChimeraTooth: 75000
+    MutantPartChimeraTooth: 3300 # nerfed for plans of nerfing the mutant soon
     MutantPartBurerBrain: 1500
     MutantPartControllerBrain: 2500
     MutantPartRustEgg: 40000
@@ -109,10 +108,6 @@
       PliersStalker: 300
       SledgehammerRenegats: 500
       StalkerBallBat: 120
-      # --- OW changes start ---
-      STThrowingknifeBlue: 250
-      STThrowingknifeYellow: 500
-      # --- OW changes stop ---
         # Guns
       #20gauge
       STBaseWeaponShotgunTOZ106: 500 # T1
@@ -274,10 +269,6 @@
       ClothingBeltWebbingHolsterStalkerZarya: 500
       STClothingCapeTacticalRigBrown: 800
       STClothingCapeTacticalRigBlack: 800
-      # --- OW changes start ---
-      ClothingBeltMedicalStalker: 450
-      STClothingBeltThrowingKnifes: 200
-      # --- OW changes stop ---
       # Containers
       MedkitCMSStalker: 400 # T1
       MedkitGrizzlyStalker: 1000 # T2
@@ -348,7 +339,6 @@
       STElasticRubberBlue: 1
       FoldedFlagRene: 250
       STRag: 10
-      HandLabeler: 75 # OW change
       # Cameras
       STCamera: 750
       STCameraVintage: 1200
