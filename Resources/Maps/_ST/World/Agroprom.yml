@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/11/2026 12:47:39
-  entityCount: 16450
+  time: 07/28/2026 06:47:57
+  entityCount: 16451
 maps:
 - 1
 grids:
@@ -72311,6 +72311,9 @@ entities:
     - type: Transform
       pos: -177.5,-69.5
       parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - Military
   - uid: 4670
     components:
     - type: Transform
@@ -72437,8 +72440,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -175.5,-71.5
       parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - SciBase
     - type: Door
-      secondsUntilStateChange: -10696.728
+      secondsUntilStateChange: -11132.202
       state: Opening
   - uid: 2249
     components:
@@ -72448,6 +72454,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -169.5,-71.5
       parent: 1
+    - type: Door
+      secondsUntilStateChange: -132.31998
+      state: Opening
     - type: AccessReader
       accessListsOriginal:
       - - SciBase
@@ -72458,6 +72467,9 @@ entities:
     - type: Transform
       pos: -166.5,-69.5
       parent: 1
+    - type: Door
+      secondsUntilStateChange: -124.15332
+      state: Opening
     - type: AccessReader
       accessListsOriginal:
       - - SciBase
@@ -72478,6 +72490,9 @@ entities:
     - type: Transform
       pos: -174.5,-69.5
       parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - SciBase
 - proto: MetalBarDoorFallout
   entities:
   - uid: 7433
@@ -80266,6 +80281,20 @@ entities:
       count: 10000
     - type: Physics
       canCollide: False
+- proto: RubberStampApproved
+  entities:
+  - uid: 10672
+    components:
+    - type: Transform
+      pos: -164.79977,-72.148575
+      parent: 1
+- proto: RubberStampDenied
+  entities:
+  - uid: 10908
+    components:
+    - type: Transform
+      pos: -164.8206,-72.40917
+      parent: 1
 - proto: sandbag
   entities:
   - uid: 8786
@@ -100474,8 +100503,6 @@ entities:
       anchored: False
       pos: -203.99031,-129.47946
       parent: 1
-    missingComponents:
-    - Pullable
 - proto: STChairWood
   entities:
   - uid: 27

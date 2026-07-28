@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/26/2026 18:11:34
-  entityCount: 30228
+  time: 07/28/2026 06:36:39
+  entityCount: 30229
 maps:
 - 1
 grids:
@@ -117932,7 +117932,7 @@ entities:
       pos: -44.5,180.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -80848.01
+      secondsUntilStateChange: -81069.5
       state: Opening
   - uid: 20960
     components:
@@ -118035,7 +118035,7 @@ entities:
       pos: -57.5,131.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -485400.03
+      secondsUntilStateChange: -485621.53
       state: Opening
   - uid: 4234
     components:
@@ -118073,7 +118073,7 @@ entities:
       pos: -66.5,125.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -485409.38
+      secondsUntilStateChange: -485630.88
       state: Opening
   - uid: 4238
     components:
@@ -118172,7 +118172,7 @@ entities:
       pos: -25.5,91.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -289712.28
+      secondsUntilStateChange: -289933.78
       state: Opening
   - uid: 4253
     components:
@@ -118889,8 +118889,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -278.5,240.5
       parent: 1
-    missingComponents:
-    - Pullable
 - proto: OldWoodChairStalker2
   entities:
   - uid: 4332
@@ -119001,8 +118999,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -278.5,237.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 28619
     components:
     - type: Transform
@@ -127602,6 +127598,20 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -37.54439,97.37521
+      parent: 1
+- proto: RubberStampApproved
+  entities:
+  - uid: 15078
+    components:
+    - type: Transform
+      pos: -58.775726,185.62085
+      parent: 1
+- proto: RubberStampDenied
+  entities:
+  - uid: 21177
+    components:
+    - type: Transform
+      pos: -58.359062,185.80847
       parent: 1
 - proto: RussianOven
   entities:
@@ -138403,7 +138413,7 @@ entities:
       pos: -299.5,224.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -48832.918
+      secondsUntilStateChange: -49054.41
       state: Opening
   - uid: 26338
     components:
@@ -138533,7 +138543,7 @@ entities:
       pos: -298.5,224.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -48834.78
+      secondsUntilStateChange: -49056.273
       state: Opening
   - uid: 26343
     components:
@@ -207712,8 +207722,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -277.4352,239.16556
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 30164
     components:
     - type: Transform

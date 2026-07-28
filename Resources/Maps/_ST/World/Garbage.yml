@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/10/2026 00:16:04
-  entityCount: 32455
+  time: 07/28/2026 08:07:32
+  entityCount: 32462
 maps:
 - 1
 grids:
@@ -106577,6 +106577,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -81.5,257.5
       parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - Greh
 - proto: HolmIndestructible
   entities:
   - uid: 3076
@@ -147056,6 +147059,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 51.5,312.5
       parent: 1
+  - uid: 20697
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -85.5,223.5
+      parent: 1
   - uid: 22988
     components:
     - type: Transform
@@ -147244,6 +147253,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 39.5,187.5
       parent: 1
+  - uid: 32441
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -76.5,223.5
+      parent: 1
   - uid: 32442
     components:
     - type: Transform
@@ -147270,6 +147285,42 @@ entities:
     components:
     - type: Transform
       pos: -62.5,220.5
+      parent: 1
+  - uid: 32456
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -90.5,231.5
+      parent: 1
+  - uid: 32457
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -61.5,203.5
+      parent: 1
+  - uid: 32458
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -65.5,203.5
+      parent: 1
+  - uid: 32459
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -67.5,207.5
+      parent: 1
+  - uid: 32460
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -59.5,207.5
+      parent: 1
+  - uid: 32462
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -63.5,207.5
       parent: 1
 - proto: Smudges1Stalker
   entities:
@@ -164012,6 +164063,12 @@ entities:
     components:
     - type: Transform
       pos: -55.5,203.5
+      parent: 1
+  - uid: 32461
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -54.5,211.5
       parent: 1
 - proto: StalkerCargo1
   entities:
@@ -191551,11 +191608,6 @@ entities:
     components:
     - type: Transform
       pos: -110.5,399.5
-      parent: 1
-  - uid: 20697
-    components:
-    - type: Transform
-      pos: -86.5,255.5
       parent: 1
   - uid: 20698
     components:

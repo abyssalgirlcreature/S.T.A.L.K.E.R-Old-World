@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/22/2026 04:14:21
-  entityCount: 26278
+  time: 07/28/2026 08:29:20
+  entityCount: 26284
 maps:
 - 1
 grids:
@@ -75494,8 +75494,6 @@ entities:
     - type: Transform
       pos: 259.5,39.5
       parent: 1
-    missingComponents:
-    - Pullable
 - proto: AlwaysPoweredlightCyan
   entities:
   - uid: 14789
@@ -78240,8 +78238,6 @@ entities:
     - type: Transform
       pos: 243.09187,24.43622
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 17050
     components:
     - type: Transform
@@ -82736,7 +82732,6 @@ entities:
       parent: 1
     missingComponents:
     - Rotatable
-    - Pullable
 - proto: CigaretteBbqSauce
   entities:
   - uid: 25800
@@ -83260,7 +83255,6 @@ entities:
       parent: 1
     missingComponents:
     - Occluder
-    - Pullable
   - uid: 17619
     components:
     - type: Transform
@@ -83278,7 +83272,6 @@ entities:
       parent: 1
     missingComponents:
     - Occluder
-    - Pullable
   - uid: 19246
     components:
     - type: Transform
@@ -83337,7 +83330,6 @@ entities:
       parent: 1
     missingComponents:
     - Occluder
-    - Pullable
   - uid: 17613
     components:
     - type: Transform
@@ -83350,7 +83342,6 @@ entities:
       parent: 1
     missingComponents:
     - Occluder
-    - Pullable
   - uid: 26236
     components:
     - type: Transform
@@ -83371,8 +83362,6 @@ entities:
     - type: Transform
       pos: 244.5,29.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 26201
     components:
     - type: Transform
@@ -104843,8 +104832,6 @@ entities:
     - type: Transform
       pos: 257.5,29.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 3691
     components:
     - type: Transform
@@ -130399,8 +130386,6 @@ entities:
     - type: Transform
       pos: 247.5,43.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 21654
     components:
     - type: Transform
@@ -130425,8 +130410,6 @@ entities:
     - type: Transform
       pos: 256.32,29.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 6522
     components:
     - type: Transform
@@ -130953,7 +130936,6 @@ entities:
       parent: 1
     missingComponents:
     - Door
-    - Pullable
   - uid: 23615
     components:
     - type: Transform
@@ -130982,7 +130964,6 @@ entities:
       parent: 1
     missingComponents:
     - Door
-    - Pullable
   - uid: 17718
     components:
     - type: Transform
@@ -131016,7 +130997,6 @@ entities:
     - ExaminableBattery
     - UserInterface
     - ActivatableUI
-    - Pullable
 - proto: NPCBotanikMaksEN
   entities:
   - uid: 647
@@ -131686,7 +131666,6 @@ entities:
     missingComponents:
     - Rotatable
     - Strap
-    - Pullable
     - Damageable
   - uid: 23599
     components:
@@ -131729,8 +131708,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 263.5,20.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 23597
     components:
     - type: Transform
@@ -139632,8 +139609,6 @@ entities:
     - type: Transform
       pos: 240.5,21.5
       parent: 1
-    missingComponents:
-    - Pullable
 - proto: ScrapGlass
   entities:
   - uid: 17796
@@ -166404,6 +166379,11 @@ entities:
     - type: Transform
       pos: 252.5,36.5
       parent: 1
+  - uid: 25196
+    components:
+    - type: Transform
+      pos: 210.5,-23.5
+      parent: 1
   - uid: 26245
     components:
     - type: Transform
@@ -167236,10 +167216,20 @@ entities:
     - type: Transform
       pos: 200.5,63.5
       parent: 1
-  - uid: 14869
+  - uid: 24955
     components:
     - type: Transform
-      pos: 212.5,90.5
+      pos: 227.5,76.5
+      parent: 1
+  - uid: 25029
+    components:
+    - type: Transform
+      pos: 218.5,85.5
+      parent: 1
+  - uid: 25103
+    components:
+    - type: Transform
+      pos: 216.5,82.5
       parent: 1
 - proto: STCacheT1Spawner5
   entities:
@@ -167292,31 +167282,6 @@ entities:
     components:
     - type: Transform
       pos: -5.5,36.5
-      parent: 1
-  - uid: 24955
-    components:
-    - type: Transform
-      pos: 221.5,88.5
-      parent: 1
-  - uid: 25029
-    components:
-    - type: Transform
-      pos: 218.5,86.5
-      parent: 1
-  - uid: 25102
-    components:
-    - type: Transform
-      pos: 225.5,78.5
-      parent: 1
-  - uid: 25103
-    components:
-    - type: Transform
-      pos: 217.5,93.5
-      parent: 1
-  - uid: 25104
-    components:
-    - type: Transform
-      pos: 216.5,82.5
       parent: 1
   - uid: 25241
     components:
@@ -167394,6 +167359,11 @@ entities:
     components:
     - type: Transform
       pos: 179.5,3.5
+      parent: 1
+  - uid: 14869
+    components:
+    - type: Transform
+      pos: 221.5,88.5
       parent: 1
   - uid: 19828
     components:
@@ -167504,6 +167474,16 @@ entities:
     components:
     - type: Transform
       pos: 13.5,-44.5
+      parent: 1
+  - uid: 25102
+    components:
+    - type: Transform
+      pos: 220.5,81.5
+      parent: 1
+  - uid: 25104
+    components:
+    - type: Transform
+      pos: 217.5,93.5
       parent: 1
   - uid: 25249
     components:
@@ -167890,16 +167870,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 246.44363,43.53328
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 22418
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 244.47488,43.560654
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 23594
     components:
     - type: Transform
@@ -168693,7 +168669,6 @@ entities:
       parent: 1
     missingComponents:
     - Rotatable
-    - Pullable
 - proto: STComputer
   entities:
   - uid: 13629
@@ -177996,7 +177971,37 @@ entities:
   - uid: 25936
     components:
     - type: Transform
-      pos: 198.5,64.5
+      pos: 189.5,73.5
+      parent: 1
+  - uid: 26279
+    components:
+    - type: Transform
+      pos: 196.5,64.5
+      parent: 1
+  - uid: 26280
+    components:
+    - type: Transform
+      pos: 196.5,60.5
+      parent: 1
+  - uid: 26281
+    components:
+    - type: Transform
+      pos: 182.5,56.5
+      parent: 1
+  - uid: 26282
+    components:
+    - type: Transform
+      pos: 183.5,56.5
+      parent: 1
+  - uid: 26283
+    components:
+    - type: Transform
+      pos: 185.5,65.5
+      parent: 1
+  - uid: 26284
+    components:
+    - type: Transform
+      pos: 166.5,61.5
       parent: 1
 - proto: STHatchetSponsor
   entities:
@@ -180616,11 +180621,6 @@ entities:
     components:
     - type: Transform
       pos: 195.5,67.5
-      parent: 1
-  - uid: 25196
-    components:
-    - type: Transform
-      pos: 195.5,57.5
       parent: 1
   - uid: 25197
     components:
@@ -217417,8 +217417,6 @@ entities:
     - type: Transform
       pos: 226.5,33.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 19139
     components:
     - type: Transform
@@ -217488,8 +217486,6 @@ entities:
     - type: Transform
       pos: 225.5,33.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 14754
     components:
     - type: Transform
@@ -218035,8 +218031,6 @@ entities:
     - type: Transform
       pos: 250.5,49.5
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 23260
     components:
     - type: Transform

@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/26/2026 18:11:56
-  entityCount: 20007
+  time: 07/28/2026 06:40:15
+  entityCount: 20010
 maps:
 - 1
 grids:
@@ -29982,6 +29982,13 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -83.5,-66.5
       parent: 1
+- proto: BoxFolderBlueEmpty
+  entities:
+  - uid: 20007
+    components:
+    - type: Transform
+      pos: 70.960884,30.537205
+      parent: 1
 - proto: Brick
   entities:
   - uid: 7476
@@ -31796,7 +31803,7 @@ entities:
       pos: 163.5,-3.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -3519.0583
+      secondsUntilStateChange: -3713.2112
       state: Opening
   - uid: 20005
     components:
@@ -75919,6 +75926,30 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 34.43972,27.83209
+      parent: 1
+- proto: RubberStampApproved
+  entities:
+  - uid: 18995
+    components:
+    - type: Transform
+      pos: 70.07546,30.641443
+      parent: 1
+  - uid: 20009
+    components:
+    - type: Transform
+      pos: -77.02889,-59.0744
+      parent: 1
+- proto: RubberStampDenied
+  entities:
+  - uid: 19003
+    components:
+    - type: Transform
+      pos: 70.51296,30.808226
+      parent: 1
+  - uid: 20010
+    components:
+    - type: Transform
+      pos: -77.06014,-59.428818
       parent: 1
 - proto: sandbag
   entities:
