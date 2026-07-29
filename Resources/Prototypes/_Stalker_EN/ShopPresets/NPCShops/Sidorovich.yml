@@ -186,6 +186,7 @@
         STWeaponSMGMP40: 1000
         STWeaponSMGPPSh41: 2500
         STWeaponSMGPP91: 3000
+        STWeaponSMGThompson: 4000
         # Rifles
         STWeaponRifleSaiga545: 1750 # T3
         STWeaponRifleAKS74U: 2000
@@ -193,6 +194,7 @@
         # Snipers
         STWeaponSniperSKS: 1850 # T2
         STWeaponSniperMosin: 1500
+        STWeaponSniperSKSpersecutor: 6000 # Another loner weapon...
 
     - name: shop-category-magazines
       priority: 2
@@ -213,6 +215,8 @@
         MP40Mag: 150
         STSpeedLoader45ACPEmpty: 100
         PP91Mag: 200
+        BaseTommyGunMag: 350
+        TommyGunDrum2: 1600
 
     - name: shop-category-ammunition
       priority: 3

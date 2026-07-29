@@ -126,9 +126,9 @@
         739Mag30: 500
         545Mag30: 400
         545Mag20: 200
-        #BaseTommyGunMag: 350 not yet
-        #TommyGunDrum2: 1600 not yet
-        #TommyGunBigDrum: 3000 not yet
+        BaseTommyGunMag: 350
+        TommyGunDrum2: 1600
+        TommyGunBigDrum: 3000
 
     - name: shop-category-ammunition
       priority: 3
@@ -450,7 +450,7 @@
         CigPackMarlboro: 200 #modest
         CigPackKosmos: 100 #squalid
         STPaperRolling: 40 #Stalker OW - Start
-        
+
     - name: Gardening
       priority: 17
       items:
