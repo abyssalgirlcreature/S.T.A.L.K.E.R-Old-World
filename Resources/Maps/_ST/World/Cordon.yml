@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/08/2026 23:26:43
-  entityCount: 29878
+  time: 07/29/2026 02:03:45
+  entityCount: 29887
 maps:
 - 1
 grids:
@@ -145696,12 +145696,6 @@ entities:
     - type: Transform
       pos: 232.5,155.5
       parent: 1
-  - uid: 2638
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 2.5,-45.5
-      parent: 1
   - uid: 2639
     components:
     - type: Transform
@@ -146599,6 +146593,8 @@ entities:
     - type: Transform
       pos: -171.5,1.5
       parent: 1
+    - type: LinkedEntity
+      linkedEntities: []
 - proto: Cordon-MilBase2
   entities:
   - uid: 9382
@@ -146606,6 +146602,8 @@ entities:
     - type: Transform
       pos: 12.5,-67.5
       parent: 1
+    - type: LinkedEntity
+      linkedEntities: []
 - proto: Cordon-Neutral
   entities:
   - uid: 9383
@@ -147694,6 +147692,16 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 205.5,340.5
       parent: 1
+- proto: DeskBell
+  entities:
+  - uid: 29887
+    components:
+    - type: Transform
+      pos: 3.4924986,-44.440697
+      parent: 1
+    missingComponents:
+    - Item
+    - Pullable
 - proto: DisposalBend
   entities:
   - uid: 23939
@@ -148311,6 +148319,41 @@ entities:
     - type: Fixtures
       fixtures: {}
   - uid: 22551
+    components:
+    - type: Transform
+      pos: 81.5,365.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 22552
+    components:
+    - type: Transform
+      pos: 65.5,374.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 22553
+    components:
+    - type: Transform
+      pos: 61.5,352.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 22554
+    components:
+    - type: Transform
+      pos: 51.5,352.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 22555
+    components:
+    - type: Transform
+      pos: 41.5,371.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
+  - uid: 22599
     components:
     - type: Transform
       pos: 81.5,365.5
@@ -196950,6 +196993,20 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 105.072105,385.41928
       parent: 1
+- proto: RubberStampApproved
+  entities:
+  - uid: 22601
+    components:
+    - type: Transform
+      pos: 1.0984979,-45.469524
+      parent: 1
+- proto: RubberStampDenied
+  entities:
+  - uid: 29886
+    components:
+    - type: Transform
+      pos: 1.6297479,-45.21935
+      parent: 1
 - proto: RussianOven
   entities:
   - uid: 11669
@@ -211955,7 +212012,7 @@ entities:
       pos: 86.5,551.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -1378.4364
+      secondsUntilStateChange: -5519.881
       state: Opening
   - uid: 14394
     components:
@@ -226883,6 +226940,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 2.5,-43.5
       parent: 1
+  - uid: 22600
+    components:
+    - type: Transform
+      pos: 0.5,-44.5
+      parent: 1
   - uid: 24289
     components:
     - type: Transform
@@ -227481,6 +227543,12 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 237.5,267.5
+      parent: 1
+  - uid: 2638
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,-45.5
       parent: 1
   - uid: 24125
     components:
