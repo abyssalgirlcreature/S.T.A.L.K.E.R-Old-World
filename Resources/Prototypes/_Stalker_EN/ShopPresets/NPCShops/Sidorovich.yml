@@ -194,7 +194,7 @@
         # Snipers
         STWeaponSniperSKS: 1850 # T2
         STWeaponSniperMosin: 1500
-        STWeaponSniperSKSpersecutor: 6000 # Another loner weapon...
+        STWeaponRifleM14: 3750
 
     - name: shop-category-magazines
       priority: 2
@@ -215,6 +215,7 @@
         MP40Mag: 150
         STSpeedLoader45ACPEmpty: 100
         PP91Mag: 200
+        751Mag20: 650
         BaseTommyGunMag: 350
         TommyGunDrum2: 1600
 
@@ -250,7 +251,9 @@
         45ACPLFMJBox: 100 #T1
         45ACPRIPBox: 500 # Mutant
         45ACPMFMJBox: 1000 #t2
-
+        # 7.51
+        751UNBox: 500 # Mutant
+        751M80Box: 1000 # T3
     - name: shop-category-medicine
       priority: 4
       items:
