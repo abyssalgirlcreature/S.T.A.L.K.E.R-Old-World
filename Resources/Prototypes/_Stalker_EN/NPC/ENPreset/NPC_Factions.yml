@@ -16,7 +16,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -58,7 +58,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -100,7 +100,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -140,7 +140,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -183,7 +183,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -225,7 +225,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -270,7 +270,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -313,7 +313,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -356,7 +356,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -398,7 +398,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -440,7 +440,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -482,7 +482,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -523,7 +523,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -563,7 +563,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -605,7 +605,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -645,7 +645,7 @@
     dataset: NPCStalkerTraderAds
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:
@@ -691,7 +691,7 @@
     bodyType: Static
   - type: ActivatableUI
     key: enum.ShopUiKey.Key
-    #singleUser: true StalkerOW - Allow multiple people to talk to NPCs at once.
+    singleUser: true
   - type: UserInterface
     interfaces:
       enum.ShopUiKey.Key:

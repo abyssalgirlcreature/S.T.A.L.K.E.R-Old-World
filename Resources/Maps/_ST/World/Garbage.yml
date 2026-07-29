@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/10/2026 00:16:04
-  entityCount: 32455
+  time: 07/29/2026 01:56:42
+  entityCount: 32472
 maps:
 - 1
 grids:
@@ -13483,7 +13483,6 @@ entities:
             556: -78.0531,201.86064
             557: -78.03356,204.22392
             558: -91.47698,205.95123
-            559: -95.84079,203.21791
             560: -96.17288,213.2691
             561: -96.211945,215.30998
             562: -96.583115,214.2553
@@ -91048,6 +91047,21 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 100.5,431.5
       parent: 1
+- proto: CheckerBoard
+  entities:
+  - uid: 32464
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -74.29192,212.17169
+      parent: 1
+- proto: ChessBoard
+  entities:
+  - uid: 32465
+    components:
+    - type: Transform
+      pos: -72.9319,212.1823
+      parent: 1
 - proto: CigaretteSpent
   entities:
   - uid: 31550
@@ -121027,6 +121041,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -68.5,211.5
       parent: 1
+    - type: AccessReader
+      accessListsOriginal:
+      - - Bandit
   - uid: 8148
     components:
     - type: Transform
@@ -127439,8 +127456,8 @@ entities:
   - uid: 9270
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -93.72829,204.38377
+      rot: 1.5707963267948966 rad
+      pos: -93.993,203.16138
       parent: 1
   - uid: 9271
     components:
@@ -177585,6 +177602,42 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 20.540905,180.61465
       parent: 1
+  - uid: 32463
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -76.26968,205.81383
+      parent: 1
+  - uid: 32466
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -72.56276,210.9104
+      parent: 1
+  - uid: 32467
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -74.01329,210.9104
+      parent: 1
+  - uid: 32468
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -74.74884,205.79298
+      parent: 1
+  - uid: 32470
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -74.73843,206.77283
+      parent: 1
+  - uid: 32472
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -76.28009,206.79369
+      parent: 1
 - proto: STClockworkGrille
   entities:
   - uid: 18342
@@ -178159,6 +178212,16 @@ entities:
     components:
     - type: Transform
       pos: 20.5,183.5
+      parent: 1
+  - uid: 32469
+    components:
+    - type: Transform
+      pos: -75.5,205.5
+      parent: 1
+  - uid: 32471
+    components:
+    - type: Transform
+      pos: -75.5,206.5
       parent: 1
 - proto: STFleaMarketSpawner
   entities:
