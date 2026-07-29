@@ -252,8 +252,8 @@
         45ACPRIPBox: 500 # Mutant
         45ACPMFMJBox: 1000 #t2
         # 7.51
-        751UNBox: 500 # Mutant
-        751M80Box: 1000 # T3
+        751UNBox: 600 # Mutant
+        751M80Box: 1300 # T3
     - name: shop-category-medicine
       priority: 4
       items:
