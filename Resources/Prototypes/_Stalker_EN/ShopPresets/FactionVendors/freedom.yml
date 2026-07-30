@@ -99,7 +99,7 @@
         STWeaponShotgunSPAS: 2000 # T3
         # SMGs
         STWeaponSMGMP5: 1800 # T3
-        # STWeaponSMGThompson: 4000 # not yet
+        STWeaponSMGThompson: 4000 # ow
         # Nato Rifles
         STWeaponRifleM16: 2500 # T2
         STWeaponRifleM16M203: 3500 # T2
