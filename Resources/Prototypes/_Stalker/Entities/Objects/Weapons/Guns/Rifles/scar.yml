@@ -17,8 +17,8 @@
     soundGunshot:
       path: /Audio/_Stalker/Effects/Guns/scar.ogg
     minAngle: 50
-    maxAngle: 90
-    angleIncrease: 1.3
+    maxAngle: 110
+    angleIncrease: 1.2
     selectedMode: FullAuto
     availableModes:
     - Burst
