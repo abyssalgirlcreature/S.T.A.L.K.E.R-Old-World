@@ -14,15 +14,15 @@
   - type: Gun
     soundGunshot:
       path: /Audio/_Stalker/Effects/Guns/103_shoot.ogg
-    minAngle: 50
-    maxAngle: 100
-    angleIncrease: 1.8
+    minAngle: 60
+    maxAngle: 110
+    angleIncrease: 3
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
     - FullAuto
-    angleDecay: 8
-    fireRate: 7
+    angleDecay: 6
+    fireRate: 6.5
   - type: ItemSlots
     slots:
       gun_magazine:

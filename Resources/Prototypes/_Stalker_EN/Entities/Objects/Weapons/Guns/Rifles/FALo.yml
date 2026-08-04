@@ -7,9 +7,6 @@
     self: 4
   - type: PullDoAfter
     pullTime: 3.5
-  - type: GunWieldBonus
-    minAngle: -47
-    maxAngle: -50
   - type: Clothing
     sprite: _Stalker_EN/Objects/Weapons/Guns/Rifles/FALo.rsi
   - type: Sprite
@@ -21,8 +18,8 @@
       path: /Audio/_Stalker/Effects/Guns/groza_shot.ogg
     minAngle: 50
     maxAngle: 110
-    fireRate: 7
-    angleIncrease: 1.5
+    fireRate: 6.5
+    angleIncrease: 3
     angleDecay: 6
     projectileSpeed: 65
     selectedMode: FullAuto
