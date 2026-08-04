@@ -247,8 +247,8 @@
       # Body Armor
       SetArmourJacketNoviceBrezentBuyableCrate: 1500 # T2 - PvP
       SetArmourJacketNoviceWhiteBuyableCrate: 1500 # T2 - PvP
-      STClothingOuterArmorLightPlateVestBaseANAgreenOld: 2000 # T3 - Weak
-      STClothingOuterArmorLightPlateVestBaseANAgrayOld: 2000 # T3 - Weak
+      STClothingOuterArmorLightPlateVestBaseANAgreen: 6000 # T3 - OW
+      STClothingOuterArmorLightPlateVestBaseANAgray: 6000 # T3 - OW
       ClothingOuterArmorSevaStalker: 8500 # T3 - ENV
       SetZaryaStalkerBuyableCrate: 2550 # T2 - PVE
       ClothingOuterArmor6B2: 2250 # T2

@@ -224,6 +224,7 @@
         ClothingOuterJacketMerc: 50 # T1
         STClothingOuterArmorLightPlateVestBaseMerc: 1100 # T2 - PvP
         ClothingOuterArmorSevaMerc: 4600 # T3 - ENV
+        STClothingOuterArmorLightPlateVestBaseANAgray: 6000 # T3 PVP OW
         SetMerc2BuyableCrate: 12000 # T3 - PvP
         SetMercBuyableCrate: 12000 # T3 - PvP
         #Helmets

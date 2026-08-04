@@ -325,6 +325,7 @@
         STClothingOuterArmorBandits: 1500 #T2
         ClothingOuterArmorSevaBandit: 4500 # T3 - PVE
         STClothingOuterArmorRCBZ: 1200
+        STClothingOuterArmorLightPlateVestBaseANAgray: 6000 # PVP OW
         ClothingOuterArmorBandits: 9000 #T3 - PVP
 
     - name: shop-category-storage-and-containers
