@@ -345,8 +345,8 @@
         ClothingCloakGreen: 1000
         ClothingCloakNavy: 1000
         ClothingCloakShortCoverBlack: 1000
-        ClothingOuterCoatDoshdevik: 100 # T1
-        ClothingOuterCoatStalker: 1000
+        ClothingOuterCoatDoshdevik: 2000 # T1
+        ClothingOuterCoatStalker: 3000
         ClothingOuterCoatLoyalistLight: 2500
         ClothingOuterCoatLoyalist: 3000
         STClothingCapeArmorChainmailSeva: 2000

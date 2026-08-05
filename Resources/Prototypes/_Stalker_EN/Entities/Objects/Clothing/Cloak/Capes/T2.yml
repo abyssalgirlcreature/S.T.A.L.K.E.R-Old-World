@@ -1,5 +1,5 @@
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: ClothingOuterCoatLoyalist # ow, all suits get loyalist or seva stats
   id: ClothingOuterCoatStalkerBloody
   name: Stalker's Bloody Coat
   suffix: ST, T2, Reward, Halloween
@@ -15,7 +15,7 @@
     clothingPrototype: ClothingHeadHatHoodCoatStalker
 
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: ClothingOuterCoatLoyalist  # ow, all suits get loyalist or seva stats
   id: ClothingOuterCoatStalkerEerie
   name: Stalker's Eerie Coat
   suffix: ST, T2, Reward, Halloween
@@ -136,24 +136,14 @@
     - HeadTop
 
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeCoatReinforced  # ow, all suits get loyalist or seva stats
   id: ClothingOuterCoatNeutralPoncho
   name: Neutral poncho 'Teachers Embrace'
   suffix: ST, T2
   description: Handzone by one of the oldest neutrals to be given as gifts for her fellow teachers
   components:
   - type: STWeight
-    self: 1.5
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Heat: 0.95
-        Cold: 0.95
-  - type: ExplosionResistance
-    damageCoefficient: 0.95
+    self: 5.5  # ow, all suits get loyalist or seva stats
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/neutral_poncho.rsi
   - type: Clothing
@@ -191,17 +181,7 @@
   description: One out of a series of ponchos made of a mix of synthetic fabrics arranged by Duty artisans.
   components:
   - type: STWeight
-    self: 1.5
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Heat: 0.95
-        Cold: 0.95
-  - type: ExplosionResistance
-    damageCoefficient: 0.95
+    self: 5.5  # ow, all suits get loyalist or seva stats
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_co_poncho.rsi
   - type: Clothing

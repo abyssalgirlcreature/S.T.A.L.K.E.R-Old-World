@@ -335,8 +335,8 @@
     priority: 8
     items:
       # Cloaks
-      ClothingOuterCoatDoshdevik: 60 # T1
-      ClothingOuterCoatStalker: 350 # T2
+      ClothingOuterCoatDoshdevik: 3000 # T1
+      ClothingOuterCoatStalker: 3000 # T2
       ClothingOuterCoatKevlarClearSky: 2750 # T2
       ClothingCloakStalker: 30
       ClothingCloakBeige: 1000

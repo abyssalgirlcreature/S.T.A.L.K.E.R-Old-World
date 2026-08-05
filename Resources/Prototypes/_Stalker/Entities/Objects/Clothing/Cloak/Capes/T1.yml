@@ -20,7 +20,7 @@
 
 # Дождевик
 - type: entity
-  parent: STClothingCapeT1Base
+  parent: ClothingOuterCoatLoyalist  # ow, all suits get loyalist or seva stats
   id: ClothingOuterCoatDoshdevik
   name: дождевик
   suffix: ST, T1
@@ -61,7 +61,7 @@
 
 # Пахана
 - type: entity
-  parent: STClothingCapeT1Base
+  parent: ClothingOuterCoatLoyalist  # ow, all suits get loyalist or seva stats
   id: ClothingOuterCoatPahan
   name: плащ пахана
   description: плотный плащ перекрашенный в чёрный цвет.
@@ -95,8 +95,8 @@
 
 # Poisk
 - type: entity
-  parent: STClothingCapeT1Base
-  id: ClothingOuterCoatPoisk
+  parent: ClothingOuterCoatLoyalist
+  id: ClothingOuterCoatPoisk  # ow, all suits get loyalist or seva stats
   name: плащ исследователя
   description: Этот плащ не просто украшение, он символизирует стремление к приключениям и жажду открытий.
   components:
@@ -128,7 +128,7 @@
 
 # Паломники
 - type: entity
-  parent: STClothingCapeT1Base
+  parent: ClothingOuterCoatLoyalist  # ow, all suits get loyalist or seva stats
   id: ClothingNeckCloakCassock
   name: ряса паломника
   description: сделана из грубой ткани серой ткани, помогает отречься от мирского
@@ -241,7 +241,7 @@
     sprite: _Stalker/Objects/Clothing/cloak/renegatcape.rsi
 
 - type: entity
-  parent: ClothingOuterCoatDoshdevik
+  parent: STClothingCapeCoatReinforced  # ow, all suits get loyalist or seva stats
   id: STClothingOldRoadCape
   name: Старый дорожный плащ
   suffix: ST, T1, Скин

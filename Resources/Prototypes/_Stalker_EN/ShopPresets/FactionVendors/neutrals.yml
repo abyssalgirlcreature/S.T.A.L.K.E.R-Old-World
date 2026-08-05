@@ -284,13 +284,13 @@
       ClothingCloakGreen: 1000
       ClothingCloakNavy: 1000
       ClothingCloakShortCoverBlack: 1000
-      ClothingOuterCoatDoshdevik: 100 # T1
-      ClothingOuterCoatStalker: 1000
-      ClothingOuterCoatNeutralPoncho: 1000
+      ClothingOuterCoatDoshdevik: 3000 # T1
+      ClothingOuterCoatStalker: 3000
+      ClothingOuterCoatNeutralPoncho: 3000
       ClothingOuterCoatLoyalistLight: 2500
       ClothingOuterCoatLoyalist: 3000
       ClothingCapeArmorChainmailSevaNeutral: 3000
-      ClothingOuterCoatPoisk: 500 # t0
+      ClothingOuterCoatPoisk: 3000
       # Gasmasks
       ClothingMaskGasZarya: 600 # T1
       ClothingMaskGP5: 500 # T1

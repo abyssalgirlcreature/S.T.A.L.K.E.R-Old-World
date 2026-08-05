@@ -64,7 +64,7 @@
 # Черный кольчужный плащ
 
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: ClothingOuterCoatLoyalist  # ow, all suits get loyalist or seva stats
   id: ClothingOuterCoatKolchyga
   name: кольчужный чёрный плащ
   suffix: ST, T2
@@ -79,11 +79,6 @@
     sprite: _Stalker/Objects/Clothing/cloak/coat_pahan.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetBlackCoat
-  - type: Armor
-    armorLevels:
-      nonPvPPhysical: 1
-      piercing: 1
-
 - type: entity
   parent: STClothingHeadHatBase
   id: ClothingHeadHelmetBlackCoat
@@ -137,7 +132,7 @@
 
 # кожанный плащ
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: ClothingOuterCoatLoyalist  # ow, all suits get loyalist or seva stats
   id: ClothingOuterCoatStalker
   name: кожанный плащ
   description: Обычный плащ из чёрной кожи. Заметной защиты носителю не обеспечивает. Разве что не даст замёрзнуть ночью и смягчит укус слепого пса. Довольно неудобен в условиях Зоны, но, тем не менее, часто используется бандитами — возможно, исключительно из-за внешнего вида.
@@ -170,7 +165,7 @@
 # Скинчики
 # QEWAEWA2
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeArmorChainmailSeva  # ow, all suits get loyalist or seva stats
   id: STClothingOuterCoatNovember
   suffix: ST, Skin
   name: камуфляжный плащ Ноябрь
