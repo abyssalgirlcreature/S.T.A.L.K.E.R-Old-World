@@ -209,18 +209,21 @@
       types:
         Radiation: 18.01
   - type: Armor # OW Change start
-    armorClass: 2
+    armorClass: 3
     modifiers:
       flatReductions:
-        Radiation: 5
-        Caustic: 1
-        Psy: 1
+        Blunt: 5
+        Slash: 5
+        Piercing: 5
       coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Compression: 0.95
-        Psy: 0.7 # OW Change end
+        Blunt: 0.70
+        Slash: 0.60
+        Piercing: 0.7
+        Compression: 0.8
+        Radiation: 0.90
+        Heat: 0.75
+        Caustic: 0.80
+        Shock: 0.75  # OW Change end
   - type: Contraband # EN
     severity: Monolith
   - type: GrantsArtifactSlots
