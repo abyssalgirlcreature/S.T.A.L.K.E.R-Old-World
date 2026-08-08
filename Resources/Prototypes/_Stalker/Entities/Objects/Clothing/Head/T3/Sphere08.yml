@@ -6,6 +6,22 @@
   suffix: ST, T3, Env
   components:
   - type: Craftable
+ #   - type: Armor
+ #   armorClass: 3
+ #   modifiers:
+ #     coefficients:
+ #       Blunt: 0.75
+ #       Slash: 0.80
+ #       Piercing: 0.85
+ #       Psy:   0.90
+ # - type: ExplosionResistance
+ #   damageCoefficient: 0.90
+ # - type: Reflect
+ #   reflectProb: 0.08
+ #   spread: 360
+ #   reflects:
+ #     - NonEnergy
+ #   soundOnReflect: /Audio/_Stalker/Effects/sear.ogg
   - type: STWeight
     self: 2.1
   - type: HideLayerClothing
