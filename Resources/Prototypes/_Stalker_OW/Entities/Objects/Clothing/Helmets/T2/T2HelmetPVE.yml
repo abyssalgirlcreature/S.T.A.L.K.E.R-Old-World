@@ -1,6 +1,6 @@
 - type: entity
   parent: STClothingHeadBase
-  id: STOWClothingHeadHelmetPVET2Base
+  id: STOWClothingHeadHelmetT2PVEBase
   name: Cyclops Helmet
   description: A cheap helmet with an equally cheap visor attached to the helmet in an extremely cheap way.
   suffix: STOW, T2, PVE
@@ -32,7 +32,7 @@
 # Jabs - 1
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVET2Base
+  parent: STOWClothingHeadHelmetT2PVEBase
   id: STOWClothingHeadHelmetMakeshiftTacticalT2Jabs
   name: Helmet of Frogs "Cyclops"
   description: A handmade helmet made of quality materials, it might not look the most attractive, but it protects well.
