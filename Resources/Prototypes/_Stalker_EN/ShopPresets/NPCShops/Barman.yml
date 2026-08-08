@@ -379,7 +379,7 @@
         STOWClothingHeadHelmetVityaz1C: 500 # ST:OW T3 - PVP
         # ClothingHeadHelmetVityaz1C: 3500 # T3 - PvP
         STOWClothingHeadHelmetInfantry: 500 # T2 - PvP
-        STOWClothingHeadHelmetMakeshiftTacticalT2: 1000 # T2
+        STOWClothingHeadHelmetT2PVEStalker: 500 # T2
         ClothingHeadHelmetSH68: 250 # T1 - PVP
         ClothingHeadHelmetLight: 300 # T1 - uni
 
