@@ -137,7 +137,7 @@
     sprite: _Stalker/Objects/Clothing/hats/VityazS1.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
+  parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetT3PVESkull2
   name: horned skull2
   description: A steel skull of a horned animal.
@@ -148,7 +148,7 @@
     sprite: _Stalker/Objects/Clothing/hats/VityazS2.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
+  parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetT3PVESkull3
   name: horned skull4
   description: A steel skull of a horned animal.
