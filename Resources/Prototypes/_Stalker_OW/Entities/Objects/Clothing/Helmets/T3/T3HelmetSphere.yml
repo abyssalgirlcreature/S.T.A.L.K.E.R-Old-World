@@ -150,8 +150,9 @@
          Radiation: 6
   - type: IngestionBlocker
   - type: IdentityBlocker
-  - type: BreathMask
-    tag: BlockMask
+  - type: Tag
+    tags:
+      - BlockMask
 
 - type: entity
   parent: STOWClothingHeadHelmetT3SphereAltBase
@@ -172,8 +173,6 @@
   components:
     - type: Armor # Irradiated gas mask is useless.
       armorClass: 3
-      modifiers:
-          Radiation: 0
     - type: Sprite
       sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
     - type: Clothing
