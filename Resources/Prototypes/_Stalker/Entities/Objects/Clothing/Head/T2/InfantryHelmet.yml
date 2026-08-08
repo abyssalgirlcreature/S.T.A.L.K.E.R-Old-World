@@ -8,7 +8,7 @@
   - type: STWeight
     self: 2.1
   - type: Craftable
- # - type: ArmorExpand commentComment on line L11
+ # - type: Armor
  #   armorClass: 2
  #   modifiers:
  #     coefficients:
