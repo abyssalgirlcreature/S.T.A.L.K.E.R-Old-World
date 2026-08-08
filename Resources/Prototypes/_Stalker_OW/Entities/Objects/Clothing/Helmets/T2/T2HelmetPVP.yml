@@ -105,7 +105,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT2Base
-  id: STOWClothingHeadHelmetInfantryMerc
+  id: STOWClothingHeadHelmetT2PVPMerc
   name: Mercenary "Bastion" Helmet
   suffix: STOW, T2, Скин
   description: The 'Bastion' helmet, second protection class, manufacturer unknown.
