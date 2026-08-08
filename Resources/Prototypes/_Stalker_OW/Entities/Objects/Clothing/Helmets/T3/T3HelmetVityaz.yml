@@ -181,7 +181,7 @@
       sprite: _Stalker_EN/Objects/Clothing/hats/VityazKushch.rsi
       
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
+  parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetT3PVEMerc
   name: Vityaz 1S 'Mercenary' Helmet
   description: Vityaz 1C helmet modified by a certain mercenary company.
