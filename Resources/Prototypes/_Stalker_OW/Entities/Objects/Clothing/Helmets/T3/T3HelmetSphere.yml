@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: STClothingHeadBase
-  id: STOWClothingHeadHelmetEnvironmentT3Base # Temporary transfer to Zenith stats. Can work out a different Niche later
+  id: STOWClothingHeadHelmetT3SphereBase # Temporary transfer to Zenith stats. Can work out a different Niche later
   name: PVP protection helmet base T3
   suffix: STOW, T3, PVP
   components:
