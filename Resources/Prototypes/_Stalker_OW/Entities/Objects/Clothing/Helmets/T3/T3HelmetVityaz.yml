@@ -192,7 +192,7 @@
       sprite: _Stalker_EN/Objects/Clothing/hats/Vityaz1Merc.rsi
       
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
+  parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetVityazNeutral
   name: Vityaz 1N 'Helping Hand' Helmet
   description: Vityaz 1C helmet modified with yellow paint, used by the neutral faction.
