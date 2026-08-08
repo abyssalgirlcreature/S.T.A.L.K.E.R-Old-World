@@ -206,10 +206,10 @@
       priority: 6
       items:
           # Helmets #
-        STOWClothingHeadHelmetInfantry: 600 # T2 - PVP
-        STOWClothingHeadHelmetAborigine: 2500 # T3
-        STOWClothingHeadHelmetVityazKushch: 3000 # T3
-        STOWClothingHeadZenithFreedom: 3500 # T3
+        STOWClothingHeadHelmetT2PVPFreedom: 600 # T2 - PVP
+        STOWClothingHeadHelmetT3SphereFreedom: 3000 # T3
+        STOWClothingHeadHelmetT3PVEFreedom: 3000 # T3
+        STOWClothingHeadHelmetT3PVPFreedom: 3000 # T3
           # OuterClothing #
         ClothingOuterJacketFreedom: 60 # T1 - PVE
         #STClothingOuterArmorLightPlateVestBaseFreedom: 1000 # ST:OW
