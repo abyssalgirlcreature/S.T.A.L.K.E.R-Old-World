@@ -127,7 +127,7 @@
     sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_svoboda.rsi # Stalker EN change - gave it a new sprite and made it obtainable.
 
 - type: entity
-  parent: STOWClothingHeadHelmetBerill5MMonolith
+  parent: STOWClothingHeadHelmetT3SphereMonolith
   id: STOWClothingHeadHelmetBerill5MMonolithClean
   name: Sphere-08 helmet
   description: Sphere-08 helmet used by Monolith cultists. Lighter than other Class 3 helmets, it trades some ballistic protection for limited psi-shielding, which is unfortunately lost on its fanatical users. A strip of tape around the helmet indicated that it's been chemically cleaned and is safe to handle.
