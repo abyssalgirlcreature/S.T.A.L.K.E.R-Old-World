@@ -247,9 +247,9 @@
     items:
       # Helmets #
       ClothingHeadHelmetSH6Renegate: 200 # T1
-      STOWClothingHeadInfantryHelmetRenegate: 600 # T2 - PVP
-      STOWClothingHeadHelmetVityaz1L: 3000 # T3 - PVE
-      STOWClothingHeadZenith: 3500 # T3 - PVP
+      STOWClothingHeadHelmetPVPT2Renegade: 600 # T2 - PVP
+      STOWClothingHeadHelmetPVET3Renegade: 3000 # T3 - PVE
+      STOWClothingHeadHelmetPVPT3Renegade: 3500 # T3 - PVP
       # OuterClothing #
       ClothingJaketRealHuman: 60 # T1 - PVE
       # ST:OW - Begin
