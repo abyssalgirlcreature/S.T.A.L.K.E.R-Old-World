@@ -24,7 +24,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT2Base
-  id: STOWClothingHeadHelmetInfantry
+  id: STOWClothingHeadHelmetT2PVPStalker
   name: Vostok Helmet
   description: Infantry helmet of the 'Vostok' brand, second protection class, manufacturer unknown.
   components:
