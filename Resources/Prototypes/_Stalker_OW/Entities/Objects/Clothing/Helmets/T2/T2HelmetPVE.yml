@@ -1,14 +1,8 @@
 - type: entity
   parent: STClothingHeadBase
   id: STOWClothingHeadHelmetT2PVEBase
-  name: Cyclops Helmet
-  description: A cheap helmet with an equally cheap visor attached to the helmet in an extremely cheap way.
   suffix: STOW, T2, PVE
   components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
   - type: Craftable
   - type: Tag
     tags:
@@ -28,6 +22,20 @@
     slots:
     - Hair
     - HeadTop
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+
+- type: entity
+  parent: STOWClothingHeadHelmetT2PVEBase
+  id: STOWClothingHeadHelmetT2PVEStalker
+  name: Cyclops Helmet
+  description: A cheap helmet with an equally cheap visor attached to the helmet in an extremely cheap way.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
+  - type: Craftable
 
 # Jabs - 1
 
