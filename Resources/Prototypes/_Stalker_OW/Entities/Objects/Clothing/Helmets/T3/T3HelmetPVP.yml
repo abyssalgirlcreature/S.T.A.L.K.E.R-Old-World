@@ -143,7 +143,3 @@
       sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
     - type: Clothing
       sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
-    - type: Clothing
-      sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
-    - type: IngestionBlocker
-    - type: IdentityBlocker
