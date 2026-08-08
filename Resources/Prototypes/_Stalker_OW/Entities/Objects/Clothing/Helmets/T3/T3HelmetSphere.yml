@@ -138,7 +138,7 @@
           Radiation: 0
           
 - type: entity
-  parent: STOWClothingHeadHelmetEnvironmentT3Base
+  parent: STOWClothingHeadHelmetT3SphereBase
   id: STOWClothingHeadHelmetSphereClearSky
   name: ChS-08 Sphere Helmet
   description: Specialized helmet in blue camo, it's made with working deep in the zone in mind.
