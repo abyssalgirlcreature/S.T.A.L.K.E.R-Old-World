@@ -1,9 +1,9 @@
 - type: entity
   parent: STClothingHeadBase
-  id: STOWClothingHeadHelmetMakeshiftTacticalT2
+  id: STOWClothingHeadHelmetPVET2Base
   name: Cyclops Helmet
   description: A cheap helmet with an equally cheap visor attached to the helmet in an extremely cheap way.
-  suffix: STOW, T2, Tactical
+  suffix: STOW, T2, PVE
   components:
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
@@ -32,7 +32,7 @@
 # Jabs - 1
 
 - type: entity
-  parent: STOWClothingHeadHelmetMakeshiftTacticalT2
+  parent: STOWClothingHeadHelmetPVET2Base
   id: STOWClothingHeadHelmetMakeshiftTacticalT2Jabs
   name: Helmet of Frogs "Cyclops"
   description: A handmade helmet made of quality materials, it might not look the most attractive, but it protects well.
