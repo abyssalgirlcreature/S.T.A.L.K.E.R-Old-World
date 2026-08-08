@@ -89,7 +89,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetEnvironmentT3Base # stalker OW change
-  id: STOWClothingHeadHelmetBerill5MMonolith
+  id: STOWClothingHeadHelmetT3SphereMonolith
   name: the Sphere-08 monolith helmet
   description: The helmet of those very fanatics, designed to protect against stabbing attacks. It's a helmet from the 'Beryl-5M'. Armor class - 3.
   components:
