@@ -141,13 +141,13 @@
   id: STOWClothingHeadHelmetT3SphereAltBase
   components:
   - type: Armor # +5% blunt/slash, T3 gas mask protection. Blocks mouth slot.
-      armorClass: 3
-      modifiers:
-        coefficients:
-          Blunt: 0.75
-          Slash: 0.80
-        flatReductions:
-          Radiation: 6
+    armorClass: 3
+    modifiers:
+      coefficients:
+         Blunt: 0.75
+         Slash: 0.80
+      flatReductions:
+         Radiation: 6
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: BreathMask
