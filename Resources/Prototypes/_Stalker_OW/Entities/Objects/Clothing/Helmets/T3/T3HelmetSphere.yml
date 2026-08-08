@@ -184,15 +184,15 @@
           Radiation: 18.01
           
 - type: entity
-parent: STOWClothingHeadHelmetT3SphereAltBase
-id: STOWClothingHeadHelmetT3SphereAltMonolithClean
-name: Cleaned Monolithian Sphere-12
-description: A cleaned version of the monolithian sphere
-components:
-  - type: Sprite
-    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
-  - type: Clothing
-    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
+  parent: STOWClothingHeadHelmetT3SphereAltBase
+  id: STOWClothingHeadHelmetT3SphereAltMonolithClean
+  name: Cleaned Monolithian Sphere-12
+  description: A cleaned version of the monolithian sphere
+  components:
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
+    - type: Clothing
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
 
 - type: entity 
   parent: STOWClothingHeadHelmetT3SphereAltBase
