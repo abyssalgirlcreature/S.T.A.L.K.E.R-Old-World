@@ -24,7 +24,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetT3SphereBase
-  id: STOWClothingHeadHelmetBerill5MMilitary
+  id: STOWClothingHeadHelmetT3SphereMilitary
   name: helmet 'Sphere-08'
   description: A helmet for lucky soldiers and veterans, designed to protect against stabbing attacks. It’s a helmet from the 'Beryl-5M' series.
   components:
