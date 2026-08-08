@@ -193,7 +193,7 @@
       
 - type: entity
   parent: STOWClothingHeadHelmetT3PVEBase
-  id: STOWClothingHeadHelmetVityazNeutral
+  id: STOWClothingHeadHelmetT3PVENeutral
   name: Vityaz 1N 'Helping Hand' Helmet
   description: Vityaz 1C helmet modified with yellow paint, used by the neutral faction.
   components:
