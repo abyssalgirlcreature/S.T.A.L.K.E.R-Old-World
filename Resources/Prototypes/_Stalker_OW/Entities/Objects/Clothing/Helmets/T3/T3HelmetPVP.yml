@@ -1,8 +1,7 @@
 - type: entity
   abstract: true
   parent: STClothingHeadBase # Can replace with our own parent later to disconnect from RU prototypes.
-  id: STOWClothingHeadHelmetPVPT3Base
-  name: PVP helmet base T3
+  id: STOWClothingHeadHelmetT3PVPBase
   suffix: STOW, T3, PVP
   components:
   - type: Craftable
@@ -23,8 +22,8 @@
     - HeadTop
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3Stalker
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPStalker
   name: Zenith Helmet
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -34,8 +33,8 @@
     sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3UN
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPUN
   name: UN Zenith Helmet
   description: Combat helmet of the Zenith brand, third protection class, in peacekeeper colors.
   suffix: STOW, UN, T3 # OW
@@ -46,7 +45,7 @@
     sprite: _Stalker/Objects/Clothing/hats/un_head.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
+  parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadZenithDeserter
   name: Helmet Zenith-L
   description: A Zenith helmet that completely covers the wearer's head except for the face, the goggles are welded to the helmet, do not try to remove them!
@@ -57,8 +56,8 @@
     sprite: _Stalker/Objects/Clothing/hats/helm_legat_deserter.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3Military
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPMilitary
   name: military helmet Zenith
   description: Combat helmet of the Zenith brand, third protection class, colored green.
   components:
@@ -69,8 +68,8 @@
   - type: Craftable
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3Bandit
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPBandit
   name: bandit helmet Zenith
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -80,8 +79,8 @@
     sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_bandit.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3Duty
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPDuty
   name: Zenit helmet of Duty
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -91,8 +90,8 @@
     sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_dolg.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3Merc
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPMerc
   name: Zenith Helmet of the Mercenaries
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -102,7 +101,7 @@
     sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_merc.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
+  parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadZenithSeraZastup
   name: helmet 'Zastupnik'
   description: A combat helmet of the 'Zenit' brand, third-class protection, with stripes painted on it.
@@ -113,7 +112,7 @@
     sprite: _Stalker/Objects/Clothing/Head/Sera_/assault_helm_sera.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
+  parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadZenithLimaSeraZastup
   name: helmet 'Zastupnik'
   description: a combat helmet of the 'Zenit' brand, third protection class, gray in color with stripes on it.
@@ -124,7 +123,7 @@
     sprite: _Stalker/Objects/Clothing/Head/Sera_/assault_helm_serasera.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
+  parent: STOWClothingHeadHelmetT3PVPBase
   id: STOWClothingHeadAssaultHelmetZavet
   name: шлем «Зенит» Завета
   description: боевой шлем марки «Зенит» третьего класса защиты.
@@ -135,8 +134,8 @@
     sprite: _Stalker/Objects/Clothing/Head/Zavet.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3Freedom
+  parent: STOWClothingHeadHelmetT3PVPBase
+  id: STOWClothingHeadHelmetT3PVPFreedom
   name: Freedom Zenith Helmet
   description: A variation of the green Zenith helmet, modified for use by Freedom.
   components:
