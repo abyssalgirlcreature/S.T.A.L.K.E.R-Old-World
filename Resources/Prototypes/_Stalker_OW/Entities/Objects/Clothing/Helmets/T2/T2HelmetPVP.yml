@@ -150,7 +150,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT2Base
-  id: STOWClothingHeadHelmetFASTNeutral
+  id: STOWClothingHeadHelmetT2PVPNeutral
   name: Neutral Helmet ‘FAST’
   description: A repainted and slightly modified 'FAST' helmet by the neutral tinkerers.
   components:
