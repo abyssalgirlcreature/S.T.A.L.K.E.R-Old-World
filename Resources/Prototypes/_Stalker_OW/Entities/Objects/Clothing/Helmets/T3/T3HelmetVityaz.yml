@@ -48,8 +48,8 @@
     tag: BlockMask
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityaz1C
+  parent: STOWClothingHeadHelmetT3PVEBase
+  id: STOWClothingHeadHelmetT3PVEStalker
   name: helmet Vityaz 1S
   description: The Vityaz-S shockproof helmet was made at the Steel Research Institute. Development on the helmet started in the late 1980s. The helmet got a visor, even though it ended up being pretty bulky.
   components:
@@ -60,7 +60,7 @@
 
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
+  parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetVityaz1T
   name: helmet Vityaz 1C
   description: Shockproof helmet 'Vityaz 1C', modified by defectors
@@ -71,8 +71,8 @@
     sprite: _Stalker/Objects/Clothing/hats/Vityaz1T.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityaz1L
+  parent: STOWClothingHeadHelmetT3PVEBase
+  id: STOWClothingHeadHelmetT3PVERenegade
   name: helmet Vityaz 1L
   description: Shockproof helmet 'Vityaz 1C', modified by the Renegades.
   components:
@@ -82,8 +82,8 @@
     sprite: _Stalker/Objects/Clothing/hats/Vityaz1L.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityaz1B
+  parent: STOWClothingHeadHelmetT3PVEBase
+  id: STOWClothingHeadHelmetT3PVEBandit
   name: helmet Vityaz 1B
   description: The shockproof helmet 'Vityaz 1C', which has three stripes on it
   components:
@@ -93,7 +93,7 @@
     sprite: _Stalker/Objects/Clothing/hats/Vityaz1B.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
+  parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetVityaz1P
   name: helmet 'Chaplain'
   description: Shockproof helmet 'Vityaz 1C', modified by the Pilgrims.
@@ -104,8 +104,8 @@
     sprite: _Stalker/Objects/Clothing/hats/Kapelan.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityaz1M
+  parent: STOWClothingHeadHelmetT3PVEBase
+  id: STOWClothingHeadHelmetT3PVEDuty
   name: helmet 'Vityaz 1M' 'Duty'
   description: The Vityaz-M shockproof helmet was made at the Steel Research Institute. Development on the helmet started in the late 1980s. The helmet got a visor, even though it ended up being bulky.
   components:
@@ -115,7 +115,7 @@
     sprite: _Stalker/Objects/Clothing/hats/Vityaz1M.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
+  parent: STOWClothingHeadHelmetT3PVEBase
   id: STOWClothingHeadHelmetVityaz1Zavet
   name: Vityaz 1M helmet of Zaveta
   description: The Vityaz-M shockproof helmet was made at the Steel Research Institute. Development on the helmet started in the late 1980s. The helmet got a visor, even though it ended up being bulky.
@@ -126,8 +126,8 @@
     sprite: _Stalker/Objects/Clothing/hats/Vityaz1Z.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityazSkull1
+  parent: STOWClothingHeadHelmetT3PVEBase
+  id: STOWClothingHeadHelmetT3PVESkull1
   name: horned skull
   description: A horned animal skull with steel plates inside.
   components:
@@ -138,7 +138,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityazSkull2
+  id: STOWClothingHeadHelmetT3PVESkull2
   name: horned skull2
   description: A steel skull of a horned animal.
   components:
@@ -149,7 +149,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityazSkull4
+  id: STOWClothingHeadHelmetT3PVESkull3
   name: horned skull4
   description: A steel skull of a horned animal.
   components:
@@ -159,8 +159,8 @@
     sprite: _Stalker/Objects/Clothing/hats/VityazS4.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityazClearSky
+  parent: STOWClothingHeadHelmetT3PVEBase
+  id: STOWClothingHeadHelmetT3PVEClearSky
   name: Vityaz 1U 'Blue Camo' Helmet
   description: Vityaz 1C helmet modified with blue camo to match similar pieces of armor.
   components:
@@ -170,8 +170,8 @@
       sprite: _Stalker_EN/Objects/Clothing/hats/CS_vityaz.rsi
 
 - type: entity
-  parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityazKushch
+  parent: STOWClothingHeadHelmetT3PVEBase
+  id: STOWClothingHeadHelmetT3PVEFreedom
   name: Vityaz 1F 'Kushch' Helmet
   description: Vityaz 1C helmet modified by Freedom artisans, it smells like leaves and dirt.
   components:
