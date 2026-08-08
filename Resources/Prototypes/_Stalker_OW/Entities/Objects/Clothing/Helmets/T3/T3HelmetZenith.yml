@@ -24,7 +24,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadZenith
+  id: STOWClothingHeadHelmetPVPT3Stalker
   name: Zenith Helmet
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadZenithUN
+  id: STOWClothingHeadHelmetPVPT3UN
   name: UN Zenith Helmet
   description: Combat helmet of the Zenith brand, third protection class, in peacekeeper colors.
   suffix: STOW, UN, T3 # OW
@@ -58,7 +58,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingZenithHelmetMilitary
+  id: STOWClothingHeadHelmetPVPT3Military
   name: military helmet Zenith
   description: Combat helmet of the Zenith brand, third protection class, colored green.
   components:
@@ -70,7 +70,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadZenithBandit
+  id: STOWClothingHeadHelmetPVPT3Bandit
   name: bandit helmet Zenith
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -81,7 +81,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadZenithDuty
+  id: STOWClothingHeadHelmetPVPT3Duty
   name: Zenit helmet of Duty
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -92,7 +92,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadZenithMerc
+  id: STOWClothingHeadHelmetPVPT3Merc
   name: Zenith Helmet of the Mercenaries
   description: combat helmet of the Zenith brand, providing the third class of protection.
   components:
@@ -124,50 +124,6 @@
     sprite: _Stalker/Objects/Clothing/Head/Sera_/assault_helm_serasera.rsi
 
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
-  id: STOWClothingHeadArmorSkyWalkerHelm
-  name: Экзошлем "СФЕРА S-10"
-  description: Шлем предоставляющий неплохие боевые показатели, так же благодаря встроенному противогазу шлем может похвастаться довольно хорошей радиозащитой. По остальным характеристикам, в частности аномальным всё довольно плохо.
-  components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/skywalker_helmet.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/skywalker_helmet.rsi
-  - type: PointLight
-    color: red
-    enabled: false
-    radius: 6
-    energy: 2
-  - type: Craftable
-  - type: STWeight
-    self: 2.1
-  - type: Armor
-    armorClass: 3
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.85
-        Piercing: 0.70
-  - type: ExplosionResistance
-    damageCoefficient: 0.95
-  - type: Reflect
-    reflectProb: 0.15
-    spread: 360
-    reflects:
-      - NonEnergy
-    soundOnReflect: /Audio/_Stalker/Effects/sear.ogg
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-  - type: BreathMask
-  - type: IngestionBlocker
-  - type: IdentityBlocker
-  - type: Tag
-    tags:
-        - BlockMask
-
-- type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
   id: STOWClothingHeadAssaultHelmetZavet
   name: шлем «Зенит» Завета
@@ -188,40 +144,10 @@
       sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
     - type: Clothing
       sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
-      
-- type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base #Нужны спрайты под шлем с фонариком и без
-  id: STOWClothingHeadHelmetBulatMonolithClean
-  name: Cleaned Monolithian Sphere-12
-  description: A cleaned version of the monolithian sphere
-  components:
-    - type: Sprite
-      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
-    - type: Clothing
-      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
-    - type: IngestionBlocker
-    - type: IdentityBlocker
-      
-- type: entity
-  parent: STOWClothingHeadHelmetPVPT3Base #Нужны спрайты под шлем с фонариком и без
-  id: STOWClothingHeadHelmetBulatMonolith
-  name: Monolithian Sphere-12
-  description: It is a helmet from Beryl.
-  components:
-    - type: Sprite
-      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
-    - type: Clothing
-      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
-    - type: IngestionBlocker
-    - type: IdentityBlocker
-    - type: PersonalDamage
-      damage:
-        types:
-          Radiation: 18.01
         
 - type: entity 
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetZenithSkull3
+  id: STOWClothingHeadHelmetPVPT3Skull
   name: Horned Visage
   description: A horned animal's skull with steel plates inside.
   components:
@@ -229,3 +155,5 @@
       sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
+    - type: IngestionBlocker
+    - type: IdentityBlocker
