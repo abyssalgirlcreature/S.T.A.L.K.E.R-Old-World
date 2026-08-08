@@ -40,8 +40,8 @@
     priority: 5
     items:
       STClothingOuterArmorLightPlateVestBasePSZ7v3: 4
-      STOWClothingHeadHelmetBerill5MMilitary: 4
-      STOWClothingZenithHelmetMilitary: 4
+      STOWClothingHeadHelmetT3SphereMilitary: 4
+      STOWClothingHeadHelmetT3PVPMilitary: 4
       # late game
       #ClothingOuterArmor6B13: 12 # T4 PvP
       #ClothingHeadHelmetBulatMilitary: 20 # T4
@@ -181,10 +181,10 @@
       items:
         # Helmets #
         ClothingHeadHelmetSH68: 200 # T1 - PVP
-        STOWClothingHeadHelmetInfantryMilitary: 600 # T2 - PVP
-        STOWClothingZenithHelmetMilitary: 1200 # T3 - PVP
-        STOWClothingHeadHelmetBerill5MMilitary: 950 # T2 - PVP
-        STOWClothingHeadHelmetVityaz1C: 2000 # T3 - PVP
+        STOWClothingHeadHelmetT2PVPMilitary: 600 # T2 - PVP
+        STOWClothingHeadHelmetT3PVPMilitary: 1200 # T3 - PVP
+        STOWClothingHeadHelmetT3SphereMilitary: 950 # T2 - PVP
+        STOWClothingHeadHelmetT3PVEStalker: 2000 # T3 - PVE
         # OuterClothing #
         STClothingOuterArmorLightPlateVestBaseMilitary: 750 # T2 - PvP
         ClothingOuterArmor6B2: 1200 # T2 - PvP
