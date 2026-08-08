@@ -182,6 +182,7 @@
       damage:
         types:
           Radiation: 18.01
+          
 - type: entity
 parent: STOWClothingHeadHelmetT3SphereAltBase
 id: STOWClothingHeadHelmetT3SphereAltMonolithClean
