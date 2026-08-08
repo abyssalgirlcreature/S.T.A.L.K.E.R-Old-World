@@ -9,7 +9,8 @@
 
   - Nobody should be robbing Rookies of everything they have. If they have a green Rookie patch they're a new player with little to take, when engaging in antagonistic behavior with a Rookie take no more than one or two items from them. If they fight back they can be killed but shouldn't have all of their gear stripped.
   - When setting out to rob in lower tier areas like Cordon, expect to run into players who don't have much worth taking. Consider setting up checkpoints to charge a toll for passing, or seeking more creative ways of engaging with players in these areas.
-  - When robbing a player, if they actively resist or make it difficult (constantly breaking restraints, trying to run, being overly uncooperative), you may put them into a critical state. However, you should use meds to revive them. If you have to revive more than twice, you are allowed to kill them — in this case, AHELPing problem behavior is encouraged. Resistance breaches the rules for Roleplay Standards, Fear Roleplay, and Suicide when captured.
+  - When robbing a player, if they actively resist or make it difficult (constantly breaking restraints, trying to run, being overly uncooperative), you may put them into a critical state. However, you should use meds to revive them. If you have to revive more than once, you are allowed to kill them — in this case, AHELPing problem behavior is encouraged. Resistance breaches the rules for Roleplay Standards, Fear Roleplay, and Suicide when captured.
+    - Anyone clearly attempting to avoid a robbery when given clear indication a robbery is being attempted (yelling, pointing, etc) may be considered resisting.
   - Anyone being robbed should at least be left with enough gear to reach a safe zone without dying to mutants on the way back.
   - Robbers should NOT be using 'say' binds to rob people. You need to clearly type out that you are robbing said person. No Gmod "Drop 5k or die" binds.
   - No robbing or looting should take place in a [color=#008000]Green Zone[/color]. This includes SSD players and corpses unless permission has been explicitly given by the owner of the body.
@@ -18,12 +19,23 @@
   - You are allowed to loot dead people outside of [color=#008000]Green Zones[/color] if the body has rotted, but you are not allowed to watch someone die and then proceed to loot them. Given the opportunity, you should attempt to rescue them unless the situation is too dangerous to handle (e.g., heavily irradiated area, anomaly field with no protection, horde of dangerous mutants).
   - The robber factions ([textlink="Bandits" link="RuleF1"], [textlink="Renegades" link="RuleF2"]) may always steal from corpses they find outside of a [color=#008000]Green Zone[/color]
   - Corpses may always be looted inside of [color=#FF0000]Red[/color] or [color=#000000]Black[/color] Zones by anyone
+  
+  ## Robbery Limits
+  - Anyone not at war with the robbing faction must be given a chance to comply with the robbery and pay a fine depending on their approximate carried value. This value should never exceed approximately 8,000 roubles and may be paid with in part or wholly with carried goods instead of cash.
+    - This amount may be increased via ahelp at the discretion of administration for particularly dangerous areas.
+  - If someone agrees to pay the fine they should be left alone for at least approximately one in game day.
+  - Tolls can be set up within an area by the robber factions and announced over public PDA messages. 
+    - If a toll is announced anyone who does not tell a member of the robbing factions where they can be found to pay the toll within the area can be considered avoiding the toll and have a value of double the toll amount taken in either cash or gear from them should they comply when found. 
+    - Someone should not be considered resisting for walking down the main roads but may be considered resisting for the previous reasons if found out of normal sight of the main roads.
+    - Robbing factions may ask for increased toll amounts for longer term protection within the given area up to 3x the toll amount for the remainder of the present server reset (or IC "week").
+  - Anyone who violently resists a robbery waives all protections
 
-  ## Faction Gear
+  ## Ransoming
+  Any robber faction may attempt to ransom someone they are not allied with and any other faction may do so for factions they are [color=##FFA500]hostile[/color] or at [color=#FF0000]war[/color] with following the rules below.
+  - If someone is to be ransomed they are not to have any gear taken from them except meds needed to revive them and up to half of their carried ammunition. 
+  - A good faith attempt must be made at a ransom if one is offered though the situation may escalate through RP
+  - The ransom amount should not exceed approximately half the value of carried items, or two-thirds in the case of leads or co-leads of a faction.
 
-  Anyone caught wearing faction gear can be escalated against by warring factions using [textlink="gray zone rules" link="RuleC6Stalker"].
-
-  Anyone can KOS a person wearing Monolith gear (excluding weapons) outside of green and gray zones.
 
   ## Who Can Rob
 
