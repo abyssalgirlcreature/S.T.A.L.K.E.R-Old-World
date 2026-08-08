@@ -194,3 +194,13 @@ components:
     sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
+
+- type: entity 
+  parent: STOWClothingHeadHelmetT3SphereAltBase
+  id: STOWClothingHeadHelmetT3SphereAltSkull
+  name: Horned Visage
+  description: A horned animal's skull with steel plates and a gas mask inside.
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
+
