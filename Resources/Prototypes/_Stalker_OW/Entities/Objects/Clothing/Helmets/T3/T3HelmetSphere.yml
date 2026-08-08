@@ -116,7 +116,7 @@
     sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_dolg.rsi
 
 - type: entity
-  parent: STClothingHeadHelmetEnvironmentT3Base
+  parent: STOWClothingHeadHelmetT3SphereBase
   id: STOWClothingHeadHelmetT3SphereFreedom
   name: Helmet 'Native'
   description: This model is a modification of the Sphere-08 army helmet, for the Freedom group. It provides class 3 protection, able to withstand blunt impacts, shrapnel, and to some extent, class 1 and 2 penetration bullets. A reliable helmet at a decent price.
