@@ -206,7 +206,7 @@
       priority: 6
       items:
           # Helmets #
-        STOWClothingHeadHelmetT2PVPFreedom: 600 # T2 - PVP
+        STOWClothingHeadHelmetT2PVPStalker: 600 # T2 - PVP
         STOWClothingHeadHelmetT3SphereFreedom: 3000 # T3
         STOWClothingHeadHelmetT3PVEFreedom: 3000 # T3
         STOWClothingHeadHelmetT3PVPFreedom: 3000 # T3
