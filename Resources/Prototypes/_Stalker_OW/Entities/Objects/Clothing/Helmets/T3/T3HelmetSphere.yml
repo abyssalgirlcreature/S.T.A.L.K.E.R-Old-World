@@ -136,7 +136,7 @@
         types:
           Radiation: 0
 
- - type: entity
+- type: entity
   parent: STOWClothingHeadHelmetT3SphereBase
   id: STOWClothingHeadHelmetT3SphereAltBase
   components:
