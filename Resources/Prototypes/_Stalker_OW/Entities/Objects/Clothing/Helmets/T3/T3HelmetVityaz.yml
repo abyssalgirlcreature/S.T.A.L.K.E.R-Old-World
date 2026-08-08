@@ -182,7 +182,7 @@
       
 - type: entity
   parent: STOWClothingHeadHelmetVityazT3Base
-  id: STOWClothingHeadHelmetVityaz1Merc
+  id: STOWClothingHeadHelmetT3PVEMerc
   name: Vityaz 1S 'Mercenary' Helmet
   description: Vityaz 1C helmet modified by a certain mercenary company.
   components:
