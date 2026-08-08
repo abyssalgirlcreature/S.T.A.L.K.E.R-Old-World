@@ -247,9 +247,9 @@
     items:
       # Helmets #
       ClothingHeadHelmetSH6Renegate: 200 # T1
-      STOWClothingHeadHelmetPVPT2Renegade: 600 # T2 - PVP
-      STOWClothingHeadHelmetPVET3Renegade: 3000 # T3 - PVE
-      STOWClothingHeadHelmetPVPT3Renegade: 3500 # T3 - PVP
+      STOWClothingHeadHelmetT2PVPRenegade: 600 # T2 - PVP
+      STOWClothingHeadHelmetT3PVERenegade: 3000 # T3 - PVE
+      STOWClothingHeadHelmetT3PVPRenegade: 3500 # T3 - PVP
       # OuterClothing #
       ClothingJaketRealHuman: 60 # T1 - PVE
       # ST:OW - Begin
@@ -548,7 +548,7 @@
       # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 38
       # head
-      STOWClothingHeadHelmetZenithSkull3: 16 # T3 Zenith
-      STOWClothingMaskRenegate:  18 # T3 Vityaz
+      STOWClothingHeadHelmetT3SphereAltSkull: 16 # T3 Zenith
+      STOWClothingHeadHelmetT3PVEMaskRenegade:  18 # T3 Vityaz
       # misc
       ClothingNeckToothNecklace: 1
