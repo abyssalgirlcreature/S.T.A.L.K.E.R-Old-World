@@ -136,7 +136,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadZenithFreedom
+  id: STOWClothingHeadHelmetPVPT3Freedom
   name: Freedom Zenith Helmet
   description: A variation of the green Zenith helmet, modified for use by Freedom.
   components:
@@ -144,15 +144,6 @@
       sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
     - type: Clothing
       sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
-        
-- type: entity 
-  parent: STOWClothingHeadHelmetPVPT3Base
-  id: STOWClothingHeadHelmetPVPT3Skull
-  name: Horned Visage
-  description: A horned animal's skull with steel plates inside.
-  components:
-    - type: Sprite
-      sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
     - type: IngestionBlocker
