@@ -68,7 +68,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT2Base
-  id: STOWClothingHeadInfantryHelmetUN
+  id: STOWClothingHeadHelmetT2PVPUN
   name: Helmet 'West'
   description: Infantry helmet 'Vostok', repainted in blue.
   suffix: STOW, UN, T2 # EN
