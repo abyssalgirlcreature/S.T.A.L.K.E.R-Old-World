@@ -46,7 +46,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT2Base
-  id: STOWClothingHeadInfantryHelmetRenegate
+  id: STOWClothingHeadHelmetT2PVPRenegade
   name: The 'Vostok' Helmet Modified for Renegades
   description: A standard infantry helmet, repainted in the colors of a renegade, with some minor modifications.
   components:
