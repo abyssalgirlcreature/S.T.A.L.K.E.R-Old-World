@@ -161,7 +161,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT2Base
-  id: STOWClothingHeadHelmetInfantryMilitary
+  id: STOWClothingHeadHelmetT2PVPMilitary
   name: Military Helmet «East»
   description: «East» brand helmet with II level protection, manufacturer is unknown. Now in army colours.
   components:
