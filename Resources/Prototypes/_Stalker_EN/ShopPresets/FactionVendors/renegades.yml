@@ -247,9 +247,9 @@
     items:
       # Helmets #
       ClothingHeadHelmetSH6Renegate: 200 # T1
-      ClothingHeadInfantryHelmetRenegate: 600 # T2 - PVP
-      ClothingHeadHelmetVityaz1L: 3000 # T3 - PVE
-      ClothingHeadAssaultHelmet: 3500 # T3 - PVP
+      STOWClothingHeadInfantryHelmetRenegate: 600 # T2 - PVP
+      STOWClothingHeadHelmetVityaz1L: 3000 # T3 - PVE
+      STOWClothingHeadZenith: 3500 # T3 - PVP
       # OuterClothing #
       ClothingJaketRealHuman: 60 # T1 - PVE
       # ST:OW - Begin
@@ -548,7 +548,7 @@
       # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 38
       # head
-      ClothingHeadHelmetVityazSkull3: 16 # this is a vityaz, youre paying a drip tax
-      ClothingMaskRenegate:  18 # T3 zenith but with flat 1 rad resist
+      STOWClothingHeadHelmetZenithSkull3: 16 # this is a vityaz, youre paying a drip tax
+      STOWClothingMaskRenegate:  18 # T3 zenith but with flat 1 rad resist
       # misc
       ClothingNeckToothNecklace: 1

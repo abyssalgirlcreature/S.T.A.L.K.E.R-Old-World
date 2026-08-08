@@ -297,9 +297,9 @@
     items:
       # Helmets #
       ClothingHeadHelmetSH68ClearSky: 300 # T1 - PVP
-      ClothingHeadHelmetInfantry: 875 # T2 - PVP
-      ClothingHeadHelmetSphereClearSky: 3250 # T3 - PVP
-      ClothingHeadHelmetVityazClearSky: 3000 # T3 - PVE
+      STOWClothingHeadHelmetInfantry: 875 # T2 - PVP
+      STOWClothingHeadHelmetSphereClearSky: 3250 # T3 - PVP
+      STOWClothingHeadHelmetVityazClearSky: 3000 # T3 - PVE
 
       # OuterClothing #
       ClothingOuterJacketCN: 60 # T1 - PVE

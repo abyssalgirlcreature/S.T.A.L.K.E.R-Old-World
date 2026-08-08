@@ -1,4 +1,4 @@
-- type: entity
+- type: entity # Nuking to remove from Econ. Undo after wipe.
   abstract: true
   parent: STClothingHeadBase
   id: STClothingHeadHelmetEnvironmentT3Base
@@ -8,22 +8,6 @@
   - type: Craftable
   - type: STWeight
     self: 2.1
-  - type: Armor
-    armorClass: 3
-    modifiers:
-      coefficients:
-        Blunt: 0.75
-        Slash: 0.80
-        Piercing: 0.85
-        Psy:   0.90
-  - type: ExplosionResistance
-    damageCoefficient: 0.90
-  - type: Reflect
-    reflectProb: 0.08
-    spread: 360
-    reflects:
-      - NonEnergy
-    soundOnReflect: /Audio/_Stalker/Effects/sear.ogg
   - type: HideLayerClothing
     slots:
     - Hair

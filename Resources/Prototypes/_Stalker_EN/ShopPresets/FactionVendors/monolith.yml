@@ -209,8 +209,8 @@
     priority: 3
     items:
       ClothingOuterArmorSevaMonolithPriest: 15
-      ClothingHeadHelmetBerill5MMonolith: 8
-      ClothingHeadHelmetBulatMonolith: 10
+      STOWClothingHeadHelmetBerill5MMonolith: 8
+      STOWClothingHeadHelmetBulatMonolith: 10
       ClothingOuterArmorBerill5MMonolith: 50 # OW we added it back 
 
   - name: shop-category-grenades

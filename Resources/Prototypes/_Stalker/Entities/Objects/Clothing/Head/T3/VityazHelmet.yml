@@ -1,4 +1,4 @@
-- type: entity
+- type: entity # Nuking to remove from Econ. Undo after wipe.
   abstract: true
   parent: STClothingHeadBase
   id: STClothingHeadHelmetTacticalT3Base
@@ -13,32 +13,10 @@
       - BlockMask
   - type: STWeight
     self: 4
-  - type: Armor
-    armorClass: 3
-    modifiers:
-      coefficients:
-        Blunt: 0.75
-        Slash: 0.75
-        Piercing: 0.80
-  - type: ExplosionResistance
-    damageCoefficient: 0.5
-  - type: Reflect
-    reflectProb: 0.10
-    spread: 360
-    reflects:
-      - NonEnergy
-    soundOnReflect: /Audio/_Stalker/Effects/sear.ogg
   - type: HelmetVisor
     toggleAction: ActionToggleHelmetVisor
     equippedPrefixUp: visor-up
     iconStateUp: icon-visor-up
-    visorUpReflectProb: 0.09
-    visorUpModifiers:
-      coefficients:
-        Blunt: 0.80
-        Slash: 0.80
-        Piercing: 0.85
-    isToggleable: true
   - type: HideLayerClothing
     slots:
     - Hair

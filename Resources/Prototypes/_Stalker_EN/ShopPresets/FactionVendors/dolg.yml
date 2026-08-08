@@ -162,10 +162,10 @@
       items:
           # Helmets #
         ClothingHeadHelmetDolg: 200 # T1 - PVE
-        ClothingHeadHelmetInfantryDolg: 750 # T2 - PVP
-        ClothingHeadHelmetBerill5MDolg: 2500 #T3
-        ClothingHeadHelmetVityaz1M: 3000 #T3
-        ClothingHeadAssaultHelmetDolg: 3500 #T3
+        STOWClothingHeadHelmetInfantryDuty: 750 # T2 - PVP
+        STOWClothingHeadHelmetBerill5MDuty: 2500 #T3
+        STOWClothingHeadHelmetVityaz1M: 3000 #T3
+        STOWClothingHeadZenithDuty: 3500 #T3
           # OuterClothing #
         ClothingOuterJacketDolg: 60 # T1 - PVE
         #STClothingOuterArmorLightPlateVestBaseDolg: 2000 # ST:OW

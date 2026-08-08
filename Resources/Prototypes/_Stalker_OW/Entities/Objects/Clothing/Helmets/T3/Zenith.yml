@@ -1,0 +1,231 @@
+- type: entity
+  abstract: true
+  parent: STClothingHeadBase # Can replace with our own parent later to disconnect from RU prototypes.
+  id: STOWClothingHeadHelmetPVPT3Base
+  name: PVP helmet base T3
+  suffix: STOW, T3, PVP
+  components:
+  - type: Craftable
+  - type: STWeight
+    self: 2.1 
+  - type: Armor # Blunt -20%, Slash -15%, Pierce -25%
+    armorClass: 3
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.85
+        Piercing: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.95 # Removed Reflect, added 5% Pierce resist.
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - HeadTop
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenith
+  name: Zenith Helmet
+  description: combat helmet of the Zenith brand, providing the third class of protection.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithUN
+  name: UN Zenith Helmet
+  description: Combat helmet of the Zenith brand, third protection class, in peacekeeper colors.
+  suffix: STOW, UN, T3 # OW
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/un_head.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/un_head.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithDeserter
+  name: Helmet Zenith-L
+  description: A Zenith helmet that completely covers the wearer's head except for the face, the goggles are welded to the helmet, do not try to remove them!
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/helm_legat_deserter.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/helm_legat_deserter.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingZenithHelmetMilitary
+  name: military helmet Zenith
+  description: Combat helmet of the Zenith brand, third protection class, colored green.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_military.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_military.rsi
+  - type: Craftable
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithBandit
+  name: bandit helmet Zenith
+  description: combat helmet of the Zenith brand, providing the third class of protection.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_bandit.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_bandit.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithDuty
+  name: Zenit helmet of Duty
+  description: combat helmet of the Zenith brand, providing the third class of protection.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_dolg.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_dolg.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithMerc
+  name: Zenith Helmet of the Mercenaries
+  description: combat helmet of the Zenith brand, providing the third class of protection.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_merc.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_merc.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithSeraZastup
+  name: helmet 'Zastupnik'
+  description: A combat helmet of the 'Zenit' brand, third-class protection, with stripes painted on it.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/Head/Sera_/assault_helm_sera.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/Head/Sera_/assault_helm_sera.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithLimaSeraZastup
+  name: helmet 'Zastupnik'
+  description: a combat helmet of the 'Zenit' brand, third protection class, gray in color with stripes on it.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/Head/Sera_/assault_helm_serasera.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/Head/Sera_/assault_helm_serasera.rsi
+
+- type: entity
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  id: STOWClothingHeadArmorSkyWalkerHelm
+  name: Экзошлем "СФЕРА S-10"
+  description: Шлем предоставляющий неплохие боевые показатели, так же благодаря встроенному противогазу шлем может похвастаться довольно хорошей радиозащитой. По остальным характеристикам, в частности аномальным всё довольно плохо.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/skywalker_helmet.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/skywalker_helmet.rsi
+  - type: PointLight
+    color: red
+    enabled: false
+    radius: 6
+    energy: 2
+  - type: Craftable
+  - type: STWeight
+    self: 2.1
+  - type: Armor
+    armorClass: 3
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.85
+        Piercing: 0.70
+  - type: ExplosionResistance
+    damageCoefficient: 0.95
+  - type: Reflect
+    reflectProb: 0.15
+    spread: 360
+    reflects:
+      - NonEnergy
+    soundOnReflect: /Audio/_Stalker/Effects/sear.ogg
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+        - BlockMask
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadAssaultHelmetZavet
+  name: шлем «Зенит» Завета
+  description: боевой шлем марки «Зенит» третьего класса защиты.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/Head/Zavet.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/Head/Zavet.rsi
+
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadZenithFreedom
+  name: Freedom Zenith Helmet
+  description: A variation of the green Zenith helmet, modified for use by Freedom.
+  components:
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
+    - type: Clothing
+      sprite: _Stalker_EN/Objects/Clothing/hats/assault_helm_freedom.rsi
+      
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base #Нужны спрайты под шлем с фонариком и без
+  id: STOWClothingHeadHelmetBulatMonolithClean
+  name: Cleaned Monolithian Sphere-12
+  description: A cleaned version of the monolithian sphere
+  components:
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
+    - type: Clothing
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
+    - type: IngestionBlocker
+    - type: IdentityBlocker
+      
+- type: entity
+  parent: STOWClothingHeadHelmetPVPT3Base #Нужны спрайты под шлем с фонариком и без
+  id: STOWClothingHeadHelmetBulatMonolith
+  name: Monolithian Sphere-12
+  description: It is a helmet from Beryl.
+  components:
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
+    - type: Clothing
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
+    - type: IngestionBlocker
+    - type: IdentityBlocker
+    - type: PersonalDamage
+      damage:
+        types:
+          Radiation: 18.01
+        
+- type: entity 
+  parent: STOWClothingHeadHelmetPVPT3Base
+  id: STOWClothingHeadHelmetZenithSkull3
+  name: Horned Visage
+  description: A horned animal's skull with steel plates inside.
+  components:
+    - type: Sprite
+      sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi
+    - type: Clothing
+      sprite: _Stalker/Objects/Clothing/hats/VityazS3.rsi

@@ -1,0 +1,165 @@
+- type: entity
+  abstract: true
+  parent: STClothingHeadBase
+  id: STOWClothingHeadHelmetEnvironmentT3Base # Temporary transfer to Zenith stats. Can work out a different Niche later
+  name: PVP protection helmet base T3
+  suffix: STOW, T3, PVP
+  components:
+  - type: Craftable
+  - type: STWeight
+    self: 2.1
+  - type: Armor
+    armorClass: 3
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.85
+        Piercing: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.95
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - HeadTop
+
+- type: entity
+  parent: STOWClothingHeadHelmetEnvironmentT3Base
+  id: STOWClothingHeadHelmetBerill5MMilitary
+  name: helmet 'Sphere-08'
+  description: A helmet for lucky soldiers and veterans, designed to protect against stabbing attacks. It’s a helmet from the 'Beryl-5M' series.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_military.rsi
+    layers:
+    - state: icon
+    - state: light-icon
+      shader: unshaded
+      visible: false
+      map: [ "light" ]
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_military.rsi
+    equippedPrefix: off
+  - type: Item
+    heldPrefix: off
+  - type: ItemTogglePointLight
+  - type: PointLight
+    enabled: false
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    radius: 8
+    netsync: false
+  - type: Appearance
+  - type: HandheldLight
+    addPrefix: false
+    blinkingBehaviourId: blinking
+    radiatingBehaviourId: radiating
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: radiating
+        interpolate: Linear
+        maxDuration: 2.0
+        startValue: 3.0
+        endValue: 2.0
+        isLooped: true
+        reverseWhenFinished: true
+      - !type:PulseBehaviour
+        id: blinking
+        interpolate: Nearest
+        maxDuration: 1.0
+        startValue: 0.1
+        endValue: 2.0
+        isLooped: true
+  - type: ToggleableVisuals
+    spriteLayer: light
+    clothingVisuals:
+      head:
+      - state: on-equipped-HELMET
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellHyper
+  - type: Craftable
+
+- type: entity
+  parent: STOWClothingHeadHelmetEnvironmentT3Base # stalker OW change
+  id: STOWClothingHeadHelmetBerill5MMonolith
+  name: the Sphere-08 monolith helmet
+  description: The helmet of those very fanatics, designed to protect against stabbing attacks. It's a helmet from the 'Beryl-5M'. Armor class - 3.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_monolith.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_monolith.rsi
+  - type: Contraband # EN
+    severity: Monolith
+  - type: PersonalDamage
+    damage:
+      types:
+        Radiation: 18.01
+
+- type: entity
+  parent: STOWClothingHeadHelmetEnvironmentT3Base
+  id: STOWClothingHeadHelmetBerill5MDuty
+  name: The Sphere-08 Helmet
+  description: This model is a modification of the Sphere-08 army helmet, made for the Duty faction. It provides Class 3 protection, capable of withstanding blunt impacts, shrapnel, and, to some extent, bullets of penetration classes 1 and 2. A reliable helmet at a fair price.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_dolg.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_dolg.rsi
+
+- type: entity
+  parent: STClothingHeadHelmetEnvironmentT3Base
+  id: STOWClothingHeadHelmetAborigine
+  name: Helmet 'Native'
+  description: This model is a modification of the Sphere-08 army helmet, for the Freedom group. It provides class 3 protection, able to withstand blunt impacts, shrapnel, and to some extent, class 1 and 2 penetration bullets. A reliable helmet at a decent price.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_svoboda.rsi # Stalker EN change - gave it a new sprite and made it obtainable.
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/berill5m_helm_svoboda.rsi # Stalker EN change - gave it a new sprite and made it obtainable.
+
+- type: entity
+  parent: STOWClothingHeadHelmetBerill5MMonolith
+  id: STOWClothingHeadHelmetBerill5MMonolithClean
+  name: Sphere-08 helmet
+  description: Sphere-08 helmet used by Monolith cultists. Lighter than other Class 3 helmets, it trades some ballistic protection for limited psi-shielding, which is unfortunately lost on its fanatical users. A strip of tape around the helmet indicated that it's been chemically cleaned and is safe to handle.
+  components:
+    - type: PersonalDamage
+      damage:
+        types:
+          Radiation: 0
+          
+- type: entity
+  parent: STOWClothingHeadHelmetEnvironmentT3Base
+  id: STOWClothingHeadHelmetSphereClearSky
+  name: ChS-08 Sphere Helmet
+  description: Specialized helmet in blue camo, it's made with working deep in the zone in mind.
+  components:
+    - type: Armor
+      armorClass: 3
+      modifiers:
+        coefficients:
+          Blunt: 0.70
+          Slash: 0.70
+          Piercing: 0.90
+          Psy: 0.85
+          Radiation: 0.70
+    - type: BreathMask
+    - type: IngestionBlocker
+    - type: IdentityBlocker
+    - type: Tag
+      tags:
+        - BlockMask
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/Clothing/hats/CS_sphere.rsi
+    - type: Clothing
+      sprite: _Stalker_EN/Objects/Clothing/hats/CS_sphere.rsi
+

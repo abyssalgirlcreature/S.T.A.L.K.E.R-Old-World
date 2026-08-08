@@ -298,7 +298,7 @@
       items:
           # Helmets #
         ClothingHeadHelmetLight: 300 # T1 - uni
-        ClothingHeadHelmetInfantry: 800 # T2 - uni
+        STOWClothingHeadHelmetInfantry: 800 # T2 - PvP
         ClothingHeadHelmetSH68: 250 # T1 - PVP:
           # OuterClothing #
         SetJacketNoviceWhiteBuyableCrate: 100 # T1 - uni

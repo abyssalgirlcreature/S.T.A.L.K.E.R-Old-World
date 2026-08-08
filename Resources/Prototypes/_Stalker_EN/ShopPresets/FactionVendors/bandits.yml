@@ -313,8 +313,8 @@
           # Helmets #
         ClothingHeadHelmetLight: 200 # T1 - PVE
         ClothingHeadHelmetInfantryBand: 400 # T2 - PVP
-        ClothingHeadHelmetVityaz1B: 2250 # T3 - PVE
-        ClothingHeadAssaultHelmetBandit: 2000 # T3 - PVP
+        STOWClothingHeadHelmetVityaz1B: 2250 # T3 - PVE
+        STOWClothingHeadZenithBandit: 2000 # T3 - PVP
           # OuterClothing #
         ClothingOuterCoatBanditBrown: 400 # T1 - uni
         ClothingOuterCoatBanditBlack: 400 # T1 - uni

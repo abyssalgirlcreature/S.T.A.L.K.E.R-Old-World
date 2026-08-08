@@ -1,0 +1,43 @@
+- type: entity
+  parent: STClothingHeadBase
+  id: STOWClothingHeadHelmetMakeshiftTacticalT2
+  name: Cyclops Helmet
+  description: A cheap helmet with an equally cheap visor attached to the helmet in an extremely cheap way.
+  suffix: STOW, T2, Tactical
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
+  - type: Craftable
+  - type: Tag
+    tags:
+      - BlockMask
+  - type: STWeight
+    self: 3.1
+  - type: Armor
+    armorClass: 2
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.90
+  - type: ExplosionResistance
+    damageCoefficient: 0.95
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - HeadTop
+
+# Jabs - 1
+
+- type: entity
+  parent: STOWClothingHeadHelmetMakeshiftTacticalT2
+  id: STOWClothingHeadHelmetMakeshiftTacticalT2Jabs
+  name: Helmet of Frogs "Cyclops"
+  description: A handmade helmet made of quality materials, it might not look the most attractive, but it protects well.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/makeshift_helmet_jabs.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/makeshift_helmet_jabs.rsi
