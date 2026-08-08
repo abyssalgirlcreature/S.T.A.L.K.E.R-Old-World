@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   parent: STClothingHeadBase # Can replace with our own parent later to disconnect from RU prototypes.
-  id: STOWClothingHeadHelmetVityazT3Base
+  id: STOWClothingHeadHelmetT3PVEBase
   name: Vityaz Tactical Helmet
   suffix: STOW, T3, Tactical
   components:
