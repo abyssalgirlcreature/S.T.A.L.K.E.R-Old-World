@@ -117,7 +117,7 @@
 
 - type: entity
   parent: STClothingHeadHelmetEnvironmentT3Base
-  id: STOWClothingHeadHelmetAborigine
+  id: STOWClothingHeadHelmetT3SphereFreedom
   name: Helmet 'Native'
   description: This model is a modification of the Sphere-08 army helmet, for the Freedom group. It provides class 3 protection, able to withstand blunt impacts, shrapnel, and to some extent, class 1 and 2 penetration bullets. A reliable helmet at a decent price.
   components:
