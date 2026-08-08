@@ -2,7 +2,6 @@
   abstract: true
   parent: STClothingHeadBase
   id: STOWClothingHeadHelmetT3SphereBase # Temporary transfer to Zenith stats. Can work out a different Niche later
-  name: PVP protection helmet base T3
   suffix: STOW, T3, PVP
   components:
   - type: Craftable
@@ -136,30 +135,62 @@
       damage:
         types:
           Radiation: 0
-          
-- type: entity
+
+ - type: entity
   parent: STOWClothingHeadHelmetT3SphereBase
-  id: STOWClothingHeadHelmetT3SphereClearSky
-  name: ChS-08 Sphere Helmet
-  description: Specialized helmet in blue camo, it's made with working deep in the zone in mind.
+  id: STOWClothingHeadHelmetT3SphereAltBase
   components:
-    - type: Armor
+  - type: Armor # +5% blunt/slash, T3 gas mask protection. Blocks mouth slot.
       armorClass: 3
       modifiers:
         coefficients:
-          Blunt: 0.70
-          Slash: 0.70
-          Piercing: 0.90
-          Psy: 0.85
-          Radiation: 0.70
-    - type: BreathMask
-    - type: IngestionBlocker
-    - type: IdentityBlocker
-    - type: Tag
+          Blunt: 0.75
+          Slash: 0.80
+        flatReductions:
+          Radiation: 6
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: BreathMask
+  - type: Tag
       tags:
         - BlockMask
+
+- type: entity
+  parent: STOWClothingHeadHelmetT3SphereAltBase
+  id: STOWClothingHeadHelmetT3SphereAltClearSky
+  name: ChS-12 Sphere Helmet
+  description: Specialized helmet in blue camo, it's made with working deep in the zone in mind.
+  components:
     - type: Sprite
       sprite: _Stalker_EN/Objects/Clothing/hats/CS_sphere.rsi
     - type: Clothing
       sprite: _Stalker_EN/Objects/Clothing/hats/CS_sphere.rsi
-
+      
+- type: entity
+  parent: STOWClothingHeadHelmetT3SphereAltBase
+  id: STOWClothingHeadHelmetT3SphereAltMonolith
+  name: Monolithian Sphere-12
+  description: It is a helmet from Beryl.
+  components:
+    - type: Armor # Irradiated gas mask is useless.
+      armorClass: 3
+      modifiers:
+          Radiation: 0
+    - type: Sprite
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
+    - type: Clothing
+      sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
+    - type: PersonalDamage
+      damage:
+        types:
+          Radiation: 18.01
+- type: entity
+parent: STOWClothingHeadHelmetT3SphereAltBase
+id: STOWClothingHeadHelmetT3SphereAltMonolithClean
+name: Cleaned Monolithian Sphere-12
+description: A cleaned version of the monolithian sphere
+components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi
