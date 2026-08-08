@@ -151,9 +151,7 @@
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: BreathMask
-  - type: Tag
-      tags:
-        - BlockMask
+    tag: BlockMask
 
 - type: entity
   parent: STOWClothingHeadHelmetT3SphereAltBase
