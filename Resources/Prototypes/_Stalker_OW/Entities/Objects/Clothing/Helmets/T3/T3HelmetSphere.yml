@@ -105,7 +105,7 @@
         Radiation: 18.01
 
 - type: entity
-  parent: STOWClothingHeadHelmetEnvironmentT3Base
+  parent: STOWClothingHeadHelmetT3SphereBase
   id: STOWClothingHeadHelmetT3SphereDuty
   name: The Sphere-08 Helmet
   description: This model is a modification of the Sphere-08 army helmet, made for the Duty faction. It provides Class 3 protection, capable of withstanding blunt impacts, shrapnel, and, to some extent, bullets of penetration classes 1 and 2. A reliable helmet at a fair price.
