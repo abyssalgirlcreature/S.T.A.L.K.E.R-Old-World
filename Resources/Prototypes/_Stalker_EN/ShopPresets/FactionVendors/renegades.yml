@@ -548,7 +548,7 @@
       # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 38
       # head
-      STOWClothingHeadHelmetZenithSkull3: 16 # this is a vityaz, youre paying a drip tax
-      STOWClothingMaskRenegate:  18 # T3 zenith but with flat 1 rad resist
+      STOWClothingHeadHelmetZenithSkull3: 16 # T3 Zenith
+      STOWClothingMaskRenegate:  18 # T3 Vityaz
       # misc
       ClothingNeckToothNecklace: 1
