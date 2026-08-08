@@ -35,7 +35,7 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetPVPT2Base
-  id: STOWClothingHeadHelmetInfantryBand
+  id: STOWClothingHeadHelmetT2PVPBandit
   name: Gangster 'East'
   description: The infantry helmet 'Vostok' with stripes on it, like Adidas, is revered by gang formations.
   components:
