@@ -210,9 +210,11 @@
         ClothingCloakShortCoverBlack: 1000
         ClothingOuterCoatDoshdevik: 100 # T1
         ClothingOuterCoatStalker: 1000
+        # ST:OW - Begin (Gave all ponchos SEVA chainmail stats)
         ClothingOuterCoatDutyCOPoncho: 2500 # T2
         ClothingOuterCoatDutyNCOPoncho: 2500 # T2
         ClothingOuterCoatDutyPVTPoncho: 2500 # T2
+        # ST:OW - END 
         ClothingOuterCoatDutyScoutPoncho: 2500 # T2
         ClothingOuterCoatLoyalistLight: 2500
         ClothingOuterCoatLoyalist: 3000

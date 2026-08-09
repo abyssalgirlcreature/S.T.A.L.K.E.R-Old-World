@@ -146,6 +146,7 @@
   components:
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/neutral_poncho.rsi
+  ## ST:OW - End
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/neutral_poncho.rsi
   - type: ToggleableClothing
@@ -173,6 +174,8 @@
     - HeadTop
     - FacialHair
 
+# ST:OW - Begin (Gave all ponchos SEVA chainmail stats)
+
 - type: entity
   parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatDutyCOPoncho
@@ -186,6 +189,8 @@
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_co_poncho.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatDutyPoncho
+
+# ST:OW - END
 
 - type: entity
   parent: ClothingOuterCoatDutyCOPoncho
@@ -250,4 +255,3 @@
     sprite: _Stalker_EN/Objects/Clothing/cloak/Scout_Duty_Cloak.rsi
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/Scout_Duty_Cloak.rsi
-# ST:OW - End
