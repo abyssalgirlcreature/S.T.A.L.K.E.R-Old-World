@@ -40,8 +40,8 @@
     priority: 5
     items:
       STClothingOuterArmorLightPlateVestBasePSZ7v3: 4
-      STOWClothingHeadHelmetT3SphereMilitary: 4
-      STOWClothingHeadHelmetT3PVPMilitary: 4
+      STOWClothingHeadHelmetT3PVPAltMilitary: 4 # OW - Changed ID
+    # STOWClothingHeadHelmetT3PVPMilitary: 4 - Removed in favor of the Sphere
       # late game
       #ClothingOuterArmor6B13: 12 # T4 PvP
       #ClothingHeadHelmetBulatMilitary: 20 # T4
@@ -182,8 +182,8 @@
         # Helmets #
         ClothingHeadHelmetSH68: 200 # T1 - PVP
         STOWClothingHeadHelmetT2PVPMilitary: 600 # T2 - PVP
-        STOWClothingHeadHelmetT3PVPMilitary: 1200 # T3 - PVP
-        STOWClothingHeadHelmetT3SphereMilitary: 950 # T2 - PVP
+      # STOWClothingHeadHelmetT3PVPMilitary: 1200 # T3 - PVP - Removed in favor of the Sphere
+        STOWClothingHeadHelmetT3PVPAltMilitary: 950 # T2 - PVP - Changed ID
         STOWClothingHeadHelmetT3PVEStalker: 2000 # T3 - PVE
         # OuterClothing #
         STClothingOuterArmorLightPlateVestBaseMilitary: 750 # T2 - PvP

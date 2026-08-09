@@ -298,7 +298,7 @@
       # Helmets #
       ClothingHeadHelmetSH68ClearSky: 300 # T1 - PVP
       STOWClothingHeadHelmetT2PVPStalker: 875 # T2 - PVP
-      STOWClothingHeadHelmetT3SphereAltClearSky: 3250 # T3 - PVP
+      STOWClothingHeadHelmetT3PVPAltMaskClearSky: 3250 # T3 - PVP - Changed to New ID
       STOWClothingHeadHelmetT3PVEClearSky: 3000 # T3 - PVE
 
       # OuterClothing #

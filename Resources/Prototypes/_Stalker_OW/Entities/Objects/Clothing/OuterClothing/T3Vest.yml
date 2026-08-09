@@ -81,9 +81,11 @@
       flatReductions:
         Blunt: 6
         Slash: 6
+        Piercing: 8 # OW Fixed absent stat
       coefficients:
         Blunt: 0.7
         Slash: 0.7
+        Piercing: 0.7 # OW Fixed absent stat
   - type: GrantsArtifactSlots
     slots: 0
   - type: Craftable

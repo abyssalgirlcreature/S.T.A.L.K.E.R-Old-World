@@ -36,7 +36,7 @@
 - type: entity
   parent: STOWClothingHeadHelmetT2PVPBase
   id: STOWClothingHeadHelmetT2PVPBandit
-  name: Gangster 'East'
+  name: Bandit Vostok Helmet # OW Begin - Changed names to be more consistent
   description: The infantry helmet 'Vostok' with stripes on it, like Adidas, is revered by gang formations.
   components:
     - type: Sprite
@@ -47,7 +47,7 @@
 - type: entity
   parent: STOWClothingHeadHelmetT2PVPBase
   id: STOWClothingHeadHelmetT2PVPRenegade
-  name: The 'Vostok' Helmet Modified for Renegades
+  name: Renegade Vostok Helmet
   description: A standard infantry helmet, repainted in the colors of a renegade, with some minor modifications.
   components:
   - type: Sprite
@@ -57,19 +57,8 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetT2PVPBase
-  id: STOWClothingHeadInfantryHelmetDeserter
-  name: The 'Vostok' Helmet Modified for Renegades
-  description: It's unclear what kind of helmet this is, but it protects your head really well.
-  components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/pehhelm_deserter.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/pehhelm_deserter.rsi
-
-- type: entity
-  parent: STOWClothingHeadHelmetT2PVPBase
   id: STOWClothingHeadHelmetT2PVPUN
-  name: Helmet 'West'
+  name: UN Vostok 'West'
   description: Infantry helmet 'Vostok', repainted in blue.
   suffix: STOW, UN, T2 # EN
   components:
@@ -80,33 +69,8 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetT2PVPBase
-  id: STOWClothingHeadHelmetInfantryPilgrim
-  name: Inquisitor's Helmet
-  suffix: STOW, T2, Pilgrim
-  description: Infantry helmet modified for the purpose of exterminating heretics.
-  components:
-    - type: Craftable
-    - type: Sprite
-      sprite: _Stalker/Objects/Clothing/hats/inqusitorHelm.rsi
-    - type: Clothing
-      sprite: _Stalker/Objects/Clothing/hats/inqusitorHelm.rsi
-
-- type: entity
-  parent: STOWClothingHeadHelmetT2PVPBase
-  id: STOWClothingHeadHelmetKeeper
-  name: Helmet 'Guardian'
-  suffix: STOW, T2, Кастомка
-  description: The 'Guardian' helmet is class two protection, manufacturer unknown.
-  components:
-    - type: Sprite
-      sprite: _Stalker/Objects/Clothing/hats/keeper_helmet.rsi
-    - type: Clothing
-      sprite: _Stalker/Objects/Clothing/hats/keeper_helmet.rsi
-
-- type: entity
-  parent: STOWClothingHeadHelmetT2PVPBase
   id: STOWClothingHeadHelmetT2PVPMerc
-  name: Mercenary "Bastion" Helmet
+  name: Mercenary Vostok 'Bastion'
   suffix: STOW, T2, Скин
   description: The 'Bastion' helmet, second protection class, manufacturer unknown.
   components:
@@ -117,30 +81,8 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetT2PVPBase
-  id: STOWClothingHeadHelmetInfantrySera
-  name: Seraphim's 'Vostok' helmet
-  description: The 'Vostok' infantry helmet with stripes painted on it.
-  components:
-    - type: Sprite
-      sprite: _Stalker/Objects/Clothing/hats/pehhelm_sera.rsi
-    - type: Clothing
-      sprite: _Stalker/Objects/Clothing/hats/pehhelm_sera.rsi
-
-- type: entity
-  parent: STOWClothingHeadHelmetT2PVPBase
-  id: STOWClothingHeadHelmetInfantrySerasera
-  name: Seraphim's 'Vostok' helmet
-  description: A gray 'Vostok' infantry helmet with stripes painted on it.
-  components:
-    - type: Sprite
-      sprite: _Stalker/Objects/Clothing/hats/pehhelm_serasera.rsi
-    - type: Clothing
-      sprite: _Stalker/Objects/Clothing/hats/pehhelm_serasera.rsi
-
-- type: entity
-  parent: STOWClothingHeadHelmetT2PVPBase
   id: STOWClothingHeadHelmetT2PVPDuty
-  name: Vostok helmet of Duty
+  name: Duty Vostok Helmet
   description: Infantry helmet of the 'Vostok' brand, second protection class, manufacturer unknown.
   components:
     - type: Sprite
@@ -150,19 +92,8 @@
 
 - type: entity
   parent: STOWClothingHeadHelmetT2PVPBase
-  id: STOWClothingHeadHelmetT2PVPNeutral
-  name: Neutral Helmet ‘FAST’
-  description: A repainted and slightly modified 'FAST' helmet by the neutral tinkerers.
-  components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/fast_helm_neutral.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/fast_helm_neutral.rsi
-
-- type: entity
-  parent: STOWClothingHeadHelmetT2PVPBase
   id: STOWClothingHeadHelmetT2PVPMilitary
-  name: Military Helmet «East»
+  name: Military Vostok Helmet # OW End - Changed names to be more consistent
   description: «East» brand helmet with II level protection, manufacturer is unknown. Now in army colours.
   components:
     - type: Sprite

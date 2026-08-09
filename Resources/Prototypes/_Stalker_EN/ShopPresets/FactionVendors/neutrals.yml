@@ -231,7 +231,7 @@
     items:
       # Helmets #
       ClothingHeadHelmetLight: 300 # T1 - uni
-      STOWClothingHeadHelmetT2PVPNeutral: 800 # T2 - uni
+      STOWClothingHeadHelmetT3PVPNeutral: 800 # T3 PVP - Otherwise no T3 PVP helm
       ClothingHeadHelmetSH68: 250 # T1 - PVP:
       STOWClothingHeadHelmetT3PVENeutral: 3000 # T3 PVP
       # OuterClothing #

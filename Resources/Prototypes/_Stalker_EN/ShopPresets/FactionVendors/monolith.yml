@@ -209,8 +209,8 @@
     priority: 3
     items:
       ClothingOuterArmorSevaMonolithPriest: 15
-      STOWClothingHeadHelmetT3SphereMonolith: 8
-      STOWClothingHeadHelmetT3SphereAltMonolith: 10
+    # STOWClothingHeadHelmetT3SphereMonolith: 8 - Removed in Favor of the Sphere 12
+      STOWClothingHeadHelmetT3PVPAltMaskMonolith: 8 # OW Changed ID, Lowered price down to Sphere-08 since the stats are the same.
       ClothingOuterArmorBerill5MMonolith: 50 # OW we added it back 
 
   - name: shop-category-grenades

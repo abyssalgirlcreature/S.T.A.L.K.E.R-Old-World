@@ -300,6 +300,7 @@
         ClothingHeadHelmetLight: 300 # T1 - uni
         STOWClothingHeadHelmetT2PVPStalker: 800 # T2 - PvP
         ClothingHeadHelmetSH68: 250 # T1 - PVP:
+        STOWClothingHeadHelmetT2PVEStalker: 800 # T2 - PVE - OW - Added to store.
           # OuterClothing #
         SetJacketNoviceWhiteBuyableCrate: 100 # T1 - uni
         #STClothingOuterArmorLightPlateVestBaseStalker: 1250 # ST:OW

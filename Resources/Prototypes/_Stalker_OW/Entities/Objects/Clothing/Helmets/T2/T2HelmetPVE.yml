@@ -36,16 +36,3 @@
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/Head/makeshift_helmet.rsi
   - type: Craftable
-
-# Jabs - 1
-
-- type: entity
-  parent: STOWClothingHeadHelmetT2PVEBase
-  id: STOWClothingHeadHelmetMakeshiftTacticalT2Jabs
-  name: Helmet of Frogs "Cyclops"
-  description: A handmade helmet made of quality materials, it might not look the most attractive, but it protects well.
-  components:
-  - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/makeshift_helmet_jabs.rsi
-  - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/makeshift_helmet_jabs.rsi

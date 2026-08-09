@@ -548,7 +548,7 @@
       # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 38
       # head
-      STOWClothingHeadHelmetT3SphereAltSkull: 16 # T3 Zenith
+      STOWClothingHeadHelmetT3PVPAltMaskSkull: 16 # T3 Zenith
       STOWClothingHeadHelmetT3PVEMaskRenegade:  18 # T3 Vityaz
       # misc
       ClothingNeckToothNecklace: 1
