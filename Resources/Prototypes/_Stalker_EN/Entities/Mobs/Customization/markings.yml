@@ -860,3 +860,22 @@
   sprites:
   - sprite: _Stalker_EN/Mobs/Customization/legs.rsi
     state: vitiligolegr
+
+- type: marking
+  id: Umaearsandtail
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  forcedColoring: true
+  sprites:
+  - sprite: _Stalker_EN/Mobs/Customization/ears.rsi
+    state: Uma_ears_and_tail
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+
