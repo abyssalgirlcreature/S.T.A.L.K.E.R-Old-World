@@ -136,24 +136,12 @@
     - HeadTop
 
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatNeutralPoncho
   name: Neutral poncho 'Teachers Embrace'
   suffix: ST, T2
   description: Handzone by one of the oldest neutrals to be given as gifts for her fellow teachers
   components:
-  - type: STWeight
-    self: 1.5
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Heat: 0.95
-        Cold: 0.95
-  - type: ExplosionResistance
-    damageCoefficient: 0.95
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/neutral_poncho.rsi
   - type: Clothing
@@ -184,24 +172,13 @@
     - FacialHair
 
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeArmorChainmailSeva # OW all ponchos even the freedom ones have seva chainmail stats
   id: ClothingOuterCoatDutyCOPoncho
   name: Duty commissioned officer poncho
   suffix: ST, T2
   description: One out of a series of ponchos made of a mix of synthetic fabrics arranged by Duty artisans.
   components:
-  - type: STWeight
-    self: 1.5
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Heat: 0.95
-        Cold: 0.95
-  - type: ExplosionResistance
-    damageCoefficient: 0.95
+    # OW all ponchos even the freedom ones have seva chainmail stats
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_co_poncho.rsi
   - type: Clothing
@@ -230,7 +207,7 @@
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_pvt_poncho.rsi
 
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeArmorChainmailSeva # OW all ponchos even the freedom ones have seva chainmail stats
   id: ClothingOuterCoatRostokPonchoLoose
   name: Rostok loose poncho
   suffix: ST, T2
