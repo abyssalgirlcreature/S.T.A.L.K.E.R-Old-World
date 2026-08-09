@@ -135,6 +135,8 @@
     - Hair
     - HeadTop
 
+# ST:OW - Begin (Gave all ponchos SEVA chainmail stats)
+
 - type: entity
   parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatNeutralPoncho
@@ -172,13 +174,12 @@
     - FacialHair
 
 - type: entity
-  parent: STClothingCapeArmorChainmailSeva # OW all ponchos even the freedom ones have seva chainmail stats
+  parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatDutyCOPoncho
   name: Duty commissioned officer poncho
   suffix: ST, T2
   description: One out of a series of ponchos made of a mix of synthetic fabrics arranged by Duty artisans.
   components:
-    # OW all ponchos even the freedom ones have seva chainmail stats
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_co_poncho.rsi
   - type: Clothing
@@ -207,7 +208,7 @@
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_pvt_poncho.rsi
 
 - type: entity
-  parent: STClothingCapeArmorChainmailSeva # OW all ponchos even the freedom ones have seva chainmail stats
+  parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatRostokPonchoLoose
   name: Rostok loose poncho
   suffix: ST, T2
@@ -249,3 +250,4 @@
     sprite: _Stalker_EN/Objects/Clothing/cloak/Scout_Duty_Cloak.rsi
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/Scout_Duty_Cloak.rsi
+# ST:OW - End

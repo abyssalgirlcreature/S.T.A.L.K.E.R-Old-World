@@ -423,9 +423,11 @@
         ClothingOuterCoatLoyalistLight: 2500
         ClothingOuterCoatLoyalist: 3000
         STClothingCapeArmorChainmailSeva: 2000
+        # ST:OW (Gave ponchos chainmail stats)
         ClothingOuterCoatRostokPonchoLoose: 2000 # T2
         ClothingOuterCoatRostokPonchoRipped: 2000 # T2
         ClothingOuterCoatRostokPonchoHeavy: 2000 # T2
+        # ST:OW change end
         # Gas Masks
         ClothingMaskGasZarya: 600 # T1
         ClothingMaskGasZaryaMono: 600 # T1
