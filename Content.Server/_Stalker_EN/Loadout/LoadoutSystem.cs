@@ -35,7 +35,8 @@ using Robust.Shared.Containers;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using EntityPrototype = Robust.Shared.Prototypes.EntityPrototype;
-
+using Content.Shared.Inventory.ArtifactSlots; // ST:OW
+    
 namespace Content.Server._Stalker_EN.Loadout;
 
 public sealed class LoadoutSystem : EntitySystem
@@ -55,7 +56,8 @@ public sealed class LoadoutSystem : EntitySystem
     [Dependency] private readonly SharedStorageSystem _storage = default!;
     [Dependency] private readonly PlayerRateLimitManager _rateLimitManager = default!;
     [Dependency] private readonly SharedItemSystem _itemSystem = default!;
-
+    [Dependency] private readonly SharedArtifactSlotSystem _artifactSlots = default!; // ST:OW
+    
     private ISawmill _sawmill = default!;
 
     private const string RateLimitKey = "Loadout";
@@ -685,7 +687,8 @@ public sealed class LoadoutSystem : EntitySystem
     /// - Items not equipped but needed: Pull from stash
     /// This prevents item duplication and loss from stash identifier mismatches.
     /// </summary>
-    private LoadResult ApplyLoadout(EntityUid player, Entity<StalkerRepositoryComponent> repository, PlayerLoadout loadout)
+    private LoadResult ApplyLoadout(EntityUid player, Entity<StalkerRepositoryComponent> repository,
+        PlayerLoadout loadout)
     {
         var missingCount = 0;
         TryComp<StalkerLoadoutComponent>(repository, out var loadoutComp);
@@ -723,6 +726,7 @@ public sealed class LoadoutSystem : EntitySystem
                     protoList = new List<(EntityUid, string)>();
                     equippedByProto[proto] = protoList;
                 }
+
                 protoList.Add((item, slotDef.Name));
             }
         }
@@ -788,9 +792,12 @@ public sealed class LoadoutSystem : EntitySystem
                 {
                     // Item could not be stored (weight limit or whitelist) - notify user
                     var itemName = MetaData(unequipped.Value).EntityName;
-                    _popup.PopupEntity(Loc.GetString("loadout-item-dropped", ("item", itemName)), player, player, PopupType.SmallCaution);
-                    _sawmill.Warning($"Could not insert {ToPrettyString(unequipped.Value)} to stash - dropped near player");
+                    _popup.PopupEntity(Loc.GetString("loadout-item-dropped", ("item", itemName)), player, player,
+                        PopupType.SmallCaution);
+                    _sawmill.Warning(
+                        $"Could not insert {ToPrettyString(unequipped.Value)} to stash - dropped near player");
                 }
+
                 equippedBySlot.Remove(slot);
             }
         }
@@ -802,63 +809,122 @@ public sealed class LoadoutSystem : EntitySystem
         // the same item from being matched for multiple duplicate loadout entries
         var consumedExistingItems = new HashSet<EntityUid>();
 
-        // Process each loadout slot
-        foreach (var slotItem in loadout.SlotItems)
+        // ST:OW begin
+        // Equipment is loaded first so suits which give artifact slots are active before artifact slots are validated
+        if (!TryComp<InventoryComponent>(player, out var inventoryComp))
+            return new LoadResult(false, missingCount);
+
+        var artifactSlots = _artifactSlots.GetArtifactSlotsSorted(inventoryComp);
+
+        var artifactSlotIndices = artifactSlots
+            .Select((slotName, index) => (slotName, index))
+            .ToDictionary(
+                entry => entry.slotName,
+                entry => entry.index,
+                StringComparer.OrdinalIgnoreCase);
+
+        // Non-artifacts return 0 (loading first)
+        // Artifacts return index + 1 (loading sequentially afterward)
+        var orderedSlotItems = loadout.SlotItems
+            .OrderBy(slotItem =>
+                artifactSlotIndices.TryGetValue(slotItem.SlotName, out int index) ? index + 1 : 0);
+        int? activeArtifactCount = null;
+
+        foreach (var slotItem in orderedSlotItems)
         {
-            // Case 0: Check if slot is blocked by an unremovable item (e.g., Monolith chip)
-            if (equippedBySlot.TryGetValue(slotItem.SlotName, out var slotOccupant) &&
-                IsBlacklistedEntity(slotOccupant.item, loadoutComp))
-                continue;
-
-            // Case 1: Check if this slot already has the correct item (perfect match)
-            if (equippedBySlot.TryGetValue(slotItem.SlotName, out var currentEquipped) &&
-                currentEquipped.proto == slotItem.PrototypeId)
+            // Validate artifact destination before any equip/move logic occurs
+            if (artifactSlotIndices.TryGetValue(slotItem.SlotName, out var artifactSlotIndex))
             {
-                // SECURITY: Compare identifiers to prevent duplication exploit
-                // If identifiers don't match, this is a substitute item - don't restore nested items
-                var equippedStorageData = _stalkerStorage.ConvertToIItemStalkerStorage(currentEquipped.item);
-                var equippedIdentifier = equippedStorageData.Count > 0 && equippedStorageData[0] is IItemStalkerStorage iss
-                    ? iss.Identifier()
-                    : "";
+                activeArtifactCount ??= _artifactSlots.GetActiveCount(player);
 
-                if (equippedIdentifier == slotItem.Identifier)
+                if (artifactSlotIndex >= activeArtifactCount.Value)
                 {
-                    if (slotItem.NestedItems.Count > 0)
-                    {
-                        // Don't clear - item is already equipped with matching identifier.
-                        // RestoreNestedItems will find existing items via FindExistingCorrectItem.
-                        RestoreNestedItems(currentEquipped.item, slotItem.NestedItems, repository, stashLookup, 0, player, consumedExistingItems);
-                    }
+                    missingCount++;
+
+                    _sawmill.Debug(
+                        $"Skipping artifact slot {slotItem.SlotName} - " +
+                        $"not active (active: {activeArtifactCount.Value}, index: {artifactSlotIndex})");
+
+                    continue;
                 }
-                else
-                {
-                    // Different item (substitute) - nested items stay in stash
-                    _sawmill.Debug($"Smart equip: identifier mismatch for {slotItem.PrototypeId} - nested items remain in stash");
-                }
-                continue;
             }
 
-            // Case 2: Check if we can MOVE an equipped item to this slot
-            var movedItem = TryMoveEquippedItemToSlot(player, slotItem, equippedByProto, equippedBySlot, itemsToMove, loadoutComp);
-            if (movedItem != null)
+            void TryRestoreNested(EntityUid targetItem)
             {
                 if (slotItem.NestedItems.Count > 0)
                 {
-                    // Don't clear - item was moved, but contents should be preserved.
-                    // RestoreNestedItems will find existing items via FindExistingCorrectItem.
-                    RestoreNestedItems(movedItem.Value, slotItem.NestedItems, repository, stashLookup, 0, player, consumedExistingItems);
+                    RestoreNestedItems(
+                        targetItem,
+                        slotItem.NestedItems,
+                        repository,
+                        stashLookup,
+                        0,
+                        player,
+                        consumedExistingItems);
                 }
+            }
+
+            // Case 1: Item is already equipped
+            if (equippedBySlot.TryGetValue(slotItem.SlotName, out var slotOccupant))
+            {
+                if (IsBlacklistedEntity(slotOccupant.item, loadoutComp))
+                    continue;
+
+                if (slotOccupant.proto == slotItem.PrototypeId)
+                {
+                    var equippedStorageData = _stalkerStorage.ConvertToIItemStalkerStorage(slotOccupant.item);
+
+                    var equippedIdentifier = equippedStorageData is { Count: > 0 } &&
+                                             equippedStorageData[0] is IItemStalkerStorage iss
+                        ? iss.Identifier()
+                        : string.Empty;
+
+                    if (equippedIdentifier != slotItem.Identifier)
+                    {
+                        _sawmill.Debug(
+                            $"Smart equip: identifier mismatch for " +
+                            $"{slotItem.PrototypeId} - nested items remain in stash");
+                    }
+                    else
+                    {
+                        TryRestoreNested(slotOccupant.item);
+                    }
+
+                    continue;
+                }
+            }
+
+            // Case 2: The item is on the character, but in the wrong slot
+            var movedItem = TryMoveEquippedItemToSlot(
+                player,
+                slotItem,
+                equippedByProto,
+                equippedBySlot,
+                itemsToMove,
+                loadoutComp);
+
+            if (movedItem != null)
+            {
+                TryRestoreNested(movedItem.Value);
                 continue;
             }
 
-            // Case 3: Need to pull from stash
-            if (!TryEquipSlotItem(player, repository, slotItem, stashLookup, consumedExistingItems))
+            // Case 3: The item is missing entirely
+            if (!TryEquipSlotItem(
+                    player,
+                    repository,
+                    slotItem,
+                    stashLookup,
+                    consumedExistingItems))
+            {
                 missingCount++;
+            }
         }
 
         return new LoadResult(true, missingCount);
     }
-
+    // ST:OW end
+        
     /// <summary>
     /// Attempts to move an already-equipped item to the target slot.
     /// Returns the moved entity if successful, null otherwise.
@@ -1614,7 +1680,7 @@ public sealed class LoadoutSystem : EntitySystem
                HasComp<Content.Shared.Interaction.Components.UnremoveableComponent>(item) ||
                HasComp<Content.Shared.Clothing.Components.SelfUnremovableClothingComponent>(item);
     }
-
+    
     /// <summary>
     /// Clears auto-filled storage contents from an item. StorageFillComponent auto-populates
     /// items on spawn, but we want to restore exact loadout contents instead.
