@@ -687,8 +687,7 @@ public sealed class LoadoutSystem : EntitySystem
     /// - Items not equipped but needed: Pull from stash
     /// This prevents item duplication and loss from stash identifier mismatches.
     /// </summary>
-    private LoadResult ApplyLoadout(EntityUid player, Entity<StalkerRepositoryComponent> repository,
-        PlayerLoadout loadout)
+    private LoadResult ApplyLoadout(EntityUid player, Entity<StalkerRepositoryComponent> repository, PlayerLoadout loadout)
     {
         var missingCount = 0;
         TryComp<StalkerLoadoutComponent>(repository, out var loadoutComp);
@@ -792,10 +791,8 @@ public sealed class LoadoutSystem : EntitySystem
                 {
                     // Item could not be stored (weight limit or whitelist) - notify user
                     var itemName = MetaData(unequipped.Value).EntityName;
-                    _popup.PopupEntity(Loc.GetString("loadout-item-dropped", ("item", itemName)), player, player,
-                        PopupType.SmallCaution);
-                    _sawmill.Warning(
-                        $"Could not insert {ToPrettyString(unequipped.Value)} to stash - dropped near player");
+                    _popup.PopupEntity(Loc.GetString("loadout-item-dropped", ("item", itemName)), player, player, PopupType.SmallCaution); 
+                    _sawmill.Warning($"Could not insert {ToPrettyString(unequipped.Value)} to stash - dropped near player");
                 }
 
                 equippedBySlot.Remove(slot);
@@ -853,14 +850,7 @@ public sealed class LoadoutSystem : EntitySystem
             {
                 if (slotItem.NestedItems.Count > 0)
                 {
-                    RestoreNestedItems(
-                        targetItem,
-                        slotItem.NestedItems,
-                        repository,
-                        stashLookup,
-                        0,
-                        player,
-                        consumedExistingItems);
+                    RestoreNestedItems(targetItem, slotItem.NestedItems, repository, stashLookup, 0, player, consumedExistingItems);
                 }
             }
 
@@ -881,9 +871,7 @@ public sealed class LoadoutSystem : EntitySystem
 
                     if (equippedIdentifier != slotItem.Identifier)
                     {
-                        _sawmill.Debug(
-                            $"Smart equip: identifier mismatch for " +
-                            $"{slotItem.PrototypeId} - nested items remain in stash");
+                        _sawmill.Debug($"Smart equip: identifier mismatch for " + $"{slotItem.PrototypeId} - nested items remain in stash");
                     }
                     else
                     {
@@ -895,13 +883,7 @@ public sealed class LoadoutSystem : EntitySystem
             }
 
             // Case 2: The item is on the character, but in the wrong slot
-            var movedItem = TryMoveEquippedItemToSlot(
-                player,
-                slotItem,
-                equippedByProto,
-                equippedBySlot,
-                itemsToMove,
-                loadoutComp);
+            var movedItem = TryMoveEquippedItemToSlot(player, slotItem, equippedByProto, equippedBySlot, itemsToMove, loadoutComp);
 
             if (movedItem != null)
             {
@@ -910,12 +892,7 @@ public sealed class LoadoutSystem : EntitySystem
             }
 
             // Case 3: The item is missing entirely
-            if (!TryEquipSlotItem(
-                    player,
-                    repository,
-                    slotItem,
-                    stashLookup,
-                    consumedExistingItems))
+            if (!TryEquipSlotItem(player, repository, slotItem, stashLookup, consumedExistingItems))
             {
                 missingCount++;
             }
