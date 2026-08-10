@@ -156,16 +156,25 @@ public sealed class WarZoneSpawnerSystem : EntitySystem
         Logger.DebugS("warzone-spawner", $"Spawned {protoId} at {spawnPos} for zone {uid}");
     }
 
+    // ST:OW begin
     private void ClearSpawnedEntities(WarZoneSpawnerComponent spawner)
     {
-        foreach (var uid in spawner.SpawnedEntities)
+        // Go through every entity this spawner created so we can clean them up
+        foreach (var entityId in spawner.SpawnedEntities)
         {
-            if (_entityManager.EntityExists(uid))
+            // If entity is being deleted or has already been deleted, skip over it
+            if (!_entityManager.TryGetComponent(entityId, out MetaDataComponent? metadata) || 
+                metadata.EntityLifeStage >= EntityLifeStage.Terminating)
             {
-                _entityManager.DeleteEntity(uid);
+                continue;
             }
+
+            _entityManager.DeleteEntity(entityId);
         }
 
+        // Wipe the tracking list clean now that the actual entities are gone
         spawner.SpawnedEntities.Clear();
+        
+    // ST:OW end    
     }
 }

@@ -16,6 +16,7 @@ using Content.Shared.Throwing;
 using Robust.Server.GameObjects;
 using Robust.Shared.Containers;
 using Robust.Shared.Random;
+using Content.Shared.Weapons.Ranged.Components; //ST:OW
 
 namespace Content.Server._Stalker_EN.ZoneAnomaly.Effects.Systems;
 
@@ -48,7 +49,7 @@ public sealed class ZoneAnomalyEffectThrowItemSystem : EntitySystem
 
             if (items.Count == 0)
                 continue;
-
+            
             for (var i = 0; i < effect.Comp.Count; i++)
             {
                 if (items.Count == 0)
@@ -103,6 +104,15 @@ public sealed class ZoneAnomalyEffectThrowItemSystem : EntitySystem
                     !HasComp<ItemComponent>(element))
                     continue;
 
+                // ST:OW begin
+                // Magazines remain stealable but the ammunition inside is not
+                if (HasComp<BallisticAmmoProviderComponent>(element))
+                {
+                    result.Add(element);
+                    continue;
+                }
+                // ST:OW end
+                
                 if (TryComp<ContainerManagerComponent>(element, out var manager))
                     result.AddRange(GetRecursiveContainerElements(element, manager));
 

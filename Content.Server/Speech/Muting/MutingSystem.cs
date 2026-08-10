@@ -6,6 +6,7 @@ using Content.Shared.Chat.Prototypes;
 using Content.Shared.Puppet;
 using Content.Shared.Speech;
 using Content.Shared.Speech.Muting;
+using Content.Shared._Stalker_OW.Monolith; // ST:OW
 
 namespace Content.Server.Speech.Muting
 {
@@ -18,6 +19,7 @@ namespace Content.Server.Speech.Muting
             SubscribeLocalEvent<MutedComponent, SpeakAttemptEvent>(OnSpeakAttempt);
             SubscribeLocalEvent<MutedComponent, EmoteEvent>(OnEmote, before: new[] { typeof(VocalSystem), typeof(MumbleAccentSystem) });
             SubscribeLocalEvent<MutedComponent, ScreamActionEvent>(OnScreamAction, before: new[] { typeof(VocalSystem) });
+            SubscribeLocalEvent<MonolithHivemindSendAttemptEvent>(OnMonolithHivemindSendAttempt); // ST:OW
         }
 
         private void OnEmote(EntityUid uid, MutedComponent component, ref EmoteEvent args)
@@ -43,11 +45,9 @@ namespace Content.Server.Speech.Muting
             args.Handled = true;
         }
 
-
+        // ST:OW begin
         private void OnSpeakAttempt(EntityUid uid, MutedComponent component, SpeakAttemptEvent args)
         {
-            // TODO something better than this.
-
             if (HasComp<MimePowersComponent>(uid))
                 _popupSystem.PopupEntity(Loc.GetString("mime-cant-speak"), uid, uid);
             else if (HasComp<VentriloquistPuppetComponent>(uid))
@@ -57,5 +57,28 @@ namespace Content.Server.Speech.Muting
 
             args.Cancel();
         }
+        
+        // Handles attempts to message using Monolith hivemind
+        private void OnMonolithHivemindSendAttempt(ref MonolithHivemindSendAttemptEvent args)
+        {
+            var sender = args.Sender;
+
+            if (!HasComp<MutedComponent>(sender))
+                return;
+
+            // If sender is Monolith but muted then they are still allowed to send hivemind messages
+            if (HasComp<MonolithHivemindComponent>(sender))
+                return;
+
+            args.Cancelled = true;
+
+            if (TryComp<MimePowersComponent>(sender, out _))
+                _popupSystem.PopupEntity(Loc.GetString("mime-cant-speak"), sender, sender);
+            else if (TryComp<VentriloquistPuppetComponent>(sender, out _))
+                _popupSystem.PopupEntity(Loc.GetString("ventriloquist-puppet-cant-speak"), sender, sender);
+            else
+                _popupSystem.PopupEntity(Loc.GetString("speech-muted"), sender, sender);
+        }
+        // ST:OW end
     }
 }

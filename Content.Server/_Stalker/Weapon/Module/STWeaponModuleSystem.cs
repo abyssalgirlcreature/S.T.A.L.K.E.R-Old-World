@@ -16,14 +16,14 @@ public sealed class STWeaponModuleSystem : STSharedWeaponModuleSystem
     [Dependency] private readonly SharedGunSystem _gun = default!;
     [Dependency] private readonly STScopeSystem _sharedScope = default!;
 
-    private EntityQuery<ContainerManagerComponent> _containerMangerQuery;
+    private EntityQuery<ContainerManagerComponent> _containerManagerQuery;
     private EntityQuery<STWeaponModuleContainerComponent> _containerModuleQuery;
 
     public override void Initialize()
     {
         base.Initialize();
 
-        _containerMangerQuery = GetEntityQuery<ContainerManagerComponent>();
+        _containerManagerQuery = GetEntityQuery<ContainerManagerComponent>();
         _containerModuleQuery = GetEntityQuery<STWeaponModuleContainerComponent>();
 
         SubscribeLocalEvent<STWeaponModuleComponent, EntGotInsertedIntoContainerMessage>(OnInserted);
@@ -52,7 +52,7 @@ public sealed class STWeaponModuleSystem : STSharedWeaponModuleSystem
         if (TryComp<GunComponent>(entity, out var gun) && gun.SoundGunshot != null)
             entity.Comp.BaseSoundGunshotVolume = gun.SoundGunshot.Params.Volume;
 
-        if (!_containerMangerQuery.TryGetComponent(entity, out var containerComponent))
+        if (!_containerManagerQuery.TryGetComponent(entity, out var containerComponent))
             return;
 
         foreach (var (_, container) in containerComponent.Containers)
@@ -78,10 +78,6 @@ public sealed class STWeaponModuleSystem : STSharedWeaponModuleSystem
             farGunshotComponent.SilencerDecrease = MathHelper.CloseToPercent(effect.FarshotSoundDecrease, FarGunshotComponent.DefaultSilencerDecrease)
                 ? null
                 : effect.FarshotSoundDecrease; // EN, swapped the two around so it actually stores values that aren't 1
-
-            // Use WithVolume() to SET from base, not accumulate
-            // farGunshotComponent.Sound.Params = farGunshotComponent.Sound.Params
-                // .WithVolume(farGunshotComponent.BaseVolume + effect.SoundGunshotVolumeAddition);
         }
 
         if (args.SoundGunshot is null)
@@ -105,38 +101,59 @@ public sealed class STWeaponModuleSystem : STSharedWeaponModuleSystem
         UpdateContainerEffect((entityUid, containerComponent), container);
     }
 
+    // ST:OW begin
     private void UpdateContainerEffect(Entity<STWeaponModuleContainerComponent> entity, BaseContainer container)
     {
         var effect = new STWeaponModuleEffect();
         STWeaponModuleScopeEffect? scopeEffect = null;
-
-        foreach (var containedEntity in container.ContainedEntities)
+        
+        void ProcessContainer(BaseContainer cont)
         {
-            if (!TryComp<STWeaponModuleComponent>(containedEntity, out var moduleComponent))
-                continue;
+            foreach (var containedEntity in cont.ContainedEntities)
+            {
+                if (!TryComp<STWeaponModuleComponent>(containedEntity, out var moduleComponent))
+                    continue;
 
-            effect = STWeaponModuleEffect.Merge(effect, moduleComponent.Effect);
+                effect = STWeaponModuleEffect.Merge(effect, moduleComponent.Effect);
 
-            if (moduleComponent.ScopeEffect is null)
-                continue;
-
-            scopeEffect ??= moduleComponent.ScopeEffect;
-            scopeEffect = STWeaponModuleScopeEffect.Merge(scopeEffect.Value, moduleComponent.ScopeEffect.Value);
+                if (moduleComponent.ScopeEffect is { } newScope)
+                {
+                    scopeEffect = scopeEffect.HasValue 
+                        ? STWeaponModuleScopeEffect.Merge(scopeEffect.Value, newScope) 
+                        : newScope;
+                }
+            }
+        }
+        
+        if (_containerManagerQuery.TryGetComponent(entity, out var containerComponent))
+        {
+            foreach (var cont in containerComponent.Containers.Values)
+            {
+                ProcessContainer(cont);
+            }
+        }
+        else
+        {
+            ProcessContainer(container); // Fallback
         }
 
+        // Compute bits that changed between previous cached aggregate and new aggregate
         var modeDelta = effect.AdditionalAvailableModes ^ entity.Comp.CachedEffect.AdditionalAvailableModes;
 
+        // Store aggregated effect
         entity.Comp.CachedEffect = effect;
         Dirty(entity);
 
+        // Preserve original behavior for scope container handling
         if (!entity.Comp.IntegratedScopeEffect && container.ID == "gun_module_scope")
             _sharedScope.TrySet(entity.Owner, scopeEffect);
 
         if (!TryComp<GunComponent>(entity, out var gun))
             return;
 
-        // Here bit mask works like switch and switch modes that changed
+        // Apply available modes once using the delta of aggregated effects
         _gun.SetAvailableModes(entity, gun.AvailableModes ^ modeDelta, gun);
         _gun.RefreshModifiers((entity, gun));
     }
+    // ST:OW end
 }
