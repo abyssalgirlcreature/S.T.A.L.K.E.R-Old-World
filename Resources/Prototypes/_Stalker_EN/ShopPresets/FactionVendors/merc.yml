@@ -224,7 +224,7 @@
         ClothingOuterJacketMerc: 50 # T1
         #STClothingOuterArmorLightPlateVestBaseMerc: 1100 # ST:OW
         ClothingOuterArmorSevaMerc: 4600 # T3 - ENV
-        STOWClothingOuterArmorT3VestMercenary: 14000 # ST:OW T3 - PvP // 30% off price
+      # STOWClothingOuterArmorT3VestMercenary: 14000 # ST:OW T3 - PvP - Removed for PVP health.
         SetMerc2BuyableCrate: 12000 # T3 - PvP
         SetMercBuyableCrate: 12000 # T3 - PvP
         #Helmets

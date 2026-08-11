@@ -50,8 +50,23 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/ANA/Gray.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/ANA/Gray.rsi
+  - type: Armor # Blunt -20%/-5, Slash -20%/-5, Piercing -30%/-8, Explosion -25%.
+    armorClass: 3
+    modifiers:
+      flatReductions:
+        Blunt: 5
+        Slash: 5
+        Piercing: 5
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.7
+  - type: GrantsArtifactSlots
+    slots: 1 # This is a significant disadvantage compared to the 2 slots, since it prevents you from running electrical artifacts.
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
   - type: Craftable
-
+    
 - type: entity
   parent: STOWClothingOuterArmorT3VestBase
   id: STOWClothingOuterArmorT3VestBandit

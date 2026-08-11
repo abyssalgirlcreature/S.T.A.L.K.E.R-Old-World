@@ -328,7 +328,7 @@
         STClothingOuterArmorBandits: 1500 #T2
         ClothingOuterArmorSevaBandit: 4500 # T3 - PVE
         STClothingOuterArmorRCBZ: 1200
-        STOWClothingOuterArmorT3VestBandit: 14000 # ST:OW T3 - PvP - Price should represent quality
+      # STOWClothingOuterArmorT3VestBandit: 14000 # ST:OW T3 - PvP - Removed for PVP health
         ClothingOuterArmorBandits: 9000 #T3 - PVP
 
     - name: shop-category-storage-and-containers
