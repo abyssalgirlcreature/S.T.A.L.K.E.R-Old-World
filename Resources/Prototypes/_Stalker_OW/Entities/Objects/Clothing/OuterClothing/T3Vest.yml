@@ -111,6 +111,17 @@
       sprite: _Stalker/Objects/Clothing/outerClothing/ANA/Blue.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/ANA/Blue.rsi
+    - type: Armor # OW Change Start - Added separate stats for Neutrals to keep armor
+      armorClass: 3
+      modifiers:
+        flatReductions:
+          Blunt: 6
+          Slash: 6
+          Piercing: 8 # OW Fixed absent stat
+        coefficients:
+          Blunt: 0.7
+          Slash: 0.7
+          Piercing: 0.7 # OW Fixed absent stat   # OW Change End - Added separate stats for Neutrals to keep armor       
     - type: Craftable
 
 - type: entity
