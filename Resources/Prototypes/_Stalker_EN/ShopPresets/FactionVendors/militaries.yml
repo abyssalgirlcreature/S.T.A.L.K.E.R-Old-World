@@ -677,10 +677,10 @@
     items:
       # Helmets #
       ClothingHeadHelmetSH68: 200 # T1 - PVP
-      ClothingHeadHelmetInfantryMilitary: 325 # T2 - PVP
-      ClothingHeadHelmetBerill5MMilitary: 2000 # T3 - PVE
-      ClothingHeadHelmetVityaz1C: 2275 # T3 - PVP
-      ClothingHeadAssaultHelmetMilitary: 2275 # T3 - PVP
+      STOWClothingHeadHelmetT2PVPMilitary: 325 # T2 - PVP
+      STOWClothingHeadHelmetT3PVPAltMilitary: 2000 # T3 - PVP
+      STOWClothingHeadHelmetT3PVEStalker: 2275 # T3 - PVE
+    # ClothingHeadAssaultHelmetMilitary: 2275 # T3 - PVP
 
       # OuterClothing #
       # ST:OW - Begin
