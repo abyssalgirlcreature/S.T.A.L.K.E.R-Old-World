@@ -252,10 +252,10 @@
       ClothingOuterArmorSevaStalker: 8500 # T3 - ENV
       SetZaryaStalkerBuyableCrate: 2550 # T2 - PVE
       #ClothingOuterArmor6B2: 2250 # ST:OW
-      STOWClothingOuterArmorT3VestStalker: 6000 # ST:OW T3 - PvP
+      STOWClothingOuterArmorT3VestStalker: 10000 # ST:OW T3 - PvP
       # Helmet
-      ClothingHeadHelmetVityaz1C: 3550 # T3 - PvP
-      ClothingHeadHelmetInfantry: 550 # T2
+      STOWClothingHeadHelmetT3PVEStalker: 3550 # T3 - ST:OW T3 - PVE
+      STOWClothingHeadHelmetT2PVPStalker: 550 # T2
       STClothingHeadHelmetMakeshiftTacticalT3: 1200 # T2
       # Belt
       ClothingBeltBandolierStalker: 65
