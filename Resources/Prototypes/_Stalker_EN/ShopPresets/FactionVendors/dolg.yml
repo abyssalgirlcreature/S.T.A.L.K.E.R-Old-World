@@ -306,6 +306,7 @@
         STClothingHeadBeretDolg: 80
         # EYES
         ClothingEyesGlasses: 50
+        ClothingEyesGlassesRedRound: 50 
         # faction
         ClothingEyesGlassesCheapSunglasses: 50
         # MASK
