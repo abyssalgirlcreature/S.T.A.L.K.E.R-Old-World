@@ -123,7 +123,7 @@
           Slash: 0.8
           Piercing: 0.7
     - type: GrantsArtifactSlots
-    slots: 1 # This is a significant disadvantage compared to the 2 slots, since it prevents you from running electrical artifacts.    
+      slots: 1 # This is a significant disadvantage compared to the 2 slots, since it prevents you from running electrical artifacts.    
     - type: Craftable
 
 - type: entity
