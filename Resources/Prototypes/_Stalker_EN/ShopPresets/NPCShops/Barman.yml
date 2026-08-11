@@ -369,7 +369,7 @@
         # ST:OW - End
         ClothingOuterArmorSevaStalker: 7000 # T3 - ENV
         SetZaryaStalkerBuyableCrate: 2250 # T2 - PVE
-        STOWClothingOuterArmorT3VestStalker: 6000 # ST:OW T3 - PvP
+        STOWClothingOuterArmorT3VestStalker: 16000 # ST:OW T3 - PvP
         ClothingOuterArmorStalker: 14000 # T3 - PvP
         ClothingOuterArmorAborigineStalker: 10000 # T3 - PvE
         #ClothingOuterArmor6B2: 2000 # ST:OW

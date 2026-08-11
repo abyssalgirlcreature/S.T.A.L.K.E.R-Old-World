@@ -244,7 +244,7 @@
       ClothingOuterArmorZaryaNeutral: 2000 # T2 - PVE
       STSkinsKitNeutral: 500
       STClothingOuterArmorSevaNeutral: 4500
-      STOWClothingOuterArmorT3VestNeutral: 4800 # ST:OW T3 - PvP // 20% off price
+      STOWClothingOuterArmorT3VestNeutral: 12000 # ST:OW T3 - PvP // Should be at least the same price of equivalent T3 if not more for PVP
       ClothingOuterArmorAborigineNeutral: 8000 # T3 - PVE// 20% off price
       STClothingOuterArmorNeutralBadger: 12000 # T3 - PVE
 

@@ -172,7 +172,7 @@
         ClothingOuterArmorRCBZDolg: 1700 # T2 - ENV
         ClothingOuterArmorZaryaDolg: 2000 # T2 - Universal
         ClothingOuterArmorSevaDolgRed: 5250 # T3 - ENV
-        STOWClothingOuterArmorT3VestDuty: 6000 # ST:OW T3 - PvP
+        STOWClothingOuterArmorT3VestDuty: 14000 # ST:OW T3 - PvP - Price should represent quality
         ClothingOuterArmorDolgPS5M: 9150 # T3 - Uni
         SetPS5MDolgBuyableCrate: 12000 #T3 - PvP
 
