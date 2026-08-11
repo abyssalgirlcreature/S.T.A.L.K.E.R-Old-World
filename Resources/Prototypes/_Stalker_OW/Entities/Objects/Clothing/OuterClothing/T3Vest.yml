@@ -22,17 +22,13 @@
   - type: Tag
     tags:
       - BlockBelt
- # - type: Armor # Blunt -20%/-5, Slash -20%/-5, Piercing -30%/-8, Explosion -25%. OW Change Start- Armor stats temp removed to remove from violent circulation
- #  armorClass: 3
- #  modifiers:
- #    flatReductions:
- #      Blunt: 5
- #      Slash: 5
- #     Piercing: 8
- #    coefficients:
- #      Blunt: 0.8
- #      Slash: 0.8
- #      Piercing: 0.7
+  - type: Armor # Blunt -20%/-5, Slash -20%/-5, Piercing -30%/-8, Explosion -25%. OW Change start - Lowered stats to allow loners to purchase and be faction equiv.
+    armorClass: 1
+    modifiers:
+      flatReductions:
+        Blunt: 0
+        Slash: 0
+        Piercing: 0
   - type: GrantsArtifactSlots
     slots: 1 # This is a significant disadvantage compared to the 2 slots, since it prevents you from running electrical artifacts.
  #- type: ExplosionResistance
