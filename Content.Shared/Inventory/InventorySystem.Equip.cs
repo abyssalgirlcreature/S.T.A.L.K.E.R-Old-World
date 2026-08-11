@@ -151,20 +151,7 @@ public abstract partial class InventorySystem
                 _popup.PopupCursor(Loc.GetString("inventory-component-can-equip-cannot"));
             return false;
         }
-        
-        // ST:OW begin
-        // Artifact slot limits are always followed
-        if (slotDefinition.SlotFlags.HasFlag(SlotFlags.ARTIFACT) &&
-            !_artifactSlots.IsArtifactSlotActive(target, slot, inventory))
-        {
-            if (!silent)
-                _popup.PopupCursor(
-                    Loc.GetString("inventory-component-can-equip-slot-inactive"));
 
-            return false;
-        }
-        // ST:OW end
-        
         if (!force && !CanEquip(actor, target, itemUid, slot, out var reason, slotDefinition, inventory, clothing))
         {
             if(!silent)

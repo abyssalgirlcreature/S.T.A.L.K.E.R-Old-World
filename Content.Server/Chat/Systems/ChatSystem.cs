@@ -490,12 +490,6 @@ public new const int VoiceRange = 15; // how far voice goes in world units
         if (string.IsNullOrWhiteSpace(sanitized))
             return;
 
-        // Raises a cancellable send attempt that can be allowed through or declined
-        var attemptEv = new MonolithHivemindSendAttemptEvent(source, sanitized, channel);
-        RaiseLocalEvent(source, ref attemptEv, true);
-        if (attemptEv.Cancelled)
-            return;
-        
         RaiseLocalEvent(source, new MonolithHivemindMessageEvent(sanitized, channel), broadcast: true);
     }
     // ST:OW end

@@ -18,14 +18,4 @@ public sealed class MonolithHivemindMessageEvent(string message, RadioChannelPro
     public string Message { get; } = message;
     public RadioChannelPrototype Channel { get; } = channel;
 }
-
-// Allows unique hivemind messages to be blocked
-[ByRefEvent]
-public record struct MonolithHivemindSendAttemptEvent(EntityUid Sender, string Message, RadioChannelPrototype Channel)
-{
-    public readonly EntityUid Sender = Sender;
-    public readonly string Message = Message;
-    public readonly RadioChannelPrototype Channel = Channel;
-    public bool Cancelled = false;
-}
 // ST:OW end
