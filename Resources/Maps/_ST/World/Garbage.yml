@@ -193612,11 +193612,6 @@ entities:
     - type: Transform
       pos: -123.5,78.5
       parent: 1
-  - uid: 20686
-    components:
-    - type: Transform
-      pos: 22.5,455.5
-      parent: 1
   - uid: 20694
     components:
     - type: Transform
