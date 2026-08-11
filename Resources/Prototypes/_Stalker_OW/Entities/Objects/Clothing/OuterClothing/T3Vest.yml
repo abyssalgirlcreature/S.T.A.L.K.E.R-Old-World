@@ -22,21 +22,21 @@
   - type: Tag
     tags:
       - BlockBelt
-  - type: Armor # Blunt -20%/-5, Slash -20%/-5, Piercing -30%/-8, Explosion -25%.
-    armorClass: 3
-    modifiers:
-      flatReductions:
-        Blunt: 5
-        Slash: 5
-        Piercing: 8
-      coefficients:
-        Blunt: 0.8
-        Slash: 0.8
-        Piercing: 0.7
+ # - type: Armor # Blunt -20%/-5, Slash -20%/-5, Piercing -30%/-8, Explosion -25%. OW Change Start- Armor stats temp removed to remove from violent circulation
+ #  armorClass: 3
+ #  modifiers:
+ #    flatReductions:
+ #      Blunt: 5
+ #      Slash: 5
+ #     Piercing: 8
+ #    coefficients:
+ #      Blunt: 0.8
+ #      Slash: 0.8
+ #      Piercing: 0.7
   - type: GrantsArtifactSlots
     slots: 1 # This is a significant disadvantage compared to the 2 slots, since it prevents you from running electrical artifacts.
-  - type: ExplosionResistance
-    damageCoefficient: 0.75
+ #- type: ExplosionResistance
+ #  damageCoefficient: 0.75
   - type: Craftable
 # Visual style for these armors is any low-coverage armor vest. No groin or shoulder protection ideally.
 
@@ -90,17 +90,17 @@
     sprite: _Stalker_EN/Objects/Clothing/outerClothing/DOLG_T2_Plate_armor.rsi
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/outerClothing/DOLG_T2_Plate_armor.rsi
-  - type: Armor
-    armorClass: 3
-    modifiers:
-      flatReductions:
-        Blunt: 6
-        Slash: 6
-        Piercing: 8 # OW Fixed absent stat
-      coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.7 # OW Fixed absent stat
+ #- type: Armor
+ #  armorClass: 3
+ #  modifiers:
+ #    flatReductions:
+ #      Blunt: 6
+ #      Slash: 6
+ #      Piercing: 8 # OW Fixed absent stat
+ #   coefficients:
+ #      Blunt: 0.7
+ #      Slash: 0.7
+ #      Piercing: 0.7 # OW Fixed absent stat OW Change End - Armor stats temp removed to remove from violent circulation
   - type: GrantsArtifactSlots
     slots: 0
   - type: Craftable
@@ -165,6 +165,17 @@
       sprite: _Stalker/Objects/Clothing/outerClothing/plate_stalker.rsi # Sorta placeholder sprite, but it works.
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/plate_stalker.rsi
+    - type: Armor # OW Change Start - Added separate stats for Neutrals to keep armor
+      armorClass: 3
+      modifiers:
+        flatReductions:
+          Blunt: 6
+          Slash: 6
+          Piercing: 8 # OW Fixed absent stat
+        coefficients:
+          Blunt: 0.7
+          Slash: 0.7
+          Piercing: 0.7 # OW Fixed absent stat   # OW Change End - Added separate stats for Neutrals to keep armor   
     - type: Craftable
 
 - type: entity
