@@ -4,3 +4,5 @@ marking-LongEarsSmall = Long Ears Small
 marking-LongEarsUpwards = Long Ears Upwards
 marking-LongEarsTall = Long Ears Tall
 marking-LongEarsThin = Long Ears Thin
+# ow change because i suck at figuring things out
+marking-Umaearsandtail = Horse Ears
