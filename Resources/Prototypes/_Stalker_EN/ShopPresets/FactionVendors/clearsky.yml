@@ -311,7 +311,7 @@
       # ST:OW - End
       ClothingOuterArmorRCBZCN: 1450 # T2 - ENV
       # ST:OW - Begin
-      ClothingOuterArmorCN1: 2100 # T3 - PVP
+      ClothingOuterArmorCN1: 25000 # T3 - PVP
       # ST:OW - End
       #STClothingOuterArmorLightPlateVestBaseANABlue: 9500 # T3 - PVP
       STOWClothingOuterArmorT3VestClearSky: 12000 # T3 - PvP // 30% off price
