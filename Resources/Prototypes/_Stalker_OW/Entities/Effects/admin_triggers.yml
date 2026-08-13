@@ -1,0 +1,7 @@
+- type: entity
+  id: AdminJetFlybyCloseShort
+  suffix: Audio (Jet Flyby[Close,Short])
+  parent: AdminInstantEffectBase
+  components:
+  - type: EmitSoundOnTrigger
+    sound: /Audio/_Stalker_OW/Effects/JetFlyby/JetFlybyCloseShort.ogg
