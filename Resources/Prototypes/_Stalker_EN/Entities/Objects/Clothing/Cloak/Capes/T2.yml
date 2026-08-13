@@ -212,6 +212,8 @@
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_pvt_poncho.rsi
 
+#ST:OW CHANGE START
+
 - type: entity
   parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatRostokPonchoLoose
@@ -225,6 +227,8 @@
     sprite: _Stalker_EN/Objects/Clothing/cloak/rostok_poncho1.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatRostokPoncho
+
+# ST:OW CHANGE END
 
 - type: entity
   parent: ClothingOuterCoatRostokPonchoLoose
