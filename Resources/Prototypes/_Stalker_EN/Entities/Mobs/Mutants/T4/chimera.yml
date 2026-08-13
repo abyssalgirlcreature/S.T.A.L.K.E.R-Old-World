@@ -19,7 +19,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      2300: Dead
+      3500: Dead
   - type: Damageable
     damageModifierSet: STMutantT4DamageModifierSet
   - type: SlowOnDamage
@@ -29,7 +29,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 2300
+        damage: 4000
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -67,7 +67,7 @@
     wideAnimation: WeaponArcClaw
     damage:
       types:
-        Slash: 25
+        Slash: 50
   - type: BonusMeleeDamage
     heavyDamageMultiplier: 1.5
   - type: StaminaDamageOnHit
