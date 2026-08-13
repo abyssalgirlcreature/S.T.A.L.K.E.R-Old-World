@@ -135,27 +135,18 @@
     - Hair
     - HeadTop
 
+# ST:OW - Begin (Gave all ponchos SEVA chainmail stats)
+
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatNeutralPoncho
   name: Neutral poncho 'Teachers Embrace'
   suffix: ST, T2
   description: Handzone by one of the oldest neutrals to be given as gifts for her fellow teachers
   components:
-  - type: STWeight
-    self: 1.5
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Heat: 0.95
-        Cold: 0.95
-  - type: ExplosionResistance
-    damageCoefficient: 0.95
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/neutral_poncho.rsi
+  ## ST:OW - End
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/neutral_poncho.rsi
   - type: ToggleableClothing
@@ -183,31 +174,23 @@
     - HeadTop
     - FacialHair
 
+# ST:OW - Begin (Gave all ponchos SEVA chainmail stats)
+
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatDutyCOPoncho
   name: Duty commissioned officer poncho
   suffix: ST, T2
   description: One out of a series of ponchos made of a mix of synthetic fabrics arranged by Duty artisans.
   components:
-  - type: STWeight
-    self: 1.5
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Heat: 0.95
-        Cold: 0.95
-  - type: ExplosionResistance
-    damageCoefficient: 0.95
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_co_poncho.rsi
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_co_poncho.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatDutyPoncho
+
+# ST:OW - END
 
 - type: entity
   parent: ClothingOuterCoatDutyCOPoncho
@@ -229,8 +212,10 @@
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/cloak/duty_pvt_poncho.rsi
 
+#ST:OW CHANGE START
+
 - type: entity
-  parent: STClothingCapeT2Base
+  parent: STClothingCapeArmorChainmailSeva
   id: ClothingOuterCoatRostokPonchoLoose
   name: Rostok loose poncho
   suffix: ST, T2
@@ -242,6 +227,8 @@
     sprite: _Stalker_EN/Objects/Clothing/cloak/rostok_poncho1.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatRostokPoncho
+
+# ST:OW CHANGE END
 
 - type: entity
   parent: ClothingOuterCoatRostokPonchoLoose
