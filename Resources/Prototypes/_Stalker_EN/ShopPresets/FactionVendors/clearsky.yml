@@ -161,10 +161,12 @@
       STWeaponRifleM14: 3750
       STWeaponRifleAKS74: 2800
       STWeaponRifleAKM: 3500
-      STWeaponRifleStalkerAK105SwampThing: 4000
-      STMetroWeaponRifleVSV: 5000
+      #st ow begin
+      STWeaponRifleStalkerAK105SwampThing: 7000
+      STMetroWeaponRifleVSV: 10000
       # Snipers
-      STWeaponSniperVepr: 4000
+      STWeaponSniperVepr: 10000 # price hike time
+      # st:ow end
       # Crossbow
       STweaponCrossbow: 3000 # enjoy teddy
 
@@ -308,16 +310,20 @@
       #ClothingOuterArmor6B2: 1450 # T2 - PvP
       # ST:OW - End
       ClothingOuterArmorRCBZCN: 1450 # T2 - ENV
-      ClothingOuterArmorCN1: 2100 # T2 - universal\
       # ST:OW - Begin
+      ClothingOuterArmorCN1: 25000 # T3 - PVP
+      # ST:OW - End
       #STClothingOuterArmorLightPlateVestBaseANABlue: 9500 # T3 - PVP
       STOWClothingOuterArmorT3VestClearSky: 12000 # T3 - PvP // 30% off price
+      # ST:OW - Begin
+      ClothingOuterArmorCN3a: 15000 # T3 - PVE
       # ST:OW - End
-      ClothingOuterArmorCN3a: 12000 # T3 - PVE
       ClothingOuterArmorSevaCN: 3600 # T3 - ENVl
       STClothingOuterArmorCN-4a: 3600 # Illusion of choice
       STClothingOuterArmorCN-4aResearcher: 4000 # Slightly better SEVA
-      ClothingOuterArmorSevaClearSky: 15000 # T3 - ENV/PVP
+      # ST:OW - BEGIN
+      ClothingOuterArmorSevaClearSky: 20000 # T3 - ENV/PVP
+      #ST: OW - END
 
   - name: shop-category-storage-and-containers
     priority: 7
@@ -329,7 +335,9 @@
       ClothingBackpackDuffelCommonStalker: 750 # T3
       ClothingBackpackDuffelClearSky: 750 # T3
       ClothingBackpackDuffelHikingVSRF: 1150 # T4
-      ClothingBackpackDuffelMilitaryOlive: 1300 # T4
+      # ST:OW - BEGIN
+      ClothingBackpackDuffelMilitaryOlive: 8000 # T4 price increase because its t4
+      # ST:OW - END
       # Belts
       ClothingBeltBandolierStalker: 20 # T1 - PVE
       STClothingBeltThrowingKnifes: 350
@@ -383,9 +391,13 @@
       ZoneArtifactDetectorResponse: 600 # T2
       ZoneArtifactDetectorSpruce: 2000 # T2
       ZoneArtifactDetectorBarracuda: 2750 # T3
-      ZoneArtifactDetectorSeaDevil: 10000 # T4
+      # ST:OW Begin
+      ZoneArtifactDetectorSeaDevil: 30000 # T4 you will cough up 30k AND YOU WILL BE HAPPY
+      # ST:OW End
       ElectronicDetectorT1: 1000 # EN
-      ElectronicDetectorT2: 8000 # EN
+      # ST:OW begin
+      ElectronicDetectorT2: 20000 # EN
+      # ST:OW end
 
   - name: shop-category-utilities
     priority: 10

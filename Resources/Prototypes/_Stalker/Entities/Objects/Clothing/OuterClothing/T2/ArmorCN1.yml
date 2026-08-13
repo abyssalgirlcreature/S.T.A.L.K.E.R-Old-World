@@ -14,7 +14,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetZN1
   - type: Armor
-    armorClass: 2
+    armorClass: 3
     modifiers:
       flatReductions:
         Blunt: 3
@@ -24,7 +24,7 @@
       coefficients:
         Blunt: 0.8
         Slash: 0.8
-        Piercing: 0.5
+        Piercing: 0.6
         Heat: 0.65
         Caustic: 0.95
         Shock: 0.65
