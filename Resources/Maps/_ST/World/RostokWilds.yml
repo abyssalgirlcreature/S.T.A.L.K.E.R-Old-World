@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/28/2026 23:55:16
-  entityCount: 30214
+  time: 08/15/2026 00:50:49
+  entityCount: 30235
 maps:
 - 1
 grids:
@@ -117951,7 +117951,7 @@ entities:
       pos: -44.5,180.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -81749.195
+      secondsUntilStateChange: -81886.586
       state: Opening
   - uid: 20960
     components:
@@ -118054,7 +118054,7 @@ entities:
       pos: -57.5,131.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -486301.22
+      secondsUntilStateChange: -486438.62
       state: Opening
   - uid: 4234
     components:
@@ -118092,7 +118092,7 @@ entities:
       pos: -66.5,125.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -486310.56
+      secondsUntilStateChange: -486447.97
       state: Opening
   - uid: 4238
     components:
@@ -118191,7 +118191,7 @@ entities:
       pos: -25.5,91.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -290613.47
+      secondsUntilStateChange: -290750.88
       state: Opening
   - uid: 4253
     components:
@@ -124703,11 +124703,6 @@ entities:
     components:
     - type: Transform
       pos: -72.05997,164.67824
-      parent: 1
-  - uid: 5092
-    components:
-    - type: Transform
-      pos: -131.24721,216.90318
       parent: 1
   - uid: 5093
     components:
@@ -138436,7 +138431,7 @@ entities:
       pos: -299.5,224.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -49734.105
+      secondsUntilStateChange: -49871.5
       state: Opening
   - uid: 26338
     components:
@@ -138566,7 +138561,7 @@ entities:
       pos: -298.5,224.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -49735.97
+      secondsUntilStateChange: -49873.363
       state: Opening
   - uid: 26343
     components:
@@ -252690,6 +252685,40 @@ entities:
       parent: 1
 - proto: WarBarrierWire
   entities:
+  - uid: 5092
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -121.53333,214.68024
+      parent: 1
+  - uid: 17649
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -120.54375,210.59407
+      parent: 1
+  - uid: 17650
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -123.02438,206.69566
+      parent: 1
+  - uid: 21104
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -126.00355,205.8409
+      parent: 1
+  - uid: 21177
+    components:
+    - type: Transform
+      pos: -131.3379,207.7201
+      parent: 1
+  - uid: 23042
+    components:
+    - type: Transform
+      pos: -131.41083,211.83928
+      parent: 1
   - uid: 24520
     components:
     - type: Transform
@@ -252780,6 +252809,27 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -110.465836,162.19821
       parent: 1
+  - uid: 30205
+    components:
+    - type: Transform
+      pos: -131.38998,214.75552
+      parent: 1
+  - uid: 30206
+    components:
+    - type: Transform
+      pos: -131.37958,215.78749
+      parent: 1
+  - uid: 30207
+    components:
+    - type: Transform
+      pos: -131.36916,216.62141
+      parent: 1
+  - uid: 30208
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -130.57748,217.09048
+      parent: 1
 - proto: WarBarrierWireEnd
   entities:
   - uid: 24549
@@ -252852,6 +252902,86 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -111.27516,162.15706
+      parent: 1
+  - uid: 30209
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -129.62958,217.08006
+      parent: 1
+  - uid: 30210
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -131.1857,207.08362
+      parent: 1
+  - uid: 30211
+    components:
+    - type: Transform
+      pos: -131.30028,208.61594
+      parent: 1
+  - uid: 30212
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -125.09193,205.91708
+      parent: 1
+  - uid: 30213
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -126.97734,205.87538
+      parent: 1
+  - uid: 30214
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -123.98776,206.65717
+      parent: 1
+  - uid: 30215
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -122.09193,206.6676
+      parent: 1
+  - uid: 30216
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -121.63699,213.99821
+      parent: 1
+  - uid: 30230
+    components:
+    - type: Transform
+      pos: -121.80366,215.59308
+      parent: 1
+  - uid: 30231
+    components:
+    - type: Transform
+      pos: -120.80366,211.47563
+      parent: 1
+  - uid: 30232
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -120.58491,210.0684
+      parent: 1
+  - uid: 30233
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -131.30994,211.21143
+      parent: 1
+  - uid: 30234
+    components:
+    - type: Transform
+      pos: -131.39328,212.56654
+      parent: 1
+  - uid: 30235
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -131.23262,214.24638
       parent: 1
 - proto: WarmSmallLight
   entities:
